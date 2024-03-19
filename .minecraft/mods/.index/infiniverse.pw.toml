@@ -1,0 +1,14 @@
+name = "Infiniverse"
+filename = "infiniverse-1.20.1-1.0.0.5.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/RyMBuD6i/versions/4ddkRT11/infiniverse-1.20.1-1.0.0.5.jar"
+hash-format = "sha512"
+hash = "ca07f0cdc52cf794a32619cc3ff232103c4ad7e27596b24bf03c0a913a4a2241a2041a65ab0695cec0ef2ba3745fc355f5e18f2026e2c4a6b9ccdd4b99f91fb0"
+
+[update]
+[update.modrinth]
+mod-id = "RyMBuD6i"
+version = "4ddkRT11"
