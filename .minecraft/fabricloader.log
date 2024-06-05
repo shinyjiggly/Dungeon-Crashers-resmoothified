@@ -1,15 +1,14 @@
-[22:20:57] [WARN] [FabricLoader/Metadata]: Mod multiworld-bundle uses the version bundle which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'bundle'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[22:20:57] [WARN] [FabricLoader/Metadata]: The mod "switchy-core" contains invalid entries in its mod json:
+[21:14:08] [WARN] [FabricLoader/Metadata]: The mod "switchy-core" contains invalid entries in its mod json:
 - Unsupported root entry "modmenu" at line 35 column 12
-[22:20:57] [WARN] [FabricLoader/Metadata]: The mod "switchy-client" contains invalid entries in its mod json:
+[21:14:08] [WARN] [FabricLoader/Metadata]: The mod "switchy-client" contains invalid entries in its mod json:
 - Unsupported root entry "modmenu" at line 35 column 12
-[22:20:57] [WARN] [FabricLoader/Metadata]: The mod "switchy-ui" contains invalid entries in its mod json:
+[21:14:08] [WARN] [FabricLoader/Metadata]: The mod "switchy-ui" contains invalid entries in its mod json:
 - Unsupported root entry "modmenu" at line 36 column 12
-[22:20:57] [WARN] [FabricLoader/Metadata]: The mod "switchy-cardinal" contains invalid entries in its mod json:
+[21:14:08] [WARN] [FabricLoader/Metadata]: The mod "switchy-cardinal" contains invalid entries in its mod json:
 - Unsupported root entry "modmenu" at line 34 column 12
-[22:20:57] [WARN] [FabricLoader/Metadata]: The mod "switchy-cardinal-ui" contains invalid entries in its mod json:
+[21:14:08] [WARN] [FabricLoader/Metadata]: The mod "switchy-cardinal-ui" contains invalid entries in its mod json:
 - Unsupported root entry "modmenu" at line 35 column 12
-[22:20:57] [WARN] [FabricLoader/Metadata]: The mod "switchy-compat" contains invalid entries in its mod json:
+[21:14:08] [WARN] [FabricLoader/Metadata]: The mod "switchy-compat" contains invalid entries in its mod json:
 - Unsupported root entry "modmenu" at line 44 column 12
-[22:20:57] [WARN] [FabricLoader/Metadata]: The mod "switchy-compat-ui" contains invalid entries in its mod json:
+[21:14:08] [WARN] [FabricLoader/Metadata]: The mod "switchy-compat-ui" contains invalid entries in its mod json:
 - Unsupported root entry "modmenu" at line 36 column 12

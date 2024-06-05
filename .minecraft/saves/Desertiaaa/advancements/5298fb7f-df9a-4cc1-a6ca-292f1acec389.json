@@ -2,6 +2,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2022-01-02 21:36:03 -0800",
+      "minecraft:birch_forest": "2024-06-04 21:47:49 -0700",
       "minecraft:windswept_hills": "2022-01-02 21:10:45 -0800",
       "minecraft:beach": "2022-01-02 21:21:48 -0800",
       "minecraft:dark_forest": "2022-01-02 21:10:41 -0800",
@@ -2337,15 +2338,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blast_furnace": {
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab": {
     "criteria": {
-      "has_smooth_stone": "2024-03-19 00:33:50 -0700"
+      "has_cut_red_sandstone": "2024-03-18 22:51:50 -0700"
     },
     "done": true
   },
-  "computercraft:recipes/redstone/monitor_normal": {
+  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting": {
     "criteria": {
-      "has_computer": "2024-03-19 00:29:05 -0700"
+      "has_cut_red_sandstone": "2024-03-18 22:51:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2024-03-18 23:16:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2024-03-18 23:16:38 -0700"
     },
     "done": true
   },
@@ -2355,9 +2368,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
+    "criteria": {
+      "has_light_blue_terracotta": "2024-03-18 23:54:21 -0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/glass": {
     "criteria": {
       "has_smelts_to_glass": "2024-03-19 00:28:45 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_normal": {
+    "criteria": {
+      "has_computer": "2024-03-19 00:29:05 -0700"
     },
     "done": true
   },
@@ -2379,24 +2404,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/spruce_sign": {
-    "criteria": {
-      "has_planks": "2024-03-19 00:35:26 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/light_blue_bed": {
-    "criteria": {
-      "has_light_blue_wool": "2024-03-19 00:39:16 -0700"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/light_blue_sofa": {
-    "criteria": {
-      "has_wool": "2024-03-19 00:39:16 -0700"
-    },
-    "done": true
-  },
   "computercraft:recipes/redstone/disk_drive": {
     "criteria": {
       "has_computer": "2024-03-19 00:29:05 -0700"
@@ -2415,51 +2422,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_banner": {
-    "criteria": {
-      "has_light_blue_wool": "2024-03-19 00:39:16 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
-    "criteria": {
-      "has_cut_sandstone": "2024-03-18 23:16:38 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/tnt_minecart": {
-    "criteria": {
-      "has_minecart": "2024-03-19 00:30:52 -0700"
-    },
-    "done": true
-  },
   "computercraft:recipes/redstone/turtle_normal": {
     "criteria": {
       "has_computer": "2024-03-19 00:29:05 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/green_dye": {
-    "criteria": {
-      "has_cactus": "2024-03-19 00:31:42 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
-    "criteria": {
-      "has_cut_sandstone": "2024-03-18 23:16:38 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab": {
-    "criteria": {
-      "has_smooth_stone": "2024-03-19 00:33:50 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
-    "criteria": {
-      "has_smooth_stone": "2024-03-19 00:33:50 -0700"
     },
     "done": true
   },
@@ -2475,27 +2440,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_button": {
+  "computercraft:recipes/redstone/pocket_computer_normal": {
     "criteria": {
-      "has_planks": "2024-03-19 00:35:26 -0700"
+      "has_computer": "2024-03-19 00:29:05 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_advanced": {
+    "criteria": {
+      "has_computer": "2024-03-19 00:29:05 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/pocket_computer_advanced": {
+    "criteria": {
+      "has_computer": "2024-03-19 00:29:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2024-03-19 00:30:52 -0700"
     },
     "done": true
   },
   "minecraft:recipes/transportation/chest_minecart": {
     "criteria": {
       "has_minecart": "2024-03-19 00:30:52 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_pressure_plate": {
-    "criteria": {
-      "has_planks": "2024-03-19 00:35:26 -0700"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/spruce_kitchen_sink_dark": {
-    "criteria": {
-      "has_bottom": "2024-03-19 00:35:26 -0700"
     },
     "done": true
   },
@@ -2511,15 +2482,57 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_red_sandstone_slab": {
+  "minecraft:recipes/transportation/rail": {
     "criteria": {
-      "has_cut_red_sandstone": "2024-03-18 22:51:50 -0700"
+      "has_minecart": "2024-03-19 00:30:52 -0700"
     },
     "done": true
   },
-  "computercraft:recipes/redstone/pocket_computer_normal": {
+  "minecraft:recipes/misc/green_dye": {
     "criteria": {
-      "has_computer": "2024-03-19 00:29:05 -0700"
+      "has_cactus": "2024-03-19 00:31:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blast_furnace": {
+    "criteria": {
+      "has_smooth_stone": "2024-03-19 00:33:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab": {
+    "criteria": {
+      "has_smooth_stone": "2024-03-19 00:33:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone_slab_from_smooth_stone_stonecutting": {
+    "criteria": {
+      "has_smooth_stone": "2024-03-19 00:33:50 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-03-19 00:35:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-03-19 00:35:26 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-03-19 00:35:26 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/spruce_kitchen_sink_dark": {
+    "criteria": {
+      "has_bottom": "2024-03-19 00:35:26 -0700"
     },
     "done": true
   },
@@ -2529,21 +2542,27 @@
     },
     "done": true
   },
-  "computercraft:recipes/redstone/monitor_advanced": {
+  "minecraft:recipes/decorations/barrel": {
     "criteria": {
-      "has_computer": "2024-03-19 00:29:05 -0700"
+      "has_planks": "2024-03-19 00:35:26 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/light_blue_glazed_terracotta": {
+  "minecraft:recipes/decorations/light_blue_bed": {
     "criteria": {
-      "has_light_blue_terracotta": "2024-03-18 23:54:21 -0700"
+      "has_light_blue_wool": "2024-03-19 00:39:16 -0700"
     },
     "done": true
   },
-  "computercraft:recipes/redstone/pocket_computer_advanced": {
+  "cfm:recipes/decorations/light_blue_sofa": {
     "criteria": {
-      "has_computer": "2024-03-19 00:29:05 -0700"
+      "has_wool": "2024-03-19 00:39:16 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2024-03-19 00:39:16 -0700"
     },
     "done": true
   },
@@ -2559,21 +2578,255 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/barrel": {
+  "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
-      "has_planks": "2024-03-19 00:35:26 -0700"
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_red_sandstone_slab_from_cut_red_sandstone_stonecutting": {
+  "minestuck:recipes/building_blocks/pushable_block_from_stone_bricks_stonecutting": {
     "criteria": {
-      "has_cut_red_sandstone": "2024-03-18 22:51:50 -0700"
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/rail": {
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
     "criteria": {
-      "has_minecart": "2024-03-19 00:30:52 -0700"
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2024-06-04 21:43:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
+    },
+    "done": true
+  },
+  "minestuck:recipes/building_blocks/decrepit_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2024-06-04 21:43:43 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2024-06-04 21:43:53 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2024-06-04 21:44:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2024-06-04 21:44:03 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "minestuck:recipes/decorations/chessboard_white": {
+    "criteria": {
+      "has_white_terracotta": "2024-06-04 23:57:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2024-06-04 23:57:17 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/purple_picket_fence": {
+    "criteria": {
+      "has_concrete": "2024-06-04 23:49:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_park_bench": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_button": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_kitchen_sink_dark": {
+    "criteria": {
+      "has_bottom": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_coffee_table": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/purple_picket_gate": {
+    "criteria": {
+      "has_concrete": "2024-06-04 23:49:19 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dark_oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_crate": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/decorations/skull_cloudy": {
+    "criteria": {
+      "has_monitor": "2024-06-04 23:50:47 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/white_grill": {
+    "criteria": {
+      "has_terracotta": "2024-06-04 23:57:17 -0700"
+    },
+    "done": true
+  },
+  "minestuck:recipes/decorations/chessboard_black": {
+    "criteria": {
+      "has_white_terracotta": "2024-06-04 23:57:17 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_chair": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_cabinet": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_desk": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_table": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/dark_oak_sign": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dark_oak_kitchen_counter": {
+    "criteria": {
+      "has_planks": "2024-06-04 23:56:25 -0700"
     },
     "done": true
   },
