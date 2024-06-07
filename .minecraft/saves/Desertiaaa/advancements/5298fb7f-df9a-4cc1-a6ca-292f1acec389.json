@@ -2,6 +2,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2022-01-02 21:36:03 -0800",
+      "minecraft:sunflower_plains": "2024-06-06 16:18:21 -0700",
       "minecraft:birch_forest": "2024-06-04 21:47:49 -0700",
       "minecraft:windswept_hills": "2022-01-02 21:10:45 -0800",
       "minecraft:beach": "2022-01-02 21:21:48 -0800",
@@ -11,6 +12,8 @@
       "minecraft:desert": "2021-01-04 10:51:31 -0800",
       "minecraft:windswept_forest": "2022-01-02 21:33:08 -0800",
       "minecraft:ocean": "2022-01-05 22:32:12 -0800",
+      "minecraft:flower_forest": "2024-06-06 16:51:21 -0700",
+      "minecraft:meadow": "2024-06-06 16:21:17 -0700",
       "minecraft:plains": "2022-01-02 21:17:11 -0800"
     },
     "done": false
@@ -2662,15 +2665,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brick_wall": {
+  "cfm:recipes/decorations/purple_picket_fence": {
     "criteria": {
-      "has_bricks": "2024-06-05 00:03:38 -0700"
+      "has_concrete": "2024-06-04 23:49:19 -0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/brick_stairs": {
+  "cfm:recipes/decorations/purple_picket_gate": {
     "criteria": {
-      "has_bricks": "2024-06-05 00:03:38 -0700"
+      "has_concrete": "2024-06-04 23:49:19 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/decorations/skull_cloudy": {
+    "criteria": {
+      "has_monitor": "2024-06-04 23:50:47 -0700"
     },
     "done": true
   },
@@ -2686,39 +2695,9 @@
     },
     "done": true
   },
-  "minestuck:recipes/decorations/chessboard_white": {
-    "criteria": {
-      "has_white_terracotta": "2024-06-04 23:57:17 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/white_glazed_terracotta": {
-    "criteria": {
-      "has_white_terracotta": "2024-06-04 23:57:17 -0700"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/purple_picket_fence": {
-    "criteria": {
-      "has_concrete": "2024-06-04 23:49:19 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
-    "criteria": {
-      "has_bricks": "2024-06-05 00:03:38 -0700"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/dark_oak_park_bench": {
     "criteria": {
       "has_planks": "2024-06-04 23:56:25 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
-    "criteria": {
-      "has_bricks": "2024-06-05 00:03:38 -0700"
     },
     "done": true
   },
@@ -2740,12 +2719,6 @@
     },
     "done": true
   },
-  "cfm:recipes/decorations/purple_picket_gate": {
-    "criteria": {
-      "has_concrete": "2024-06-04 23:49:19 -0700"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/dark_oak_pressure_plate": {
     "criteria": {
       "has_planks": "2024-06-04 23:56:25 -0700"
@@ -2758,33 +2731,9 @@
     },
     "done": true
   },
-  "computercraft:recipes/decorations/skull_cloudy": {
-    "criteria": {
-      "has_monitor": "2024-06-04 23:50:47 -0700"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/white_grill": {
-    "criteria": {
-      "has_terracotta": "2024-06-04 23:57:17 -0700"
-    },
-    "done": true
-  },
-  "minestuck:recipes/decorations/chessboard_black": {
-    "criteria": {
-      "has_white_terracotta": "2024-06-04 23:57:17 -0700"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/dark_oak_bedside_cabinet": {
     "criteria": {
       "has_planks": "2024-06-04 23:56:25 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_slab": {
-    "criteria": {
-      "has_bricks": "2024-06-05 00:03:38 -0700"
     },
     "done": true
   },
@@ -2797,12 +2746,6 @@
   "cfm:recipes/decorations/dark_oak_cabinet": {
     "criteria": {
       "has_planks": "2024-06-04 23:56:25 -0700"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
-    "criteria": {
-      "has_bricks": "2024-06-05 00:03:38 -0700"
     },
     "done": true
   },
@@ -2827,6 +2770,72 @@
   "cfm:recipes/decorations/dark_oak_kitchen_counter": {
     "criteria": {
       "has_planks": "2024-06-04 23:56:25 -0700"
+    },
+    "done": true
+  },
+  "minestuck:recipes/decorations/chessboard_white": {
+    "criteria": {
+      "has_white_terracotta": "2024-06-04 23:57:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2024-06-04 23:57:17 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/white_grill": {
+    "criteria": {
+      "has_terracotta": "2024-06-04 23:57:17 -0700"
+    },
+    "done": true
+  },
+  "minestuck:recipes/decorations/chessboard_black": {
+    "criteria": {
+      "has_white_terracotta": "2024-06-04 23:57:17 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-06-05 00:03:38 -0700"
+    },
+    "done": true
+  },
+  "minestuck:minestuck/entry": {
+    "criteria": {
+      "use_artifact": "2024-06-06 17:03:46 -0700"
     },
     "done": true
   },
