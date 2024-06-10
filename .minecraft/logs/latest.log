@@ -1,0 +1,809 @@
+[09Jun2024 20:48:52.369] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, shinyjiggly, --version, 1.20.1, --gameDir, C:/Users/agent/AppData/Roaming/PrismLauncher/instances/Dungeon Crashers resmoothified/.minecraft, --assetsDir, C:/Users/agent/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 5298fb7fdf9a4cc1a6ca292f1acec389, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[09Jun2024 20:48:52.384] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[09Jun2024 20:48:53.650] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[09Jun2024 20:48:53.822] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[09Jun2024 20:48:53.962] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[09Jun2024 20:48:54.087] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[09Jun2024 20:48:54.150] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[09Jun2024 20:48:54.212] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[09Jun2024 20:48:54.275] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 27.20.100.8476, Intel
+[09Jun2024 20:48:54.384] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/agent/AppData/Roaming/PrismLauncher/instances/Dungeon%20Crashers%20resmoothified/.minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar%23180%23183!/ Service=ModLauncher Env=CLIENT
+[09Jun2024 20:48:55.494] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[09Jun2024 20:48:55.510] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[09Jun2024 20:48:55.525] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[09Jun2024 20:48:55.525] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[09Jun2024 20:48:56.822] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 52 dependencies adding them to mods collection
+[09Jun2024 20:48:58.180] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 24 candidates to load
+[09Jun2024 20:49:00.166] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[09Jun2024 20:49:02.339] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09Jun2024 20:49:02.620] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft, --assetsDir, C:\Users\agent\AppData\Roaming\PrismLauncher\assets, --uuid, 5298fb7fdf9a4cc1a6ca292f1acec389, --username, shinyjiggly, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[09Jun2024 20:49:02.964] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.14.0+mc1.20.1: 74 options available, 0 override(s) found
+[09Jun2024 20:49:02.964] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[09Jun2024 20:49:02.979] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[09Jun2024 20:49:03.818] [main/WARN] [mixin/]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr.catcore.server.translations.api.resource.language.SystemDelegatedLanguage)
+[09Jun2024 20:49:06.047] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[09Jun2024 20:49:06.279] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[09Jun2024 20:49:09.561] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (23.01 s after launch)
+[09Jun2024 20:49:10.094] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[09Jun2024 20:49:10.094] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[09Jun2024 20:49:12.203] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2635 milliseconds
+[09Jun2024 20:49:18.282] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/agent/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23208!/assets/.mcassetsroot' uses unexpected schema
+[09Jun2024 20:49:18.283] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/agent/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23208!/data/.mcassetsroot' uses unexpected schema
+[09Jun2024 20:49:18.321] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09Jun2024 20:49:19.338] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: shinyjiggly
+[09Jun2024 20:49:19.556] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
+[09Jun2024 20:49:19.657] [Render thread/INFO] [config2brigadier/]: Loaded C2B lib.
+[09Jun2024 20:49:19.809] [Render thread/INFO] [owo/]: :ctft: literally infinite and counting
+[09Jun2024 20:49:20.251] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:last_location
+[09Jun2024 20:49:20.252] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:spawn_point
+[09Jun2024 20:49:20.253] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_proxy:proxies
+[09Jun2024 20:49:20.253] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:ender_chests
+[09Jun2024 20:49:20.254] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:experience
+[09Jun2024 20:49:20.254] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:inventories
+[09Jun2024 20:49:20.256] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:fabric_tailor
+[09Jun2024 20:49:20.258] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:styled_nicknames
+[09Jun2024 20:49:20.258] [Render thread/INFO] [switchy_compat_ui/]: [Switchy Compat UI] Initialized!
+[09Jun2024 20:49:20.258] [Render thread/INFO] [switchy-client/]: [Switchy Client] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
+[09Jun2024 20:49:20.388] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:last_location
+[09Jun2024 20:49:20.389] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:spawn_point
+[09Jun2024 20:49:20.427] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_proxy:proxies
+[09Jun2024 20:49:20.428] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:ender_chests
+[09Jun2024 20:49:20.429] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:experience
+[09Jun2024 20:49:20.430] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:inventories
+[09Jun2024 20:49:20.433] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:styled_nicknames
+[09Jun2024 20:49:20.436] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:fabric_tailor
+[09Jun2024 20:49:20.437] [Render thread/INFO] [switchy_compat/]: [Switchy Compat] Initialized!
+[09Jun2024 20:49:20.437] [Render thread/INFO] [switchy/]: [Switchy] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
+[09Jun2024 20:49:20.849] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
+[09Jun2024 20:49:20.859] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[09Jun2024 20:49:21.461] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
+[09Jun2024 20:49:21.532] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[09Jun2024 20:49:21.532] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[09Jun2024 20:49:21.561] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[09Jun2024 20:49:21.566] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod overworldmirror is signed with a valid certificate.
+[09Jun2024 20:49:21.975] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[09Jun2024 20:49:21.981] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 4.100 ms
+[09Jun2024 20:49:23.248] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[09Jun2024 20:49:23.248] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[09Jun2024 20:49:27.239] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
+[09Jun2024 20:49:28.080] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[09Jun2024 20:49:28.673] [Render thread/INFO] [journeymap/]: Registering Keybinds
+[09Jun2024 20:49:29.108] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
+[09Jun2024 20:49:29.110] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, fabric
+[09Jun2024 20:49:29.174] [Thread-1/INFO] [ModernFix/]: Please use /mfrc to reload any changed mod config files
+[09Jun2024 20:49:29.302] [Worker-ResourceReload-6/INFO] [journeymap/]: No plugins for JourneyMap API discovered.
+[09Jun2024 20:49:29.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[09Jun2024 20:49:30.232] [Worker-ResourceReload-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[09Jun2024 20:49:30.712] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18p1 Target: 5.9.23
+[09Jun2024 20:49:30.712] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[09Jun2024 20:49:31.109] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: UP_TO_DATE Current: 5.1.4.299 Target: null
+[09Jun2024 20:49:31.116] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09Jun2024 20:49:31.436] [Worker-ResourceReload-6/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@65e5a2fc]
+[09Jun2024 20:49:31.496] [Worker-ResourceReload-6/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[09Jun2024 20:49:31.515] [Render thread/INFO] [journeymap/]: Initializing Packet Registries
+[09Jun2024 20:49:31.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[09Jun2024 20:49:31.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Starting version check at https://api.u-team.info/update/overworldmirror.json
+[09Jun2024 20:49:31.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Found status: UP_TO_DATE Current: 1.7.0.23 Target: null
+[09Jun2024 20:49:31.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[09Jun2024 20:49:31.998] [Worker-ResourceReload-0/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/machine/grist_widget with size 196x196 limits mip level from 4 to 2
+[09Jun2024 20:49:32.000] [Worker-ResourceReload-0/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/power_hub/front with size 16x14 limits mip level from 2 to 1
+[09Jun2024 20:49:32.277] [Render thread/INFO] [journeymap/]: Journeymap Initializing
+[09Jun2024 20:49:32.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre36 Target: 7.0.0-pre36
+[09Jun2024 20:49:32.668] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[09Jun2024 20:49:32.948] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.109.6 Target: 1.111.0
+[09Jun2024 20:49:36.146] [Worker-ResourceReload-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'sgjourney:block/naquadah_generator_mark_i' referenced from: sgjourney:naquadah_generator_mark_i#: java.io.FileNotFoundException: sgjourney:models/block/naquadah_generator_mark_i.json
+[09Jun2024 20:49:41.226] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
+[09Jun2024 20:49:41.492] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[09Jun2024 20:49:41.493] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[09Jun2024 20:49:42.379] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
+[09Jun2024 20:49:42.380] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[09Jun2024 20:49:42.649] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[09Jun2024 20:49:42.913] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[09Jun2024 20:49:42.916] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[09Jun2024 20:49:42.923] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[09Jun2024 20:49:42.931] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[09Jun2024 20:49:42.999] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[09Jun2024 20:49:43.003] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[09Jun2024 20:49:43.006] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[09Jun2024 20:49:43.009] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09Jun2024 20:49:44.025] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[09Jun2024 20:49:44.990] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[09Jun2024 20:49:45.018] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[09Jun2024 20:49:45.023] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09Jun2024 20:49:45.028] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[09Jun2024 20:49:45.032] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 computercraft:textures/atlas/gui.png-atlas
+[09Jun2024 20:49:45.035] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minestuck:textures/atlas/land_sky.png-atlas
+[09Jun2024 20:49:47.170] [Render thread/WARN] [ModernFix/]: Game took 60.615 seconds to start
+[09Jun2024 20:50:08.495] [Render thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[09Jun2024 20:50:09.796] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[09Jun2024 20:50:10.009] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2216 advancements
+[09Jun2024 20:50:10.051] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
+[09Jun2024 20:50:10.051] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
+[09Jun2024 20:50:10.076] [Render thread/INFO] [com.mraof.minestuck.util.BoondollarPriceManager/]: Loaded 192 boondollar prices
+[09Jun2024 20:50:10.081] [ForkJoinPool.commonPool-worker-1/INFO] [xyz.nucleoid.server.translations.impl.ServerTranslations/]: Loaded 226 translation keys
+[09Jun2024 20:50:10.387] [Render thread/INFO] [com.mraof.minestuck.alchemy.recipe.generator.recipe.RecipeGeneratedCostHandler/]: Generated 1315 grist conversions from recipes.
+[09Jun2024 20:50:10.663] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[09Jun2024 20:50:10.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[09Jun2024 20:50:12.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[09Jun2024 20:50:14.101] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Jun2024 20:50:14.102] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Jun2024 20:50:14.102] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Jun2024 20:50:14.103] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Jun2024 20:50:14.103] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Jun2024 20:50:14.558] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[09Jun2024 20:50:15.786] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[09Jun2024 20:50:15.793] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3753 ms
+[09Jun2024 20:50:15.884] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Stargate Network is up to date (Version: 7)
+[09Jun2024 20:50:16.067] [Server thread/INFO] [ModernFix/]: Instantiating Mojang DFU
+[09Jun2024 20:50:17.598] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 370 milliseconds
+[09Jun2024 20:50:52.055] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[09Jun2024 20:50:52.067] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[09Jun2024 20:50:52.157] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[09Jun2024 20:50:52.993] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[09Jun2024 20:50:53.363] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: shinyjiggly[local:E:b001372c] logged in with entity id 62 at (-188.8858364276762, 67.0, -385.3545715957903)
+[09Jun2024 20:50:53.733] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[09Jun2024 20:50:53.733] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[09Jun2024 20:50:53.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly joined the game
+[09Jun2024 20:50:53.783] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@e8426be=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/universe_upgrade_crystal
+[09Jun2024 20:50:53.784] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6f30353=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_transfer_crystal
+[09Jun2024 20:50:53.786] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@590322b3=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_upgrade_crystal
+[09Jun2024 20:50:53.787] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@37a1e8ed=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/classic_milky_way_variant_crystal
+[09Jun2024 20:50:53.788] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@41e510bd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_atlantis_variant_crystal
+[09Jun2024 20:50:53.790] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@38119447=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/control_crystal
+[09Jun2024 20:50:53.797] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7cb86c78=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/memory_crystal
+[09Jun2024 20:50:53.800] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@204666f5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_movie_variant_crystal
+[09Jun2024 20:50:53.801] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7297afe7=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/stargate_variant_crystal
+[09Jun2024 20:50:53.802] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@57392112=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_promo_variant_crystal
+[09Jun2024 20:50:53.802] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1de2cbf9=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/transfer_crystal
+[09Jun2024 20:50:53.802] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@517b6eff=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/large_control_crystal
+[09Jun2024 20:50:53.803] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1ad5b8a5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_control_crystal
+[09Jun2024 20:50:53.805] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2264d9a1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_memory_crystal
+[09Jun2024 20:50:53.805] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1c9fed7b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_materialization_crystal
+[09Jun2024 20:50:53.806] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@19b86f30=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/tollan_upgrade_crystal
+[09Jun2024 20:50:53.807] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@65c39cb1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/communication_crystal
+[09Jun2024 20:50:53.808] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7164d7de=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_energy_crystal
+[09Jun2024 20:50:53.809] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@85e236e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_upgrade_crystal
+[09Jun2024 20:50:53.809] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@8fe7e15=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_communication_crystal
+[09Jun2024 20:50:53.810] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@584d6abd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/materialization_crystal
+[09Jun2024 20:50:53.811] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@55301b43=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/energy_crystal
+[09Jun2024 20:50:53.813] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7b875d1=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_sg-1_variant_crystal
+[09Jun2024 20:50:53.821] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[09Jun2024 20:50:53.857] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[09Jun2024 20:50:53.857] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[09Jun2024 20:50:53.858] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[09Jun2024 20:50:53.877] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[09Jun2024 20:50:53.882] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 4.094 ms
+[09Jun2024 20:50:53.883] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[09Jun2024 20:50:53.886] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 2.457 ms
+[09Jun2024 20:50:53.888] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[09Jun2024 20:50:54.056] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 168.0 milliseconds
+[09Jun2024 20:50:54.059] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 171.3 ms
+[09Jun2024 20:50:54.073] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[09Jun2024 20:50:54.099] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 24.50 milliseconds
+[09Jun2024 20:50:54.106] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 32.33 ms
+[09Jun2024 20:50:54.107] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[09Jun2024 20:50:54.111] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 3.070 ms
+[09Jun2024 20:50:54.115] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[09Jun2024 20:50:54.117] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 2.534 ms
+[09Jun2024 20:50:54.120] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[09Jun2024 20:50:54.123] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.shared.integration.jei.RecipeResolver
+[09Jun2024 20:50:54.124] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 4.269 ms
+[09Jun2024 20:50:54.124] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[09Jun2024 20:50:54.141] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 15.87 ms
+[09Jun2024 20:50:54.144] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[09Jun2024 20:50:55.165] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 1.020 seconds
+[09Jun2024 20:50:55.217] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: uteamcore:jei took 51.13 milliseconds
+[09Jun2024 20:50:55.610] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: minestuck:minestuck took 390.4 milliseconds
+[09Jun2024 20:50:55.610] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 1.466 s
+[09Jun2024 20:50:55.616] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[09Jun2024 20:50:55.623] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 6.062 ms
+[09Jun2024 20:50:55.624] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[09Jun2024 20:50:55.628] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[09Jun2024 20:50:55.642] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 14.11 ms
+[09Jun2024 20:50:55.648] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[09Jun2024 20:50:55.652] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[09Jun2024 20:50:55.653] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[09Jun2024 20:50:55.661] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 7.970 ms
+[09Jun2024 20:50:55.662] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[09Jun2024 20:50:55.699] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3008 ingredients
+[09Jun2024 20:50:56.602] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3008 ingredients
+[09Jun2024 20:50:56.604] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 942.6 ms
+[09Jun2024 20:50:56.814] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 1.166 seconds
+[09Jun2024 20:50:56.815] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 1.167 s
+[09Jun2024 20:50:56.816] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 1.191 s
+[09Jun2024 20:50:56.817] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[09Jun2024 20:50:56.819] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.world.item.ItemStack
+[09Jun2024 20:50:56.829] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 11.73 ms
+[09Jun2024 20:50:56.830] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 2.971 s
+[09Jun2024 20:50:57.830] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 598 advancements
+[09Jun2024 20:50:59.313] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] JourneyMap: Press [J]
+[09Jun2024 20:50:59.705] [Render thread/WARN] [ModernFix/]: Time from main menu to in-game was 49.31449 seconds
+[09Jun2024 20:50:59.706] [Render thread/WARN] [ModernFix/]: Total time to load game and open world was 109.92949 seconds
+[09Jun2024 20:51:00.980] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[09Jun2024 20:51:14.319] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 20:51:14.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 20:51:17.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 20:51:17.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 20:51:17.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 20:51:21.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 20:51:21.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 20:51:21.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 20:51:21.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 20:51:21.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 20:51:21.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 20:51:22.065] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6094ms or 121 ticks behind
+[09Jun2024 20:51:22.068] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Mei' -> 'default' [shinyjiggly]
+[09Jun2024 20:51:36.972] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 20:51:37.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 20:51:37.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 20:51:37.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 20:51:37.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 20:51:37.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 20:51:37.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 20:51:37.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 20:51:37.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 20:51:37.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 20:51:37.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 20:52:53.371] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 20:52:53.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 20:52:53.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 20:52:53.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 20:52:53.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 20:52:53.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 20:52:53.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 20:52:53.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 20:52:53.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 20:52:53.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 20:52:53.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 20:54:09.046] [ForkJoinPool.commonPool-worker-4/ERROR] [org.samo_lego.fabrictailor.FabricTailor/]: [FabricTailor] An error occurred: 
+[09Jun2024 20:54:10.921] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 20:54:11.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 20:54:11.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 20:54:11.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 20:54:11.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 20:54:11.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 20:54:11.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 20:54:11.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 20:54:11.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 20:54:11.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 20:54:11.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 20:55:19.948] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-179, 71, -362).
+[09Jun2024 20:55:20.937] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-180, 71, -362).
+[09Jun2024 20:55:35.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:35.829] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:42.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:42.535] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:43.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:43.138] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:43.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:43.732] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:45.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:45.236] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:45.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:45.733] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:47.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:47.284] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:48.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:48.837] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:49.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:55:49.387] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [@: Played sound minecraft:block.anvil.land to shinyjiggly]
+[09Jun2024 20:56:08.371] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 20:56:08.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 20:56:08.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 20:56:08.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 20:56:08.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 20:56:08.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 20:56:08.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 20:56:08.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 20:56:08.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 20:56:08.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 20:56:08.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 20:56:09.251] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'default' -> 'Mei' [shinyjiggly]
+[09Jun2024 20:56:33.821] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 20:56:33.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 20:56:33.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 20:56:33.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 20:56:33.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 20:56:33.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 20:56:33.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 20:56:33.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 20:56:33.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 20:56:33.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 20:56:33.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 20:56:35.377] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Mei' -> 'default' [shinyjiggly]
+[09Jun2024 20:56:42.267] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Skin was cleared successfully.
+[09Jun2024 20:57:58.921] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 20:57:58.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 20:57:59.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 20:57:59.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 20:57:59.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 20:57:59.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 20:57:59.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 20:57:59.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 20:57:59.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 20:57:59.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 20:57:59.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 20:58:58.822] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 20:58:58.893] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 20:58:58.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 20:58:58.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 20:58:58.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 20:58:58.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 20:58:58.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 20:58:58.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 20:58:58.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 20:58:58.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 20:58:58.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 20:59:00.558] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'default' -> 'Nick' [shinyjiggly]
+[09Jun2024 21:00:50.272] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:00:50.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:00:50.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:00:50.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:00:50.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:00:50.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:00:50.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:00:50.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:00:50.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:00:50.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:00:50.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:00:59.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <shinyjiggly> aaaaa
+[09Jun2024 21:00:59.609] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <shinyjiggly> aaaaa
+[09Jun2024 21:01:08.322] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:01:08.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:01:08.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:01:08.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:01:08.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:01:08.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:01:08.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:01:08.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:01:08.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:01:08.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:01:08.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:01:12.615] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Nick' -> 'Mei' [shinyjiggly]
+[09Jun2024 21:01:15.472] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:01:15.549] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:01:15.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:01:15.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:01:15.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:01:15.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:01:15.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:01:15.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:01:15.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:01:15.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:01:15.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:01:16.325] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Mei' -> 'Nick' [shinyjiggly]
+[09Jun2024 21:01:22.122] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:01:22.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:01:22.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:01:22.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:01:22.206] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:01:22.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:01:22.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:01:22.243] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:01:22.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:01:22.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:01:22.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:03:30.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Skin was cleared successfully.
+[09Jun2024 21:03:43.471] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:03:43.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:03:43.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:03:43.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:03:43.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:03:43.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:03:43.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:03:43.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:03:43.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:03:43.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:03:43.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:03:49.771] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:03:49.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:03:49.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:03:49.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:03:49.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:03:49.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:03:49.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:03:49.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:03:49.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:03:49.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:03:49.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:03:53.571] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:03:53.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:03:53.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:03:53.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:03:53.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:03:53.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:03:53.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:03:53.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:03:53.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:03:53.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:03:53.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:05:38.821] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:05:38.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:05:38.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:05:38.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:05:38.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:05:38.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:05:38.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:05:38.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:05:38.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:05:38.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:05:38.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:06:55.472] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:06:55.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:06:55.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:06:55.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:06:55.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:06:55.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:06:55.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:06:55.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:06:55.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:06:55.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:06:55.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:08:22.971] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:08:23.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:08:23.064] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:08:23.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:08:23.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:08:23.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:08:23.106] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:08:23.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:08:23.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:08:23.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:08:23.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:08:54.222] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:08:54.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:08:54.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:08:54.321] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:08:54.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:08:54.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:08:54.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:08:54.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:08:54.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:08:54.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:08:54.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:09:33.371] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:09:33.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:09:33.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:09:33.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:09:33.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:09:33.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:09:33.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:09:33.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:09:33.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:09:33.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:09:33.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:09:59.171] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:09:59.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:09:59.272] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:09:59.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:09:59.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:09:59.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:09:59.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:09:59.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:09:59.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:09:59.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:09:59.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:11:03.521] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:11:03.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:11:03.587] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:11:03.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:11:03.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:11:03.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:11:03.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:11:03.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:11:03.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:11:03.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:11:03.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:11:08.621] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:11:08.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:11:08.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:11:08.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:11:08.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:11:08.709] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:11:08.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:11:08.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:11:08.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:11:08.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:11:08.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:11:22.714] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <shinyjiggly> what
+[09Jun2024 21:11:22.716] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <shinyjiggly> what
+[09Jun2024 21:11:27.421] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:11:27.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:11:27.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:11:27.520] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:11:27.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:11:27.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:11:27.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:11:27.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:11:27.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:11:27.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:11:27.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:11:40.871] [Worker-Main-1/ERROR] [net.minecraft.Util/]: Caught exception in thread Thread[Worker-Main-1,4,main]
+java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because the return value of "java.net.URI.getScheme()" is null
+	at com.mojang.authlib.yggdrasil.TextureUrlChecker.handler$bdp000$fabrictailor$ft_allowAllTextureDomains(TextureUrlChecker.java:522) ~[authlib-4.0.43.jar%23104!/:?]
+	at com.mojang.authlib.yggdrasil.TextureUrlChecker.isAllowedTextureDomain(TextureUrlChecker.java:36) ~[authlib-4.0.43.jar%23104!/:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.getTextures(YggdrasilMinecraftSessionService.java:133) ~[authlib-4.0.43.jar%23104!/:?]
+	at net.minecraft.client.resources.SkinManager.m_118821_(SkinManager.java:100) ~[client-1.20.1-20230612.114412-srg.jar%23208!/:?]
+	at java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[09Jun2024 21:11:40.916] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Capes & HD skins will only be visible to other players that use FabricTailor mod.
+[09Jun2024 21:11:56.672] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:11:56.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:11:56.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:11:56.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:11:56.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:11:56.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:11:56.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:11:56.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:11:56.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:11:56.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:11:56.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:17:14.812] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
+[09Jun2024 21:17:14.813] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
+[09Jun2024 21:17:14.814] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
+[09Jun2024 21:19:06.122] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:19:06.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:19:06.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:19:06.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:19:06.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:19:06.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:19:06.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:19:06.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:19:06.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:19:06.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:19:06.302] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:31:34.021] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:31:34.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:31:34.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:31:34.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:31:34.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:31:34.162] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:31:34.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:31:34.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:31:34.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:31:34.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:31:34.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:31:38.421] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:31:38.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:31:38.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:31:38.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:31:38.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:31:38.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:31:38.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:31:38.531] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:31:38.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:31:38.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:31:38.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:31:56.372] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:31:56.451] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:31:56.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:31:56.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:31:56.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:31:56.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:31:56.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:31:56.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:31:56.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:31:56.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:31:56.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:33:05.871] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:33:05.954] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:33:05.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:33:05.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:33:05.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:33:06.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:33:06.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:33:06.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:33:06.016] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:33:06.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:33:06.032] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:33:17.771] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:33:17.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:33:17.852] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:33:17.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:33:17.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:33:17.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:33:17.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:33:17.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:33:17.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:33:17.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:33:17.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:33:35.671] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:33:35.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:33:35.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:33:35.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:33:35.769] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:33:35.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:33:35.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:33:35.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:33:35.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:33:35.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:33:35.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:33:37.839] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Nick' -> 'Thoren' [shinyjiggly]
+[09Jun2024 21:33:42.672] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:33:42.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:33:42.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:33:42.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:33:42.762] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:33:42.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:33:42.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:33:42.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:33:42.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:33:42.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:33:42.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:34:01.821] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:34:01.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:34:01.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:34:01.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:34:01.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:34:01.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:34:01.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:34:01.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:34:01.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:34:01.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:34:01.983] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:34:04.704] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Thoren' -> 'Nick' [shinyjiggly]
+[09Jun2024 21:34:08.472] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:34:08.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:34:08.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:34:08.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:34:08.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:34:08.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:34:08.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:34:08.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:34:08.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:34:08.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:34:08.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:34:09.345] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Nick' -> 'Thoren' [shinyjiggly]
+[09Jun2024 21:34:10.372] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:34:10.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:34:10.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:34:10.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:34:10.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:34:10.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:34:10.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:34:10.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:34:10.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:34:10.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:34:10.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:34:11.117] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Thoren' -> 'Mei' [shinyjiggly]
+[09Jun2024 21:34:12.472] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:34:12.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:34:12.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:34:12.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:34:12.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:34:12.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:34:12.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:34:12.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:34:12.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:34:12.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:34:12.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:34:13.948] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Mei' -> 'Thoren' [shinyjiggly]
+[09Jun2024 21:35:00.372] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:35:00.440] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:35:00.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:35:00.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:35:00.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:35:00.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:35:00.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:35:00.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:35:00.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:35:00.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:35:00.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:35:02.129] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Thoren' -> 'Nick' [shinyjiggly]
+[09Jun2024 21:35:32.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Successfully teleported 1 entities to transportalizer]
+[09Jun2024 21:35:32.518] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Successfully teleported 1 entities to transportalizer
+[09Jun2024 21:35:43.869] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Symbols are not valid sgjourney:empty
+[09Jun2024 21:36:04.214] [Server thread/WARN] [net.minecraft.world.entity.ai.attributes.AttributeMap/]: Ignoring unknown attribute 'forge.swimSpeed'
+[09Jun2024 21:36:11.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <shinyjiggly> aaa
+[09Jun2024 21:36:11.653] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] <shinyjiggly> aaa
+[09Jun2024 21:36:23.523] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:36:23.598] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:36:23.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:36:23.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:36:23.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:36:23.643] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:36:23.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:36:23.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:36:23.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:36:23.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:36:23.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:36:24.994] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Nick' -> 'Mei' [shinyjiggly]
+[09Jun2024 21:36:44.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Successfully teleported 1 entities to transportalizer]
+[09Jun2024 21:36:44.528] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:36:44.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:36:44.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:36:44.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:36:44.572] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:36:44.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:36:44.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:36:44.844] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:36:44.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:36:44.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:36:44.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:36:45.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Successfully teleported 1 entities to transportalizer
+[09Jun2024 21:36:49.545] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:36:49.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:36:49.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:36:49.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:36:49.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:36:49.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:36:49.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:36:49.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:36:49.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:36:49.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:36:49.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:37:18.671] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:37:18.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:37:18.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:37:18.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:37:18.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:37:18.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:37:18.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:37:18.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:37:18.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:37:18.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:37:18.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:37:22.154] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Mei' -> 'Nick' [shinyjiggly]
+[09Jun2024 21:37:28.711] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:37:28.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:37:28.766] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:37:28.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:37:28.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:37:30.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:37:30.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:37:30.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:37:30.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:37:30.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:37:30.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:37:31.000] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3279ms or 65 ticks behind
+[09Jun2024 21:37:31.000] [Netty Server IO #1/INFO] [switchy/]: [Switchy] Player switch: 'Nick' -> 'default' [shinyjiggly]
+[09Jun2024 21:37:39.897] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[09Jun2024 21:37:39.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:37:39.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:37:39.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:37:40.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:37:41.078] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[09Jun2024 21:37:41.078] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[09Jun2024 21:37:41.079] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[09Jun2024 21:37:41.081] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[09Jun2024 21:37:41.086] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[09Jun2024 21:37:41.106] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:forge_gui took 18.83 milliseconds
+[09Jun2024 21:37:41.108] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 26.42 ms
+[09Jun2024 21:37:41.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:37:41.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:37:41.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:37:41.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:37:41.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:37:41.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:37:42.130] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shinyjiggly lost connection: Disconnected
+[09Jun2024 21:37:42.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly left the game
+[09Jun2024 21:37:42.199] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[09Jun2024 21:37:44.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[09Jun2024 21:37:44.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[09Jun2024 21:37:44.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[09Jun2024 21:37:45.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[09Jun2024 21:37:46.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[09Jun2024 21:37:46.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[09Jun2024 21:37:46.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[09Jun2024 21:37:46.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[09Jun2024 21:37:46.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[09Jun2024 21:37:46.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[09Jun2024 21:37:46.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[09Jun2024 21:37:46.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[09Jun2024 21:37:46.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[09Jun2024 21:37:46.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Desertiaaa): All chunks are saved
+[09Jun2024 21:37:46.787] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (land_shinyjiggly): All chunks are saved
+[09Jun2024 21:37:46.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
+[09Jun2024 21:37:46.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
+[09Jun2024 21:37:46.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
+[09Jun2024 21:37:46.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09Jun2024 21:37:46.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
+[09Jun2024 21:37:46.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skaia): All chunks are saved
+[09Jun2024 21:37:46.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
+[09Jun2024 21:37:46.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09Jun2024 21:37:46.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09Jun2024 21:37:53.350] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
