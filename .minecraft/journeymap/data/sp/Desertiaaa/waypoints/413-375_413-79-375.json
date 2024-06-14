@@ -1,0 +1,22 @@
+{
+  "id": "413-375_413-79-375",
+  "name": "413, 375",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--9392523-waypoint-icon.png",
+  "x": 413,
+  "y": 79,
+  "z": 375,
+  "r": 112,
+  "g": 174,
+  "b": 117,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "overworldmirror:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
