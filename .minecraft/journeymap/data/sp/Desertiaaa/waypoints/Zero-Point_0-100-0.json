@@ -1,0 +1,22 @@
+{
+  "id": "Zero-Point_0-100-0",
+  "name": "Zero Point",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16726531-waypoint-icon.png",
+  "x": 0,
+  "y": 100,
+  "z": 0,
+  "r": 0,
+  "g": 197,
+  "b": 253,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "overworldmirror:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

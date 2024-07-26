@@ -1,0 +1,22 @@
+{
+  "id": "meadowedge_-171-72-434",
+  "name": "meadowedge",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--3085781-waypoint-icon.png",
+  "x": -171,
+  "y": 72,
+  "z": 434,
+  "r": 208,
+  "g": 234,
+  "b": 43,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "overworldmirror:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

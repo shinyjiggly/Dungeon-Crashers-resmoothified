@@ -1,0 +1,22 @@
+{
+  "id": "thoren-s-house_-51-171-300",
+  "name": "thoren\u0027s house",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--186605-waypoint-icon.png",
+  "x": -51,
+  "y": 171,
+  "z": -300,
+  "r": 253,
+  "g": 39,
+  "b": 19,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "overworldmirror:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

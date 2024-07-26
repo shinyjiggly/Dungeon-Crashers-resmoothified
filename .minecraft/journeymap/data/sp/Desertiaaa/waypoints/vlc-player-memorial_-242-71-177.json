@@ -1,0 +1,22 @@
+{
+  "id": "vlc-player-memorial_-242-71-177",
+  "name": "vlc player memorial",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--345086-waypoint-icon.png",
+  "x": -242,
+  "y": 71,
+  "z": 177,
+  "r": 250,
+  "g": 188,
+  "b": 2,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "overworldmirror:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

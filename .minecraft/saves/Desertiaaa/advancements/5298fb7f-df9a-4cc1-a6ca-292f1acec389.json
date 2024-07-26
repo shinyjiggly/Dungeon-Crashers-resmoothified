@@ -7,13 +7,18 @@
       "minecraft:windswept_hills": "2022-01-02 21:10:45 -0800",
       "minecraft:beach": "2022-01-02 21:21:48 -0800",
       "minecraft:dark_forest": "2022-01-02 21:10:41 -0800",
+      "minecraft:sparse_jungle": "2024-07-25 23:29:22 -0700",
       "minecraft:river": "2022-01-02 21:17:10 -0800",
+      "minecraft:stony_shore": "2024-07-25 23:05:09 -0700",
+      "minecraft:dripstone_caves": "2024-07-25 23:18:03 -0700",
       "minecraft:cold_ocean": "2024-06-08 21:30:11 -0700",
       "minecraft:forest": "2022-01-02 21:10:04 -0800",
       "minecraft:desert": "2021-01-04 10:51:31 -0800",
       "minecraft:windswept_forest": "2022-01-02 21:33:08 -0800",
       "minecraft:ocean": "2022-01-05 22:32:12 -0800",
+      "minecraft:jungle": "2024-07-25 23:28:41 -0700",
       "minecraft:flower_forest": "2024-06-06 16:51:21 -0700",
+      "minecraft:old_growth_birch_forest": "2024-07-25 22:46:03 -0700",
       "minecraft:meadow": "2024-06-06 16:21:17 -0700",
       "minecraft:plains": "2022-01-02 21:17:11 -0800"
     },
@@ -3785,6 +3790,222 @@
   "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
     "criteria": {
       "has_quartz_block": "2024-07-08 19:53:39 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_dark_oak_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_boots": "2024-07-25 21:29:54 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal_overlays/turtle_rainbow_overlay": {
+    "criteria": {
+      "has_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_crimson_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/jungle_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-07-25 21:00:42 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_warped_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_birch_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_mangrove_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/warped_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_jungle_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_normal_overlays/turtle_trans_overlay": {
+    "criteria": {
+      "has_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/oak_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_rainbow_overlay": {
+    "criteria": {
+      "has_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_oak_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_black_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_black_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/decorations/skull_dan200": {
+    "criteria": {
+      "has_computer": "2024-07-25 20:56:56 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/printed_pages": {
+    "criteria": {
+      "has_printer": "2024-07-25 20:56:21 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/gray_picket_fence": {
+    "criteria": {
+      "has_concrete": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2024-07-25 21:01:22 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/printed_book": {
+    "criteria": {
+      "has_printer": "2024-07-25 20:56:21 -0700"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/turtle_advanced_overlays/turtle_trans_overlay": {
+    "criteria": {
+      "has_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "minestuck:minestuck/commune": {
+    "criteria": {
+      "talk_to_consort": "2024-07-26 01:54:03 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-07-25 21:00:42 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_boots": "2024-07-25 21:29:54 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye": {
+    "criteria": {
+      "has_black_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_black_white_dye": {
+    "criteria": {
+      "has_black_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/oak_hedge": {
+    "criteria": {
+      "has_leaves": "2024-07-25 22:48:09 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-07-25 21:02:06 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_spruce_kitchen_sink_dark": {
+    "criteria": {
+      "has_top": "2024-07-26 01:43:48 -0700"
     },
     "done": true
   },

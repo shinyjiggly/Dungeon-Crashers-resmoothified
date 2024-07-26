@@ -1,0 +1,22 @@
+{
+  "id": "Skylight-Cave_-514-61-459",
+  "name": "Skylight Cave",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--12779100-waypoint-icon.png",
+  "x": -514,
+  "y": 61,
+  "z": 459,
+  "r": 61,
+  "g": 1,
+  "b": 164,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "overworldmirror:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
