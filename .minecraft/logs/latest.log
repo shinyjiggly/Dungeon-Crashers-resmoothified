@@ -1,646 +1,308 @@
-[19Oct2024 20:35:26.402] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, shinyjiggly, --version, 1.20.1, --gameDir, C:/Users/agent/AppData/Roaming/PrismLauncher/instances/Dungeon Crashers resmoothified/.minecraft, --assetsDir, C:/Users/agent/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 5298fb7fdf9a4cc1a6ca292f1acec389, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
-[19Oct2024 20:35:26.413] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[19Oct2024 20:35:27.110] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[19Oct2024 20:35:27.230] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[19Oct2024 20:35:27.317] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[19Oct2024 20:35:27.410] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[19Oct2024 20:35:27.457] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[19Oct2024 20:35:27.498] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[19Oct2024 20:35:27.506] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 27.20.100.8476, Intel
-[19Oct2024 20:35:27.584] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/agent/AppData/Roaming/PrismLauncher/instances/Dungeon%20Crashers%20resmoothified/.minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar%23180%23183!/ Service=ModLauncher Env=CLIENT
-[19Oct2024 20:35:28.429] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[19Oct2024 20:35:28.437] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[19Oct2024 20:35:28.447] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[19Oct2024 20:35:28.452] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[19Oct2024 20:35:29.033] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 52 dependencies adding them to mods collection
-[19Oct2024 20:35:29.693] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 24 candidates to load
-[19Oct2024 20:35:30.667] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[19Oct2024 20:35:32.131] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[19Oct2024 20:35:32.319] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft, --assetsDir, C:\Users\agent\AppData\Roaming\PrismLauncher\assets, --uuid, 5298fb7fdf9a4cc1a6ca292f1acec389, --username, shinyjiggly, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
-[19Oct2024 20:35:32.956] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.14.0+mc1.20.1: 74 options available, 0 override(s) found
-[19Oct2024 20:35:32.958] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[19Oct2024 20:35:32.979] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[19Oct2024 20:35:33.567] [main/WARN] [mixin/]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr.catcore.server.translations.api.resource.language.SystemDelegatedLanguage)
-[19Oct2024 20:35:34.924] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
-[19Oct2024 20:35:35.073] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[19Oct2024 20:35:37.555] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (14.30 s after launch)
-[19Oct2024 20:35:37.858] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[19Oct2024 20:35:37.859] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[19Oct2024 20:35:40.412] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2854 milliseconds
-[19Oct2024 20:35:47.650] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/agent/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23208!/assets/.mcassetsroot' uses unexpected schema
-[19Oct2024 20:35:47.650] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/agent/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23208!/data/.mcassetsroot' uses unexpected schema
-[19Oct2024 20:35:47.679] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19Oct2024 20:35:49.387] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: shinyjiggly
-[19Oct2024 20:35:49.516] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
-[19Oct2024 20:35:49.557] [Render thread/INFO] [config2brigadier/]: Loaded C2B lib.
-[19Oct2024 20:35:49.669] [Render thread/INFO] [owo/]: chyz: bro, can you stop breathing
-[19Oct2024 20:35:49.967] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:last_location
-[19Oct2024 20:35:49.967] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:spawn_point
-[19Oct2024 20:35:49.968] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_proxy:proxies
-[19Oct2024 20:35:49.968] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:ender_chests
-[19Oct2024 20:35:49.968] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:experience
-[19Oct2024 20:35:49.968] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:inventories
-[19Oct2024 20:35:49.970] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:fabric_tailor
-[19Oct2024 20:35:49.972] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:styled_nicknames
-[19Oct2024 20:35:49.972] [Render thread/INFO] [switchy_compat_ui/]: [Switchy Compat UI] Initialized!
-[19Oct2024 20:35:49.972] [Render thread/INFO] [switchy-client/]: [Switchy Client] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
-[19Oct2024 20:35:50.043] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:last_location
-[19Oct2024 20:35:50.044] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:spawn_point
-[19Oct2024 20:35:50.067] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_proxy:proxies
-[19Oct2024 20:35:50.068] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:ender_chests
-[19Oct2024 20:35:50.068] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:experience
-[19Oct2024 20:35:50.069] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:inventories
-[19Oct2024 20:35:50.070] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:styled_nicknames
-[19Oct2024 20:35:50.072] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:fabric_tailor
-[19Oct2024 20:35:50.072] [Render thread/INFO] [switchy_compat/]: [Switchy Compat] Initialized!
-[19Oct2024 20:35:50.073] [Render thread/INFO] [switchy/]: [Switchy] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
-[19Oct2024 20:35:50.280] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
-[19Oct2024 20:35:50.288] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[19Oct2024 20:35:50.775] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
-[19Oct2024 20:35:50.805] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[19Oct2024 20:35:50.819] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[19Oct2024 20:35:50.820] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[19Oct2024 20:35:50.836] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod overworldmirror is signed with a valid certificate.
-[19Oct2024 20:35:51.124] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[19Oct2024 20:35:51.131] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.673 ms
-[19Oct2024 20:35:52.164] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[19Oct2024 20:35:52.165] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[19Oct2024 20:35:55.137] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
-[19Oct2024 20:35:55.797] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
-[19Oct2024 20:35:55.996] [Render thread/INFO] [journeymap/]: Registering Keybinds
-[19Oct2024 20:35:56.251] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
-[19Oct2024 20:35:56.251] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, fabric
-[19Oct2024 20:35:56.427] [Worker-ResourceReload-5/INFO] [journeymap/]: No plugins for JourneyMap API discovered.
-[19Oct2024 20:35:56.536] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[19Oct2024 20:35:56.844] [Worker-ResourceReload-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[19Oct2024 20:35:57.435] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18p1 Target: 5.10.3
-[19Oct2024 20:35:57.435] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[19Oct2024 20:35:57.499] [Worker-ResourceReload-1/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/machine/grist_widget with size 196x196 limits mip level from 4 to 2
-[19Oct2024 20:35:57.499] [Worker-ResourceReload-1/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/power_hub/front with size 16x14 limits mip level from 2 to 1
-[19Oct2024 20:35:58.144] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 5.1.4.299 Target: 5.1.4.312
-[19Oct2024 20:35:58.216] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[19Oct2024 20:35:58.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[19Oct2024 20:35:58.478] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Starting version check at https://api.u-team.info/update/overworldmirror.json
-[19Oct2024 20:35:58.516] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Found status: UP_TO_DATE Current: 1.7.0.23 Target: null
-[19Oct2024 20:35:58.517] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[19Oct2024 20:35:58.560] [Worker-ResourceReload-3/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5af2098]
-[19Oct2024 20:35:58.575] [Worker-ResourceReload-3/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
-[19Oct2024 20:35:58.585] [Render thread/INFO] [journeymap/]: Initializing Packet Registries
-[19Oct2024 20:35:59.100] [Render thread/INFO] [journeymap/]: Journeymap Initializing
-[19Oct2024 20:36:00.168] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre36 Target: 7.0.0-pre36
-[19Oct2024 20:36:00.168] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
-[19Oct2024 20:36:00.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.109.6 Target: 1.113.1
-[19Oct2024 20:36:01.157] [Worker-ResourceReload-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'sgjourney:block/naquadah_generator_mark_i' referenced from: sgjourney:naquadah_generator_mark_i#: java.io.FileNotFoundException: sgjourney:models/block/naquadah_generator_mark_i.json
-[19Oct2024 20:36:04.144] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
-[19Oct2024 20:36:04.236] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[19Oct2024 20:36:04.237] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[19Oct2024 20:36:04.942] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphone (Realtek(R) Audio)
-[19Oct2024 20:36:04.942] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[19Oct2024 20:36:05.096] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[19Oct2024 20:36:05.196] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[19Oct2024 20:36:05.197] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[19Oct2024 20:36:05.199] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[19Oct2024 20:36:05.202] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[19Oct2024 20:36:05.218] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[19Oct2024 20:36:05.220] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[19Oct2024 20:36:05.221] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[19Oct2024 20:36:05.222] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[19Oct2024 20:36:05.637] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[19Oct2024 20:36:06.108] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[19Oct2024 20:36:06.118] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
-[19Oct2024 20:36:06.120] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[19Oct2024 20:36:06.122] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
-[19Oct2024 20:36:06.124] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 computercraft:textures/atlas/gui.png-atlas
-[19Oct2024 20:36:06.124] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minestuck:textures/atlas/land_sky.png-atlas
-[19Oct2024 20:36:08.177] [Render thread/WARN] [ModernFix/]: Game took 44.92 seconds to start
-[19Oct2024 20:36:16.369] [Render thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[19Oct2024 20:36:17.245] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
-[19Oct2024 20:36:17.343] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2216 advancements
-[19Oct2024 20:36:17.368] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
-[19Oct2024 20:36:17.369] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
-[19Oct2024 20:36:17.387] [Render thread/INFO] [com.mraof.minestuck.util.BoondollarPriceManager/]: Loaded 192 boondollar prices
-[19Oct2024 20:36:17.390] [ForkJoinPool.commonPool-worker-1/INFO] [xyz.nucleoid.server.translations.impl.ServerTranslations/]: Loaded 226 translation keys
-[19Oct2024 20:36:17.569] [Render thread/INFO] [com.mraof.minestuck.alchemy.recipe.generator.recipe.RecipeGeneratedCostHandler/]: Generated 1315 grist conversions from recipes.
-[19Oct2024 20:36:17.710] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[19Oct2024 20:36:17.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[19Oct2024 20:36:17.870] [Thread-1/INFO] [ModernFix/]: Please use /mfrc to reload any changed mod config files
-[19Oct2024 20:36:18.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[19Oct2024 20:36:19.998] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Oct2024 20:36:19.998] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Oct2024 20:36:19.998] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Oct2024 20:36:20.180] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[19Oct2024 20:36:21.359] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2686 ms
-[19Oct2024 20:36:21.359] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[19Oct2024 20:36:21.473] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Stargate Network is up to date (Version: 7)
-[19Oct2024 20:36:21.658] [Server thread/INFO] [ModernFix/]: Instantiating Mojang DFU
-[19Oct2024 20:36:22.934] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 388 milliseconds
-[19Oct2024 20:36:52.709] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[19Oct2024 20:36:52.717] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[19Oct2024 20:36:52.720] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2205ms or 44 ticks behind
-[19Oct2024 20:36:52.815] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[19Oct2024 20:36:53.702] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[19Oct2024 20:36:53.979] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: shinyjiggly[local:E:678b9456] logged in with entity id 62 at (354.35779646591857, 79.61227879072563, 635.28302667852)
-[19Oct2024 20:36:54.226] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[19Oct2024 20:36:54.227] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[19Oct2024 20:36:54.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly joined the game
-[19Oct2024 20:36:54.277] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@f5d05d7=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/transfer_crystal
-[19Oct2024 20:36:54.278] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@78ad16b5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/large_control_crystal
-[19Oct2024 20:36:54.281] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3c0fdc0d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_upgrade_crystal
-[19Oct2024 20:36:54.281] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@29cd9b7d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/universe_upgrade_crystal
-[19Oct2024 20:36:54.283] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@77785ec5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_movie_variant_crystal
-[19Oct2024 20:36:54.284] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7e0353e9=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/materialization_crystal
-[19Oct2024 20:36:54.285] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2a37bcad=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_atlantis_variant_crystal
-[19Oct2024 20:36:54.285] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7cb86c78=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_energy_crystal
-[19Oct2024 20:36:54.285] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3ddeaf41=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_memory_crystal
-[19Oct2024 20:36:54.286] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@697b0d3c=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/energy_crystal
-[19Oct2024 20:36:54.287] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@17d3e459=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/tollan_upgrade_crystal
-[19Oct2024 20:36:54.288] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@74c7e49a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_transfer_crystal
-[19Oct2024 20:36:54.289] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2c3077bf=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/communication_crystal
-[19Oct2024 20:36:54.289] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2eede033=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/memory_crystal
-[19Oct2024 20:36:54.290] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1f4745b6=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_upgrade_crystal
-[19Oct2024 20:36:54.291] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3c20ba2b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/stargate_variant_crystal
-[19Oct2024 20:36:54.292] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@61213a3d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_sg-1_variant_crystal
-[19Oct2024 20:36:54.293] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7a8639bf=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_control_crystal
-[19Oct2024 20:36:54.293] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@693f1ab9=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_promo_variant_crystal
-[19Oct2024 20:36:54.294] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3769c2a6=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_communication_crystal
-[19Oct2024 20:36:54.294] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6d719589=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/control_crystal
-[19Oct2024 20:36:54.294] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@9d56384=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_materialization_crystal
-[19Oct2024 20:36:54.295] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5ffa0e6d=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/classic_milky_way_variant_crystal
-[19Oct2024 20:36:54.300] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[19Oct2024 20:36:54.325] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[19Oct2024 20:36:54.325] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[19Oct2024 20:36:54.327] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[19Oct2024 20:36:54.354] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[19Oct2024 20:36:54.361] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 5.878 ms
-[19Oct2024 20:36:54.361] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[19Oct2024 20:36:54.365] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 3.756 ms
-[19Oct2024 20:36:54.367] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[19Oct2024 20:36:54.513] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 146.3 milliseconds
-[19Oct2024 20:36:54.518] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 150.3 ms
-[19Oct2024 20:36:54.532] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[19Oct2024 20:36:54.552] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 18.75 milliseconds
-[19Oct2024 20:36:54.559] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 26.81 ms
-[19Oct2024 20:36:54.561] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[19Oct2024 20:36:54.564] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 2.922 ms
-[19Oct2024 20:36:54.567] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[19Oct2024 20:36:54.569] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 1.894 ms
-[19Oct2024 20:36:54.571] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[19Oct2024 20:36:54.573] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.shared.integration.jei.RecipeResolver
-[19Oct2024 20:36:54.575] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 3.042 ms
-[19Oct2024 20:36:54.575] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[19Oct2024 20:36:54.589] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 13.14 ms
-[19Oct2024 20:36:54.590] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[19Oct2024 20:36:55.409] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 818.0 milliseconds
-[19Oct2024 20:36:55.468] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: uteamcore:jei took 58.23 milliseconds
-[19Oct2024 20:36:55.821] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: minestuck:minestuck took 351.2 milliseconds
-[19Oct2024 20:36:55.821] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 1.231 s
-[19Oct2024 20:36:55.827] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[19Oct2024 20:36:55.832] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 5.046 ms
-[19Oct2024 20:36:55.833] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[19Oct2024 20:36:55.836] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[19Oct2024 20:36:55.850] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 12.25 ms
-[19Oct2024 20:36:55.853] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[19Oct2024 20:36:55.856] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[19Oct2024 20:36:55.857] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[19Oct2024 20:36:55.863] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 5.702 ms
-[19Oct2024 20:36:55.863] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[19Oct2024 20:36:55.897] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3008 ingredients
-[19Oct2024 20:36:56.808] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3008 ingredients
-[19Oct2024 20:36:56.810] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 946.8 ms
-[19Oct2024 20:36:57.061] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 1.206 seconds
-[19Oct2024 20:36:57.062] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 1.208 s
-[19Oct2024 20:36:57.063] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 1.229 s
-[19Oct2024 20:36:57.063] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[19Oct2024 20:36:57.065] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.world.item.ItemStack
-[19Oct2024 20:36:57.074] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 10.41 ms
-[19Oct2024 20:36:57.074] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 2.746 s
-[19Oct2024 20:36:58.185] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 732 advancements
-[19Oct2024 20:36:59.987] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] JourneyMap: Press [J]
-[19Oct2024 20:37:00.883] [Render thread/WARN] [ModernFix/]: Time from main menu to in-game was 43.311607 seconds
-[19Oct2024 20:37:00.886] [Render thread/WARN] [ModernFix/]: Total time to load game and open world was 88.231606 seconds
-[19Oct2024 20:37:30.735] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 23020ms or 460 ticks behind
-[19Oct2024 20:37:33.751] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Oct2024 20:37:34.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[19Oct2024 20:37:36.033] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[19Oct2024 20:37:36.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[19Oct2024 20:37:38.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[19Oct2024 20:37:38.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[19Oct2024 20:37:38.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[19Oct2024 20:37:38.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[19Oct2024 20:37:38.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[19Oct2024 20:37:38.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[19Oct2024 20:37:38.792] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[19Oct2024 20:37:54.672] [Server thread/WARN] [net.minecraft.world.level.BaseSpawner/]: Invalid SpawnData: No key entity in MapLike[{id:"minecraft:zombie"}]
-[19Oct2024 20:37:54.676] [Server thread/WARN] [net.minecraft.world.level.BaseSpawner/]: Invalid SpawnPotentials list: No key weight in MapLike[{Entity:{id:"minecraft:zombie"},Weight:1}]; No key data in MapLike[{Entity:{id:"minecraft:zombie"},Weight:1}]
-[19Oct2024 20:38:10.043] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
-[19Oct2024 20:38:31.151] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6135ms or 122 ticks behind
-[19Oct2024 20:49:02.018] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3150ms or 63 ticks behind
-[19Oct2024 20:49:02.368] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Symbols are not valid sgjourney:empty
-[19Oct2024 20:53:53.205] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Oct2024 20:53:53.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[19Oct2024 20:53:53.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[19Oct2024 20:53:53.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[19Oct2024 20:53:53.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[19Oct2024 20:53:53.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[19Oct2024 20:53:53.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[19Oct2024 20:53:53.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[19Oct2024 20:53:53.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[19Oct2024 20:53:53.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[19Oct2024 20:53:53.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[19Oct2024 20:54:22.253] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Oct2024 20:54:22.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[19Oct2024 20:54:22.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[19Oct2024 20:54:22.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[19Oct2024 20:54:22.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[19Oct2024 20:54:22.282] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[19Oct2024 20:54:22.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[19Oct2024 20:54:22.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[19Oct2024 20:54:22.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[19Oct2024 20:54:22.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[19Oct2024 20:54:22.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[19Oct2024 20:55:25.332] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (105, 63, -73).
-[19Oct2024 20:55:45.463] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (70, 79, -110).
-[19Oct2024 20:55:56.328] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (104, 63, -72) (23205).
-[19Oct2024 20:56:01.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (106, 63, -72) (24531).
-[19Oct2024 20:56:28.364] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (106, 60, -75) (26640).
-[19Oct2024 20:57:05.562] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 26640 blocks moved.
-[19Oct2024 20:57:23.860] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (107, 63, -110) (288).
-[19Oct2024 20:57:42.212] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (70, 59, -108) (570).
-[19Oct2024 20:57:49.113] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Missing argument for <radius>.
-[19Oct2024 20:57:49.116] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Usage: //fill <pattern> <radius> [depth]
-[19Oct2024 20:57:56.022] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (570 blocks affected).
-[19Oct2024 20:59:22.608] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
-[19Oct2024 21:02:44.658] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity Pig['public transport'/23, l='ServerLevel[Desertia]', x=27.64, y=64.00, z=52.56] died: public transport was pricked to death
-[19Oct2024 21:03:07.892] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 737 advancements
-[19Oct2024 21:05:32.333] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 739 advancements
-[19Oct2024 21:15:45.672] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (70, 65, -92) (119).
-[19Oct2024 21:19:36.948] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (98, 63, -93) (174).
-[19Oct2024 21:19:44.168] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (104, 67, -83) (385).
-[19Oct2024 21:19:54.262] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (104, 68, -83) (462).
-[19Oct2024 21:20:02.227] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 462 blocks moved.
-[19Oct2024 21:21:10.976] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 744 advancements
-[19Oct2024 21:21:46.586] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 745 advancements
-[19Oct2024 21:21:52.182] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 750 advancements
-[19Oct2024 21:24:51.071] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (100, 67, -90) (60).
-[19Oct2024 21:24:52.974] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (100, 64, -93) (16).
-[19Oct2024 21:25:02.250] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 16 blocks moved.
-[19Oct2024 21:25:10.063] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (101, 64, -90) (8).
-[19Oct2024 21:25:12.967] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (101, 67, -90) (32).
-[19Oct2024 21:25:16.963] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (101, 64, -93) (16).
-[19Oct2024 21:25:21.266] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 16 blocks moved.
-[19Oct2024 21:28:31.113] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (96, 69, -88) (216).
-[19Oct2024 21:28:47.413] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 76, -84) (390).
-[19Oct2024 21:28:52.318] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (97, 69, -88) (280).
-[19Oct2024 21:28:57.046] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 280 blocks moved.
-[19Oct2024 21:31:51.122] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (105, 67, -91) (240).
-[19Oct2024 21:31:55.071] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (105, 63, -106) (80).
-[19Oct2024 21:31:56.010] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (105, 63, -107) (85).
-[19Oct2024 21:32:05.892] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (85 blocks affected).
-[19Oct2024 21:32:14.162] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (89, 67, -90) (34).
-[19Oct2024 21:32:17.768] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (89, 63, -107) (90).
-[19Oct2024 21:32:19.493] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (90 blocks affected).
-[19Oct2024 21:41:22.114] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (105, 67, -108) (170).
-[19Oct2024 21:41:25.071] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (89, 63, -108) (85).
-[19Oct2024 21:41:27.856] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (85 blocks affected).
-[19Oct2024 21:58:12.970] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (100, 63, -111) (48).
-[19Oct2024 21:58:15.065] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (94, 63, -109) (21).
-[19Oct2024 21:58:17.598] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (21 blocks affected).
-[19Oct2024 21:58:28.059] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (100, 62, -112) (56).
-[19Oct2024 21:58:30.764] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (94, 62, -113) (14).
-[19Oct2024 21:58:32.124] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (14 blocks affected).
-[19Oct2024 21:59:20.510] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (94, 61, -114) (4).
-[19Oct2024 21:59:22.957] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (100, 61, -115) (14).
-[19Oct2024 21:59:24.283] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (14 blocks affected).
-[19Oct2024 22:02:12.858] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (92, 61, -116) (18).
-[19Oct2024 22:02:21.259] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (102, 60, -117) (44).
-[19Oct2024 22:02:25.854] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (44 blocks affected).
-[19Oct2024 22:02:45.509] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (94, 60, -116) (18).
-[19Oct2024 22:02:47.806] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (102, 59, -117) (36).
-[19Oct2024 22:02:51.084] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (36 blocks affected).
-[19Oct2024 22:03:34.605] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (102, 60, -118) (4).
-[19Oct2024 22:03:36.605] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (92, 60, -119) (22).
-[19Oct2024 22:04:08.697] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (22 blocks affected).
-[19Oct2024 22:04:18.626] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[19Oct2024 22:04:29.077] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (22 blocks affected).
-[19Oct2024 22:04:41.257] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (102, 61, -120) (44).
-[19Oct2024 22:04:44.010] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (92, 61, -121) (22).
-[19Oct2024 22:04:48.808] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (22 blocks affected).
-[19Oct2024 22:06:31.841] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 751 advancements
-[19Oct2024 22:06:55.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (94, 62, -122) (12).
-[19Oct2024 22:06:58.065] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (101, 67, -122) (48).
-[19Oct2024 22:07:10.844] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (48 blocks affected).
-[19Oct2024 22:11:45.559] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 61, -121) (42).
-[19Oct2024 22:11:48.413] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (103, 67, -108) (98).
-[19Oct2024 22:11:51.259] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (98 blocks affected).
-[19Oct2024 22:12:15.808] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (91, 59, -121) (39).
-[19Oct2024 22:12:18.670] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (91, 67, -108) (126).
-[19Oct2024 22:12:20.777] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (126 blocks affected).
-[19Oct2024 22:12:42.333] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 752 advancements
-[19Oct2024 22:15:35.269] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (76, 63, -100) (1760).
-[19Oct2024 22:15:38.166] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (74, 67, -97) (60).
-[19Oct2024 22:15:42.329] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 60 blocks affected
-[19Oct2024 22:15:42.330] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 22:15:42.330] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 22:15:53.566] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (97, 65, -106)
-[19Oct2024 22:15:53.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 60 blocks affected
-[19Oct2024 22:15:53.568] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 22:15:53.569] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 22:16:01.402] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[19Oct2024 22:16:09.380] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard copy has been rotated.
-[19Oct2024 22:16:17.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (97, 65, -105)
-[19Oct2024 22:16:17.999] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 60 blocks affected
-[19Oct2024 22:16:17.999] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 22:16:17.999] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 22:16:36.436] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[19Oct2024 22:16:44.066] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (74, 66, -99) (24).
-[19Oct2024 22:16:46.077] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (77, 63, -97) (48).
-[19Oct2024 22:16:51.615] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 48 blocks affected
-[19Oct2024 22:16:51.615] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 22:16:51.616] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 22:17:06.642] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard copy has been rotated.
-[19Oct2024 22:17:10.397] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (97, 65, -106)
-[19Oct2024 22:17:10.397] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 48 blocks affected
-[19Oct2024 22:17:10.398] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 22:17:10.398] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 22:17:27.514] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (96, 67, -110) (552).
-[19Oct2024 22:17:33.768] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (98, 64, -107) (48).
-[19Oct2024 22:17:43.781] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 48 blocks moved.
-[19Oct2024 22:32:57.172] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (91, 68, -121) (600).
-[19Oct2024 22:32:59.921] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (103, 68, -108) (182).
-[19Oct2024 22:33:06.640] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (182 blocks affected).
-[19Oct2024 22:40:16.970] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (101, 61, -124) (408).
-[19Oct2024 22:40:19.265] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (92, 63, -123) (60).
-[19Oct2024 22:40:23.197] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (60 blocks affected).
-[19Oct2024 22:42:47.060] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (92, 63, -127) (5).
-[19Oct2024 22:42:51.764] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (105, 61, -125) (126).
-[19Oct2024 22:42:53.563] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (126 blocks affected).
-[19Oct2024 22:43:08.453] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (105, 60, -118) (16).
-[19Oct2024 22:43:14.608] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (103, 60, -127) (30).
-[19Oct2024 22:43:19.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (30 blocks affected).
-[19Oct2024 22:43:35.312] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 60, -127) (1).
-[19Oct2024 22:43:38.207] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (92, 60, -123) (60).
-[19Oct2024 22:43:42.348] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (60 blocks affected).
-[19Oct2024 22:43:53.909] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (102, 61, -122) (44).
-[19Oct2024 22:43:55.967] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (92, 61, -122) (11).
-[19Oct2024 22:43:57.642] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (11 blocks affected).
-[19Oct2024 22:44:15.205] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 60, -125) (96).
-[19Oct2024 22:44:18.057] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (92, 60, -124) (24).
-[19Oct2024 22:44:20.059] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (24 blocks affected).
-[19Oct2024 22:45:04.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (91, 61, -126) (12).
-[19Oct2024 22:45:11.008] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (89, 63, -116) (99).
-[19Oct2024 22:45:14.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (99 blocks affected).
-[19Oct2024 22:46:20.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (88, 63, -117) (4).
-[19Oct2024 22:46:24.115] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (88, 61, -127) (33).
-[19Oct2024 22:46:26.863] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (33 blocks affected).
-[19Oct2024 22:46:30.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (90, 60, -119) (54).
-[19Oct2024 22:46:32.563] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (89, 60, -127) (18).
-[19Oct2024 22:46:35.553] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (89, 60, -125) (14).
-[19Oct2024 22:46:39.011] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (14 blocks affected).
-[19Oct2024 22:47:13.573] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (106, 63, -117) (648).
-[19Oct2024 22:47:16.214] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (106, 61, -127) (33).
-[19Oct2024 22:47:18.412] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (33 blocks affected).
-[19Oct2024 22:47:22.255] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (105, 61, -128) (4).
-[19Oct2024 22:47:26.111] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (89, 63, -128) (51).
-[19Oct2024 22:47:28.234] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (51 blocks affected).
-[19Oct2024 22:49:01.461] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (99, 63, -129) (22).
-[19Oct2024 22:49:05.013] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (95, 63, -132) (20).
-[19Oct2024 22:49:06.563] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (20 blocks affected).
-[19Oct2024 22:49:38.814] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (100, 67, -132) (30).
-[19Oct2024 22:49:44.076] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (101, 67, -122) (22).
-[19Oct2024 22:49:45.455] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (22 blocks affected).
-[19Oct2024 22:49:49.474] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (101, 67, -123) (2).
-[19Oct2024 22:49:52.119] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (94, 67, -132) (80).
-[19Oct2024 22:49:53.892] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (80 blocks affected).
-[19Oct2024 22:49:58.414] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (94, 64, -128) (20).
-[19Oct2024 22:50:00.781] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (20 blocks affected).
-[19Oct2024 22:50:05.959] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (100, 64, -128) (140).
-[19Oct2024 22:50:08.500] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (100, 66, -132) (15).
-[19Oct2024 22:50:11.415] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (15 blocks affected).
-[19Oct2024 22:50:46.511] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (102, 67, -128) (30).
-[19Oct2024 22:50:47.867] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (101, 67, -122) (14).
-[19Oct2024 22:50:49.564] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (14 blocks affected).
-[19Oct2024 22:50:56.321] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (100, 66, -128) (28).
-[19Oct2024 22:50:58.211] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (103, 63, -128) (16).
-[19Oct2024 22:50:59.763] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (16 blocks affected).
-[19Oct2024 22:51:15.009] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 64, -117) (24).
-[19Oct2024 22:51:23.161] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (103, 65, -128) (24).
-[19Oct2024 22:51:23.709] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (103, 64, -128) (12).
-[19Oct2024 22:51:25.342] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (12 blocks affected).
-[19Oct2024 22:51:30.670] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 64, -128) (1).
-[19Oct2024 22:51:38.973] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (106, 64, -117) (48).
-[19Oct2024 22:51:45.797] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (48 blocks affected).
-[19Oct2024 22:51:52.868] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 65, -121) (16).
-[19Oct2024 22:51:54.012] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (103, 66, -128) (16).
-[19Oct2024 22:51:57.988] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (16 blocks affected).
-[19Oct2024 22:52:09.167] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (92, 67, -122) (168).
-[19Oct2024 22:52:16.116] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (94, 67, -128) (21).
-[19Oct2024 22:52:19.652] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (21 blocks affected).
-[19Oct2024 22:52:27.223] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (94, 66, -128) (2).
-[19Oct2024 22:52:36.070] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (91, 63, -128) (16).
-[19Oct2024 22:52:37.682] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (16 blocks affected).
-[19Oct2024 22:52:50.768] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (88, 64, -128) (8).
-[19Oct2024 22:52:57.808] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (90, 64, -117) (48).
-[19Oct2024 22:52:58.512] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (90, 64, -117) (1).
-[19Oct2024 22:53:01.163] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (88, 64, -128) (36).
-[19Oct2024 22:53:02.764] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (36 blocks affected).
-[19Oct2024 22:54:27.509] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (91, 64, -122) (12).
-[19Oct2024 22:54:30.064] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (91, 66, -128) (21).
-[19Oct2024 22:54:32.393] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (21 blocks affected).
-[19Oct2024 22:56:36.170] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (100, 63, -133) (240).
-[19Oct2024 22:56:37.915] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (94, 63, -135) (21).
-[19Oct2024 22:56:39.450] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (21 blocks affected).
-[19Oct2024 22:58:20.773] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (90, 68, -107) (870).
-[19Oct2024 22:58:24.061] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (103, 68, -94) (196).
-[19Oct2024 22:58:37.552] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 183 blocks have been replaced.
-[19Oct2024 22:58:48.503] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (92, 68, -94) (12).
-[19Oct2024 22:58:51.911] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (102, 68, -91) (44).
-[19Oct2024 22:58:53.758] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 25 blocks have been replaced.
-[19Oct2024 22:59:03.177] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (88, 68, -90) (30).
-[19Oct2024 22:59:07.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (70, 64, -104) (1425).
-[19Oct2024 22:59:24.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (70, 64, -90) (15).
-[19Oct2024 22:59:29.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (79, 67, -104) (600).
-[19Oct2024 22:59:33.370] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (600 blocks affected).
-[19Oct2024 22:59:37.523] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (75, 68, -103) (20).
-[19Oct2024 22:59:39.509] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (79, 68, -103) (4).
-[19Oct2024 22:59:42.062] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (75, 68, -91) (65).
-[19Oct2024 22:59:44.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (65 blocks affected).
-[19Oct2024 22:59:58.110] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (88, 64, -90) (140).
-[19Oct2024 23:00:03.772] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (80, 67, -104) (540).
-[19Oct2024 23:00:18.982] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 115 blocks have been replaced.
-[19Oct2024 23:00:24.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (79, 63, -90) (150).
-[19Oct2024 23:00:28.064] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (70, 63, -104) (150).
-[19Oct2024 23:00:31.528] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (150 blocks affected).
-[19Oct2024 23:00:48.683] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (79, 67, -90) (750).
-[19Oct2024 23:00:50.714] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (79, 64, -104) (60).
-[19Oct2024 23:00:56.105] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (60 blocks affected).
-[19Oct2024 23:01:02.334] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (87, 64, -100) (45).
-[19Oct2024 23:01:04.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (85, 66, -103) (42).
-[19Oct2024 23:01:09.644] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (42 blocks affected).
-[19Oct2024 23:01:12.984] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[19Oct2024 23:01:17.364] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (87, 64, -100) (36).
-[19Oct2024 23:01:23.299] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (36 blocks affected).
-[19Oct2024 23:01:57.072] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (104, 68, -94) (630).
-[19Oct2024 23:01:59.073] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (104, 68, -107) (14).
-[19Oct2024 23:02:05.263] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (14 blocks affected).
-[19Oct2024 23:07:39.659] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (90, 63, -107) (90).
-[19Oct2024 23:07:41.316] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (91, 63, -107) (2).
-[19Oct2024 23:07:45.018] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (90, 63, -97) (22).
-[19Oct2024 23:08:00.049] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (22 blocks affected).
-[19Oct2024 23:08:05.008] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 63, -107) (13).
-[19Oct2024 23:08:12.011] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (104, 63, -94) (28).
-[19Oct2024 23:08:13.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (28 blocks affected).
-[19Oct2024 23:08:18.660] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (99, 63, -103) (60).
-[19Oct2024 23:08:20.411] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (95, 63, -102) (10).
-[19Oct2024 23:08:22.143] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (10 blocks affected).
-[19Oct2024 23:08:28.409] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (90, 63, -94) (54).
-[19Oct2024 23:08:32.910] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (95, 63, -95) (12).
-[19Oct2024 23:08:34.367] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (12 blocks affected).
-[19Oct2024 23:08:37.815] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (99, 63, -95) (5).
-[19Oct2024 23:08:39.264] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (104, 63, -94) (12).
-[19Oct2024 23:08:40.684] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (12 blocks affected).
-[19Oct2024 23:08:48.592] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 757 advancements
-[19Oct2024 23:12:01.060] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (96, 63, -89) (54).
-[19Oct2024 23:12:03.308] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (98, 63, -85) (15).
-[19Oct2024 23:12:12.087] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (15 blocks affected).
-[19Oct2024 23:12:22.261] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (92, 63, -84) (14).
-[19Oct2024 23:12:29.006] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (101, 63, -86) (30).
-[19Oct2024 23:12:30.912] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (30 blocks affected).
-[19Oct2024 23:13:24.511] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (91, 63, -84) (33).
-[19Oct2024 23:13:27.409] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (102, 63, -84) (12).
-[19Oct2024 23:13:44.867] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (12 blocks affected).
-[19Oct2024 23:13:51.564] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 63, -89) (12).
-[19Oct2024 23:13:54.259] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (101, 63, -85) (15).
-[19Oct2024 23:13:57.012] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (15 blocks affected).
-[19Oct2024 23:17:20.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (96, 63, -74) (72).
-[19Oct2024 23:17:22.660] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (98, 63, -69) (18).
-[19Oct2024 23:17:31.512] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (18 blocks affected).
-[19Oct2024 23:20:02.744] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-28, 66, 9) (40132).
-[19Oct2024 23:20:06.359] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-20, 63, 3) (252).
-[19Oct2024 23:20:19.140] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 252 blocks affected
-[19Oct2024 23:20:19.140] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 23:20:19.141] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 23:20:50.099] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard copy has been rotated.
-[19Oct2024 23:21:17.522] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (87, 64, -103)
-[19Oct2024 23:21:17.522] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 252 blocks affected
-[19Oct2024 23:21:17.522] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 23:21:17.524] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 23:21:34.666] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[19Oct2024 23:21:41.211] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (86, 64, -103)
-[19Oct2024 23:21:41.211] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 252 blocks affected
-[19Oct2024 23:21:41.211] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 23:21:41.212] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 23:21:48.394] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 758 advancements
-[19Oct2024 23:24:40.600] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 762 advancements
-[19Oct2024 23:24:42.621] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (84, 63, -103) (11235).
-[19Oct2024 23:24:45.332] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (87, 63, -91) (52).
-[19Oct2024 23:24:51.517] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (52 blocks affected).
-[19Oct2024 23:24:58.264] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (80, 63, -93) (24).
-[19Oct2024 23:25:00.061] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (83, 63, -91) (12).
-[19Oct2024 23:25:03.405] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (12 blocks affected).
-[19Oct2024 23:25:56.885] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
-[19Oct2024 23:26:21.420] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 763 advancements
-[19Oct2024 23:31:31.462] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (103, 68, -84) (1008).
-[19Oct2024 23:31:33.663] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (104, 67, -84) (4).
-[19Oct2024 23:31:41.417] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (97, 78, -86) (288).
-[19Oct2024 23:31:46.560] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (105, 67, -83) (432).
-[19Oct2024 23:32:06.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 blocks have been replaced.
-[19Oct2024 23:32:31.071] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 96 blocks have been replaced.
-[19Oct2024 23:32:38.711] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (90, 67, -84) (32).
-[19Oct2024 23:32:43.421] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (97, 78, -86) (288).
-[19Oct2024 23:32:52.362] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 83 blocks have been replaced.
-[19Oct2024 23:33:13.785] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 768 advancements
-[19Oct2024 23:33:20.596] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 773 advancements
-[19Oct2024 23:33:44.320] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (97, 75, -87) (8).
-[19Oct2024 23:33:47.120] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (103, 69, -88) (98).
-[19Oct2024 23:33:50.407] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 51 blocks have been replaced.
-[19Oct2024 23:33:54.164] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (104, 68, -88) (4).
-[19Oct2024 23:33:57.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (101, 75, -87) (64).
-[19Oct2024 23:33:59.436] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 13 blocks have been replaced.
-[19Oct2024 23:34:02.180] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (96, 76, -86) (24).
-[19Oct2024 23:34:08.612] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (89, 67, -88) (240).
-[19Oct2024 23:34:10.859] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 63 blocks have been replaced.
-[19Oct2024 23:34:16.066] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (97, 69, -88) (27).
-[19Oct2024 23:34:19.721] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (97, 78, -86) (30).
-[19Oct2024 23:34:37.944] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 9 blocks have been replaced.
-[19Oct2024 23:34:57.934] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 775 advancements
-[19Oct2024 23:35:38.494] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (92, 69, -84) (180).
-[19Oct2024 23:35:42.165] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (96, 74, -85) (60).
-[19Oct2024 23:35:58.564] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 8 blocks have been replaced.
-[19Oct2024 23:38:08.310] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (83, 63, -168) (14112).
-[19Oct2024 23:38:24.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (83, 71, -168) (4704).
-[19Oct2024 23:38:29.336] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (86, 63, -160) (324).
-[19Oct2024 23:38:34.930] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 324 blocks affected
-[19Oct2024 23:38:34.931] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 23:38:34.931] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 23:38:48.986] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (87, 64, -132)
-[19Oct2024 23:38:48.987] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 324 blocks affected
-[19Oct2024 23:38:48.987] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 23:38:48.987] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 23:39:03.597] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[19Oct2024 23:39:07.204] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (84, 64, -132)
-[19Oct2024 23:39:07.204] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 324 blocks affected
-[19Oct2024 23:39:07.205] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[19Oct2024 23:39:07.205] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[19Oct2024 23:40:00.220] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (87, 71, -137) (432).
-[19Oct2024 23:40:07.667] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (91, 63, -130) (360).
-[19Oct2024 23:40:14.422] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 360 blocks moved.
-[19Oct2024 23:40:23.651] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 360 blocks moved.
-[19Oct2024 23:41:22.215] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (87, 64, -138) (90).
-[19Oct2024 23:41:26.262] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (89, 67, -133) (72).
-[19Oct2024 23:41:28.861] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (72 blocks affected).
-[19Oct2024 23:41:31.309] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (88, 70, -136) (32).
-[19Oct2024 23:41:34.713] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (89, 65, -132) (60).
-[19Oct2024 23:41:36.447] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (60 blocks affected).
-[19Oct2024 23:41:46.506] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (90, 64, -138) (28).
-[19Oct2024 23:41:47.921] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (90, 66, -133) (18).
-[19Oct2024 23:41:49.391] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (18 blocks affected).
-[19Oct2024 23:41:50.814] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (90, 67, -134) (4).
-[19Oct2024 23:41:51.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (90, 67, -138) (5).
-[19Oct2024 23:41:53.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (5 blocks affected).
-[19Oct2024 23:43:36.749] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
-[19Oct2024 23:46:39.321] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[19Oct2024 23:46:39.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[19Oct2024 23:46:39.671] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[19Oct2024 23:46:39.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[19Oct2024 23:46:39.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[19Oct2024 23:46:39.697] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[19Oct2024 23:46:39.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[19Oct2024 23:46:39.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[19Oct2024 23:46:39.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[19Oct2024 23:46:39.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[19Oct2024 23:46:39.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[19Oct2024 23:46:40.549] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[19Oct2024 23:46:40.551] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[19Oct2024 23:46:40.556] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[19Oct2024 23:46:40.566] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[19Oct2024 23:46:40.577] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
-[19Oct2024 23:46:40.612] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:forge_gui took 23.45 milliseconds
-[19Oct2024 23:46:40.615] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 46.73 ms
-[19Oct2024 23:46:40.681] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shinyjiggly lost connection: Disconnected
-[19Oct2024 23:46:40.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly left the game
-[19Oct2024 23:46:40.859] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[19Oct2024 23:46:41.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[19Oct2024 23:46:41.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[19Oct2024 23:46:41.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[19Oct2024 23:46:41.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[19Oct2024 23:46:41.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[19Oct2024 23:46:42.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[19Oct2024 23:46:42.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[19Oct2024 23:46:42.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[19Oct2024 23:46:42.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[19Oct2024 23:46:42.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[19Oct2024 23:46:42.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[19Oct2024 23:46:42.097] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[19Oct2024 23:46:42.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[19Oct2024 23:46:42.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Desertiaaa): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (land_shinyjiggly): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skaia): All chunks are saved
-[19Oct2024 23:46:42.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19Oct2024 23:46:54.163] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[21Oct2024 00:00:24.086] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-27, 80, 69) (315).
+[21Oct2024 00:00:34.400] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-38, 80, 63) (84).
+[21Oct2024 00:00:37.089] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (84 blocks affected).
+[21Oct2024 00:00:41.681] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-38, 80, 69) (7).
+[21Oct2024 00:00:44.221] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-47, 80, 62) (80).
+[21Oct2024 00:00:45.395] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (80 blocks affected).
+[21Oct2024 00:00:53.187] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-48, 81, 63) (8).
+[21Oct2024 00:01:00.624] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-37, 88, 67) (480).
+[21Oct2024 00:01:03.511] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (480 blocks affected).
+[21Oct2024 00:01:18.837] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-37, 88, 75) (9).
+[21Oct2024 00:01:20.014] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-37, 89, 75) (18).
+[21Oct2024 00:01:26.737] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-48, 81, 68) (864).
+[21Oct2024 00:01:28.448] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (864 blocks affected).
+[21Oct2024 00:02:04.273] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-48, 81, 69) (2).
+[21Oct2024 00:02:07.988] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-48, 88, 62) (64).
+[21Oct2024 00:02:22.495] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (64 blocks affected).
+[21Oct2024 00:02:58.443] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 158 advancements
+[21Oct2024 00:03:39.203] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-44, 80, 54) (405).
+[21Oct2024 00:03:40.875] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-39, 80, 60) (42).
+[21Oct2024 00:03:52.528] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (42 blocks affected).
+[21Oct2024 00:05:46.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly has made the advancement [Stone Age]
+[21Oct2024 00:05:46.498] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] shinyjiggly has made the advancement [Stone Age]
+[21Oct2024 00:05:46.532] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 177 advancements
+[21Oct2024 00:06:27.463] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 183 advancements
+[21Oct2024 00:08:14.295] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 184 advancements
+[21Oct2024 00:10:50.922] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 190 advancements
+[21Oct2024 00:18:57.484] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 192 advancements
+[21Oct2024 00:24:43.080] [Render thread/WARN] [mezz.jei.library.recipes.PluginManager/]: Recipe registry plugin is slow, took 29.60 ms. class dan200.computercraft.shared.integration.jei.RecipeResolver
+[21Oct2024 00:29:21.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Set the time to 1000]
+[21Oct2024 00:29:21.746] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[21Oct2024 00:29:31.079] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-38, 81, 65) (24).
+[21Oct2024 00:29:41.691] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-27, 87, 76) (1008).
+[21Oct2024 00:29:52.828] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (1008 blocks affected).
+[21Oct2024 00:30:37.892] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-27, 80, 69) (64).
+[21Oct2024 00:30:44.035] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-9, 80, 62) (152).
+[21Oct2024 00:30:54.905] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (152 blocks affected).
+[21Oct2024 00:31:05.339] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (0, 81, 62) (20).
+[21Oct2024 00:31:05.729] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (0, 81, 62) (1).
+[21Oct2024 00:31:12.278] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-26, 86, 75) (2268).
+[21Oct2024 00:31:15.013] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (2268 blocks affected).
+[21Oct2024 00:31:33.755] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-23, 79, 45) (992).
+[21Oct2024 00:31:43.777] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (1, 94, 38) (3200).
+[21Oct2024 00:31:47.584] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (3200 blocks affected).
+[21Oct2024 00:31:54.747] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (2, 94, 42) (10).
+[21Oct2024 00:32:01.630] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-18, 79, 37) (2016).
+[21Oct2024 00:32:03.315] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (2016 blocks affected).
+[21Oct2024 00:32:07.291] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-26, 79, 27) (7424).
+[21Oct2024 00:32:08.838] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (7424 blocks affected).
+[21Oct2024 00:34:00.680] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-9, 81, 69) (2322).
+[21Oct2024 00:34:06.475] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-9, 88, 46) (192).
+[21Oct2024 00:34:20.919] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (192 blocks affected).
+[21Oct2024 00:34:36.385] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-10, 88, 70) (50).
+[21Oct2024 00:34:41.975] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-40, 81, 70) (248).
+[21Oct2024 00:34:47.746] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (248 blocks affected).
+[21Oct2024 00:35:04.677] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-8, 88, 46) (6600).
+[21Oct2024 00:35:07.673] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (1, 80, 46) (90).
+[21Oct2024 00:35:10.832] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (90 blocks affected).
+[21Oct2024 00:35:20.879] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-27, 80, 41) (174).
+[21Oct2024 00:35:32.623] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-5, 80, 45) (115).
+[21Oct2024 00:35:42.358] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (115 blocks affected).
+[21Oct2024 00:36:03.677] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-4, 80, 41) (10).
+[21Oct2024 00:36:08.729] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-8, 80, 62) (110).
+[21Oct2024 00:36:10.654] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (110 blocks affected).
+[21Oct2024 00:36:15.955] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-3, 78, 64) (54).
+[21Oct2024 00:36:20.325] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (1, 80, 47) (270).
+[21Oct2024 00:36:23.739] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (270 blocks affected).
+[21Oct2024 00:36:28.439] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2177ms or 43 ticks behind
+[21Oct2024 00:38:15.179] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-5, 79, 41) (98).
+[21Oct2024 00:38:25.379] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-48, 79, 41) (44).
+[21Oct2024 00:38:54.957] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Invalid value for <pattern> (Block name 'spruce_crate' was not recognized.), acceptable values are any pattern
+[21Oct2024 00:38:54.958] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Usage: //set <pattern>
+[21Oct2024 00:40:23.886] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (44 blocks affected).
+[21Oct2024 00:40:56.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (44 blocks affected).
+[21Oct2024 00:42:23.634] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-26, 81, 63) (1587).
+[21Oct2024 00:42:40.772] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-26, 88, 70) (6900).
+[21Oct2024 00:42:43.995] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-26, 81, 63) (64).
+[21Oct2024 00:42:59.738] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (64 blocks affected).
+[21Oct2024 00:44:16.079] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 193 advancements
+[21Oct2024 00:44:27.081] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 200 advancements
+[21Oct2024 00:45:03.439] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-35, 89, 45) (1710).
+[21Oct2024 00:45:08.476] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-35, 85, 41) (25).
+[21Oct2024 00:45:14.634] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 25 blocks affected
+[21Oct2024 00:45:14.635] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:45:14.635] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:45:21.827] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-34, 86, 40)
+[21Oct2024 00:45:21.828] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 25 blocks affected
+[21Oct2024 00:45:21.829] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:45:21.830] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:45:31.661] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-33, 86, 40)
+[21Oct2024 00:45:31.663] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 25 blocks affected
+[21Oct2024 00:45:31.664] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:45:31.665] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:45:34.974] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-32, 86, 40)
+[21Oct2024 00:45:34.975] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 25 blocks affected
+[21Oct2024 00:45:34.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:45:34.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:45:38.450] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-31, 86, 40)
+[21Oct2024 00:45:38.454] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 25 blocks affected
+[21Oct2024 00:45:38.454] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:45:38.454] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:45:42.755] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-30, 86, 40)
+[21Oct2024 00:45:42.757] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 25 blocks affected
+[21Oct2024 00:45:42.757] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:45:42.758] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:46:22.202] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-35, 86, 42) (4).
+[21Oct2024 00:46:25.074] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-30, 89, 45) (96).
+[21Oct2024 00:46:33.207] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 96 blocks affected
+[21Oct2024 00:46:33.209] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:46:33.210] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:46:39.052] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-30, 86, 40)
+[21Oct2024 00:46:39.053] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 96 blocks affected
+[21Oct2024 00:46:39.054] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:46:39.055] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:46:44.295] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-25, 86, 41)
+[21Oct2024 00:46:44.296] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 96 blocks affected
+[21Oct2024 00:46:44.296] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:46:44.296] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:46:47.289] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[21Oct2024 00:46:51.219] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-25, 86, 40)
+[21Oct2024 00:46:51.219] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 96 blocks affected
+[21Oct2024 00:46:51.219] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:46:51.219] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:46:55.535] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-20, 86, 40)
+[21Oct2024 00:46:55.537] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 96 blocks affected
+[21Oct2024 00:46:55.539] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:46:55.540] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:47:01.043] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-15, 86, 40)
+[21Oct2024 00:47:01.044] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 96 blocks affected
+[21Oct2024 00:47:01.045] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:47:01.047] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:47:25.224] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-29, 89, 45) (2).
+[21Oct2024 00:47:29.076] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-35, 86, 42) (112).
+[21Oct2024 00:47:36.896] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-28, 89, 45) (128).
+[21Oct2024 00:47:54.941] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 128 blocks affected
+[21Oct2024 00:47:54.944] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:47:54.945] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:48:00.646] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-35, 87, 40)
+[21Oct2024 00:48:00.647] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 128 blocks affected
+[21Oct2024 00:48:00.653] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:48:00.654] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:48:06.680] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (-42, 87, 40)
+[21Oct2024 00:48:06.680] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 128 blocks affected
+[21Oct2024 00:48:06.682] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[21Oct2024 00:48:06.683] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[21Oct2024 00:48:45.650] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-27, 79, 26) (1224).
+[21Oct2024 00:48:53.477] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (2, 78, 42) (1020).
+[21Oct2024 00:49:01.354] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 229 blocks have been replaced.
+[21Oct2024 00:49:34.335] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-27, 79, 32) (660).
+[21Oct2024 00:49:40.739] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-36, 97, 19) (2660).
+[21Oct2024 00:49:44.556] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (2660 blocks affected).
+[21Oct2024 00:50:01.885] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-26, 97, 33) (165).
+[21Oct2024 00:50:16.122] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-28, 79, 36) (3078).
+[21Oct2024 00:50:24.483] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-14, 105, 19) (7290).
+[21Oct2024 00:50:26.312] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (7290 blocks affected).
+[21Oct2024 00:50:41.938] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-37, 81, 29) (6600).
+[21Oct2024 00:50:48.631] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-39, 95, 17) (585).
+[21Oct2024 00:50:50.355] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (585 blocks affected).
+[21Oct2024 00:51:07.644] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-36, 78, 32) (1152).
+[21Oct2024 00:51:12.174] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-14, 78, 19) (322).
+[21Oct2024 00:51:19.001] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (322 blocks affected).
+[21Oct2024 01:04:43.257] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-28, 80, 71) (2385).
+[21Oct2024 01:04:45.824] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-41, 80, 74) (56).
+[21Oct2024 01:04:55.348] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (56 blocks affected).
+[21Oct2024 01:05:02.741] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-41, 80, 74) (1).
+[21Oct2024 01:05:05.231] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-48, 80, 71) (32).
+[21Oct2024 01:05:07.066] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (32 blocks affected).
+[21Oct2024 01:05:23.975] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[21Oct2024 01:05:23.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Set the time to 1000]
+[21Oct2024 01:05:54.230] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-37, 85, 82) (864).
+[21Oct2024 01:05:58.793] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-34, 79, 79) (112).
+[21Oct2024 01:06:09.997] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (112 blocks affected).
+[21Oct2024 01:06:37.564] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-31, 85, 77) (84).
+[21Oct2024 01:06:40.067] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-28, 79, 80) (112).
+[21Oct2024 01:06:41.924] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (112 blocks affected).
+[21Oct2024 01:06:56.676] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-22, 83, 76) (175).
+[21Oct2024 01:06:59.825] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-35, 86, 81) (336).
+[21Oct2024 01:07:00.497] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-34, 87, 80) (325).
+[21Oct2024 01:07:02.291] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (325 blocks affected).
+[21Oct2024 01:07:10.433] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-40, 88, 76) (70).
+[21Oct2024 01:07:16.897] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-43, 80, 79) (144).
+[21Oct2024 01:07:18.461] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (144 blocks affected).
+[21Oct2024 01:08:13.749] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 219 advancements
+[21Oct2024 01:08:19.585] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-50, 79, 44) (576).
+[21Oct2024 01:08:25.385] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-52, 79, 54) (33).
+[21Oct2024 01:08:31.027] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (33 blocks affected).
+[21Oct2024 01:08:35.231] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-51, 79, 53) (4).
+[21Oct2024 01:08:39.926] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-53, 79, 64) (36).
+[21Oct2024 01:08:41.129] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (36 blocks affected).
+[21Oct2024 01:08:45.137] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-53, 79, 64) (1).
+[21Oct2024 01:08:48.586] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-51, 79, 73) (30).
+[21Oct2024 01:08:50.132] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (30 blocks affected).
+[21Oct2024 01:09:44.607] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-53, 80, 75) (18).
+[21Oct2024 01:09:51.424] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-48, 89, 82) (480).
+[21Oct2024 01:09:54.283] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (480 blocks affected).
+[21Oct2024 01:10:05.288] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-55, 90, 74) (144).
+[21Oct2024 01:10:13.288] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-46, 80, 84) (1210).
+[21Oct2024 01:10:14.707] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (1210 blocks affected).
+[21Oct2024 01:11:12.558] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-42, 79, 75) (100).
+[21Oct2024 01:11:16.273] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-55, 79, 84) (140).
+[21Oct2024 01:11:19.998] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 46 blocks have been greened.
+[21Oct2024 01:11:24.484] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-55, 79, 83) (2).
+[21Oct2024 01:11:33.480] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-54, 79, 63) (42).
+[21Oct2024 01:11:39.676] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-56, 80, 84) (132).
+[21Oct2024 01:11:45.647] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (132 blocks affected).
+[21Oct2024 01:28:20.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-9, 80, 71) (828).
+[21Oct2024 01:28:25.379] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-28, 80, 74) (80).
+[21Oct2024 01:28:32.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (80 blocks affected).
+[21Oct2024 01:29:15.181] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-4, 80, 74) (25).
+[21Oct2024 01:29:16.875] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-8, 80, 71) (20).
+[21Oct2024 01:29:18.755] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (20 blocks affected).
+[21Oct2024 01:29:22.221] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-4, 80, 71) (5).
+[21Oct2024 01:29:24.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-8, 80, 62) (50).
+[21Oct2024 01:29:26.048] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (50 blocks affected).
+[21Oct2024 02:03:49.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Set the weather to clear]
+[21Oct2024 02:03:49.579] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the weather to clear
+[21Oct2024 02:04:36.561] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 220 advancements
+[21Oct2024 02:07:28.643] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-44, 81, 33) (2220).
+[21Oct2024 02:07:44.305] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-16, 93, 2) (12064).
+[21Oct2024 02:07:47.635] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (12064 blocks affected).
+[21Oct2024 02:08:02.528] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-25, 79, 18) (2550).
+[21Oct2024 02:08:07.038] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-14, 78, 25) (192).
+[21Oct2024 02:08:12.705] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (192 blocks affected).
+[21Oct2024 02:08:28.137] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-17, 80, 18) (96).
+[21Oct2024 02:08:32.279] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-31, 80, 9) (150).
+[21Oct2024 02:08:34.931] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (150 blocks affected).
+[21Oct2024 02:08:39.680] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-32, 80, 18) (20).
+[21Oct2024 02:08:42.087] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-34, 80, 11) (24).
+[21Oct2024 02:08:44.379] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (24 blocks affected).
+[21Oct2024 02:10:35.455] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-38, 81, 1) (110).
+[21Oct2024 02:10:44.692] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-20, 89, -1) (513).
+[21Oct2024 02:10:46.840] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (513 blocks affected).
+[21Oct2024 02:11:10.008] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 221 advancements
+[21Oct2024 02:11:19.814] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-44, 94, 3) (750).
+[21Oct2024 02:11:23.533] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-44, 93, 3) (625).
+[21Oct2024 02:11:23.878] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-44, 93, 3) (1).
+[21Oct2024 02:11:39.803] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-18, 103, 18) (4752).
+[21Oct2024 02:11:47.751] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 4752 blocks moved.
+[21Oct2024 02:11:56.211] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 4752 blocks moved.
+[21Oct2024 02:12:02.535] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 4752 blocks moved.
+[21Oct2024 02:12:07.214] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[21Oct2024 02:12:18.082] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[21Oct2024 02:15:03.765] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-18, 79, 22) (8100).
+[21Oct2024 02:15:12.181] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (-44, 80, 4) (1026).
+[21Oct2024 02:15:21.780] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 624 blocks have been replaced.
+[21Oct2024 02:15:39.916] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[21Oct2024 02:15:39.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Set the time to 1000]
+[21Oct2024 02:16:30.055] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 223 advancements
+[21Oct2024 02:22:35.653] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (-3, 77, 49) (7728).
+[21Oct2024 02:22:41.032] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (1, 74, 68) (400).
+[21Oct2024 02:22:48.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (400 blocks affected).
+[21Oct2024 02:23:06.681] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (2, 77, 56) (104).
+[21Oct2024 02:23:10.575] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (3, 76, 58) (99).
+[21Oct2024 02:23:14.027] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (8, 73, 68) (264).
+[21Oct2024 02:23:22.994] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 105 blocks have been replaced.
+[21Oct2024 02:25:42.575] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[21Oct2024 02:25:42.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Set the time to 1000]
+[21Oct2024 02:25:53.058] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-10-21_02.25.51.png
+[21Oct2024 02:26:00.678] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-10-21_02.25.59.png
+[21Oct2024 02:26:08.351] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-10-21_02.26.07.png
+[21Oct2024 02:27:35.773] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-10-21_02.27.35.png
+[21Oct2024 02:27:40.642] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-10-21_02.27.40.png
+[21Oct2024 02:27:45.351] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-10-21_02.27.44.png
+[21Oct2024 02:27:57.149] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-10-21_02.27.56.png
+[21Oct2024 02:28:01.758] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-10-21_02.28.01.png
+[21Oct2024 02:28:05.192] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2024-10-21_02.28.04.png
+[21Oct2024 02:28:08.248] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[21Oct2024 02:28:08.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/minecraft:overworld
+[21Oct2024 02:28:08.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/minecraft:the_end
+[21Oct2024 02:28:08.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/sgjourney:chulak
+[21Oct2024 02:28:08.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/minestuck:skaia
+[21Oct2024 02:28:08.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/sgjourney:cavum_tenebrae
+[21Oct2024 02:28:08.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/minecraft:the_nether
+[21Oct2024 02:28:08.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/sgjourney:lantea
+[21Oct2024 02:28:08.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/sgjourney:abydos
+[21Oct2024 02:28:08.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/overworldmirror:overworld
+[21Oct2024 02:28:10.091] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[21Oct2024 02:28:10.092] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[21Oct2024 02:28:10.093] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[21Oct2024 02:28:10.095] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[21Oct2024 02:28:10.103] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[21Oct2024 02:28:10.119] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:forge_gui took 12.45 milliseconds
+[21Oct2024 02:28:10.122] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 26.55 ms
+[21Oct2024 02:28:10.158] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shinyjiggly lost connection: Disconnected
+[21Oct2024 02:28:10.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly left the game
+[21Oct2024 02:28:10.204] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[21Oct2024 02:28:10.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21Oct2024 02:28:10.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21Oct2024 02:28:10.781] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21Oct2024 02:28:12.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/minecraft:overworld
+[21Oct2024 02:28:13.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/minecraft:the_end
+[21Oct2024 02:28:13.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/sgjourney:chulak
+[21Oct2024 02:28:13.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/minestuck:skaia
+[21Oct2024 02:28:13.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/sgjourney:cavum_tenebrae
+[21Oct2024 02:28:13.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/minecraft:the_nether
+[21Oct2024 02:28:13.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/sgjourney:lantea
+[21Oct2024 02:28:13.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/sgjourney:abydos
+[21Oct2024 02:28:13.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[autumnal]'/overworldmirror:overworld
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (autumnal): All chunks are saved
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skaia): All chunks are saved
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
+[21Oct2024 02:28:13.122] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21Oct2024 02:28:19.837] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

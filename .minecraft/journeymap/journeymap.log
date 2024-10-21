@@ -1,9 +1,9 @@
-[20:35:59] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[20:35:59] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[20:35:59] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[20:35:59] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[20:35:59] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[20:35:59] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18p1, built with forge 1.20.1-47.1.46
+[22:22:13] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[22:22:13] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[22:22:13] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[22:22:13] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[22:22:13] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[22:22:14] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18p1, built with forge 1.20.1-47.1.46
 forge: 47.2.0
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -17,44 +17,103 @@ Features:
 	MapBiome : singleplayer = true , multiplayer = true
 MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.18p1, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-305, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.18p1, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.18p1, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=false, playerDisplayScale=1.0, showMobs=false, showPets=false, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=false, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.18p1, zoomLevel=1, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=false, playerDisplayScale=1.0, showMobs=false, showPets=false, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=false, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.18p1, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.18p1, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.18p1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.9.18p1, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.18p1, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[20:35:59] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[20:35:59] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 382.2ms
-[20:36:03] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[20:36:03] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[20:36:03] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[20:36:03] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[20:36:03] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 256.29ms
-[20:36:04] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.10.3 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/5789363
-[20:36:17] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[20:36:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for minestuck:textures/entity_icon/consort/salamander.png
-[20:36:59] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:36:59] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror~overworld. Memory: 3548MB total, 631MB free 
-[20:37:00] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
-[20:51:38] [IO-Worker-75/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [15, 18]
-[20:51:38] [IO-Worker-78/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [15, 18]
-[20:51:38] [IO-Worker-78/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [15, 18]
-[20:52:05] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture was slow: 91.3006 (Warning limit reached)
-[20:52:05] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture: Avg:     0.01ms, Min:        0ms, Max:     333.29ms, Total:          4 sec, Count:   404998, Canceled:        0, Slow:       10
-[20:53:53] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror:overworld
-[20:53:56] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:53:56] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~abydos. Memory: 4096MB total, 1005MB free 
-[20:54:22] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:abydos
-[20:54:23] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:54:23] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 4096MB total, 1052MB free 
-[21:19:09] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[21:19:10] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[23:46:40] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
-[23:46:44] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[22:22:14] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[22:22:14] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 410.32ms
+[22:22:19] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[22:22:19] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[22:22:19] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[22:22:19] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[22:22:19] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 330.43ms
+[22:22:20] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.10.3 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/5789363
+[22:25:43] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:26:44] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Autumnal\waypoints
+[22:26:44] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Autumnal\overworld. Memory: 3728MB total, 842MB free 
+[22:26:49] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[22:27:44] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+journeymap.client.model.ChunkMD$ChunkMissingException: Chunk missing: [7, -13]
+	at journeymap.client.model.ChunkMD.getChunk(ChunkMD.java:406) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.model.ChunkMD.getPrecipitationHeight(ChunkMD.java:312) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.model.ChunkMD.getPrecipitationHeight(ChunkMD.java:295) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:178) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:123) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:93) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:169) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[22:27:44] [JM-task-4/WARN] [StatTimer] SurfaceRenderer.renderSurface was slow: 2285.8845 (Warning limit reached)
+[22:27:44] [JM-task-4/WARN] [StatTimer] SurfaceRenderer.renderSurface: Avg:    54.92ms, Min:      1.9ms, Max:   10161.18ms, Total:         49 sec, Count:      899, Canceled:        0, Slow:       10
+[22:28:11] [JM-task-4/WARN] [SurfaceRenderer] Error rendering surface: 
+journeymap.client.model.ChunkMD$ChunkMissingException: Chunk missing: [20, 6]
+	at journeymap.client.model.ChunkMD.getChunk(ChunkMD.java:406) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.model.ChunkMD.getPrecipitationHeight(ChunkMD.java:312) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.model.ChunkMD.getPrecipitationHeight(ChunkMD.java:295) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:178) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:123) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:93) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:169) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[22:28:20] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[22:28:20] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@5641a6c8
+[22:28:29] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:37:03] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:37:31] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\waypoints
+[22:37:31] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\overworld. Memory: 3728MB total, 523MB free 
+[22:40:41] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[22:40:46] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:47:42] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:48:11] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\waypoints
+[22:48:11] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\overworld. Memory: 4096MB total, 749MB free 
+[22:50:18] [JM-task-6/WARN] [SurfaceRenderer] Error rendering surface: 
+journeymap.client.model.ChunkMD$ChunkMissingException: Chunk missing: [-16, -3]
+	at journeymap.client.model.ChunkMD.getChunk(ChunkMD.java:406) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.model.ChunkMD.getPrecipitationHeight(ChunkMD.java:312) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.model.ChunkMD.getPrecipitationHeight(ChunkMD.java:295) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.render.SurfaceRenderer.renderSurface(SurfaceRenderer.java:178) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:123) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.render.SurfaceRenderer.render(SurfaceRenderer.java:93) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.cartography.ChunkRenderController.renderChunk(ChunkRenderController.java:169) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.task.multi.BaseMapTask.performTask(BaseMapTask.java:125) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.task.multi.TaskBatch.performTask(TaskBatch.java:72) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch.performTask(MapPlayerTask.java:424) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at journeymap.client.thread.RunnableTask$Inner.run(RunnableTask.java:77) ~[journeymap-1.20.1-5.9.18p1-forge.jar%23194!/:1.20.1-5.9.18p1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[23:29:26] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[23:30:30] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[02:28:10] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[02:28:10] [JM-task-6/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@45f76719
+[02:28:13] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
