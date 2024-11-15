@@ -1,0 +1,22 @@
+{
+  "id": "Land-of-Cities-and-Neon_-2121-70-1199",
+  "name": "Land of Cities and Neon",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16712172-waypoint-icon.png",
+  "x": -2121,
+  "y": 70,
+  "z": -1199,
+  "r": 0,
+  "g": 254,
+  "b": 20,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Westmere_-572-64-990",
+  "name": "Westmere",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16725251-waypoint-icon.png",
+  "x": -572,
+  "y": 64,
+  "z": 990,
+  "r": 0,
+  "g": 202,
+  "b": 253,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

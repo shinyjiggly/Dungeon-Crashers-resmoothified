@@ -1,0 +1,22 @@
+{
+  "id": "Park-Green-Blvd_-2129-70-147",
+  "name": "Park Green Blvd",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--9981902-waypoint-icon.png",
+  "x": -2129,
+  "y": 70,
+  "z": 147,
+  "r": 103,
+  "g": 176,
+  "b": 50,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

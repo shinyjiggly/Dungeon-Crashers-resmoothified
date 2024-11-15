@@ -1,0 +1,22 @@
+{
+  "id": "Gainforth_33-64-1541",
+  "name": "Gainforth",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--4980482-waypoint-icon.png",
+  "x": 33,
+  "y": 64,
+  "z": -1541,
+  "r": 180,
+  "g": 0,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

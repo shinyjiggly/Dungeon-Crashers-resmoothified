@@ -1,0 +1,22 @@
+{
+  "id": "LoCaN-East_-1799-70-1552",
+  "name": "LoCaN East",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--6749954-waypoint-icon.png",
+  "x": -1799,
+  "y": 70,
+  "z": -1552,
+  "r": 153,
+  "g": 0,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Scarab-City_-3362-70-65",
+  "name": "Scarab City",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--116992-waypoint-icon.png",
+  "x": -3362,
+  "y": 70,
+  "z": 65,
+  "r": 254,
+  "g": 55,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

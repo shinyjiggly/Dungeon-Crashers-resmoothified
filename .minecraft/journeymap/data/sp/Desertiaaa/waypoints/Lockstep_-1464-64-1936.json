@@ -1,0 +1,22 @@
+{
+  "id": "Lockstep_-1464-64-1936",
+  "name": "Lockstep",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--3014402-waypoint-icon.png",
+  "x": -1464,
+  "y": 64,
+  "z": -1936,
+  "r": 210,
+  "g": 0,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

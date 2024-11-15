@@ -1,0 +1,22 @@
+{
+  "id": "LoCaN-North-_-2122-67-1769",
+  "name": "LoCaN \"North\"",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16450047-waypoint-icon.png",
+  "x": -2122,
+  "y": 67,
+  "z": -1769,
+  "r": 4,
+  "g": 254,
+  "b": 1,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

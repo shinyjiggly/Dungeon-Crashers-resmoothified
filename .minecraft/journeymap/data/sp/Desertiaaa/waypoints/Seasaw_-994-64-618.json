@@ -1,0 +1,22 @@
+{
+  "id": "Seasaw_-994-64-618",
+  "name": "Seasaw",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16729091-waypoint-icon.png",
+  "x": -994,
+  "y": 64,
+  "z": 618,
+  "r": 0,
+  "g": 187,
+  "b": 253,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "Westfield_-2828-64-1191",
+  "name": "Westfield",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--5046019-waypoint-icon.png",
+  "x": -2828,
+  "y": 64,
+  "z": -1191,
+  "r": 179,
+  "g": 0,
+  "b": 253,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

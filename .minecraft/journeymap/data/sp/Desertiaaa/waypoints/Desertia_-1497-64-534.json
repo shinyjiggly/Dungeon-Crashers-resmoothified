@@ -1,0 +1,22 @@
+{
+  "id": "Desertia_-1497-64-534",
+  "name": "Desertia",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--130840-waypoint-icon.png",
+  "x": -1497,
+  "y": 64,
+  "z": 534,
+  "r": 254,
+  "g": 0,
+  "b": 232,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

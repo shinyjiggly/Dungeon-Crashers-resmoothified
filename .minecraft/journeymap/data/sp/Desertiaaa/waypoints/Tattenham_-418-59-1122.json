@@ -1,0 +1,22 @@
+{
+  "id": "Tattenham_-418-59-1122",
+  "name": "Tattenham",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16717827-waypoint-icon.png",
+  "x": -418,
+  "y": 59,
+  "z": 1122,
+  "r": 0,
+  "g": 231,
+  "b": 253,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

@@ -1,0 +1,22 @@
+{
+  "id": "999th-Rd_-2135-70-93",
+  "name": "999th Rd",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16627714-waypoint-icon.png",
+  "x": -2135,
+  "y": 70,
+  "z": -93,
+  "r": 2,
+  "g": 71,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

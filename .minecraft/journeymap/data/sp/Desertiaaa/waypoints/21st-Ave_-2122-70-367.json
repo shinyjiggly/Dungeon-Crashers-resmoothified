@@ -1,0 +1,22 @@
+{
+  "id": "21st-Ave_-2122-70-367",
+  "name": "21st Ave",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16627714-waypoint-icon.png",
+  "x": -2122,
+  "y": 70,
+  "z": 367,
+  "r": 2,
+  "g": 71,
+  "b": 254,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

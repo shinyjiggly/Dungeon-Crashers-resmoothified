@@ -1,0 +1,22 @@
+{
+  "id": "Brookford_-4819-64-552",
+  "name": "Brookford",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--130856-waypoint-icon.png",
+  "x": -4819,
+  "y": 64,
+  "z": 552,
+  "r": 254,
+  "g": 0,
+  "b": 216,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

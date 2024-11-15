@@ -1,0 +1,22 @@
+{
+  "id": "Spaceport_-759-70-835",
+  "name": "Spaceport",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16717571-waypoint-icon.png",
+  "x": -759,
+  "y": 70,
+  "z": 835,
+  "r": 0,
+  "g": 232,
+  "b": 253,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

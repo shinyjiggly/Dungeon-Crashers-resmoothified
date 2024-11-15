@@ -1,0 +1,22 @@
+{
+  "id": "Neon-City_-2117-64-533",
+  "name": "Neon City",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--15860224-waypoint-icon.png",
+  "x": -2117,
+  "y": 64,
+  "z": 533,
+  "r": 13,
+  "g": 254,
+  "b": 0,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

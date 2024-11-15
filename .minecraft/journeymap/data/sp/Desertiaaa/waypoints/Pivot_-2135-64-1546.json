@@ -1,0 +1,22 @@
+{
+  "id": "Pivot_-2135-64-1546",
+  "name": "Pivot",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--16712187-waypoint-icon.png",
+  "x": -2135,
+  "y": 64,
+  "z": -1546,
+  "r": 0,
+  "g": 254,
+  "b": 5,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:the_end"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
