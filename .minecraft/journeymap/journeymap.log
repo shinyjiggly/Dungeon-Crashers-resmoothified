@@ -1,9 +1,9 @@
-[15:46:08] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[15:46:08] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[15:46:08] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[15:46:08] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[15:46:08] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[15:46:08] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18p1, built with forge 1.20.1-47.1.46
+[11:26:18] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[11:26:18] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[11:26:18] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[11:26:18] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[11:26:18] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[11:26:19] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18p1, built with forge 1.20.1-47.1.46
 forge: 47.2.0
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -17,115 +17,81 @@ Features:
 	MapBiome : singleplayer = true , multiplayer = true
 MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.18p1, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-305, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.18p1, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.18p1, zoomLevel=4, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=false, playerDisplayScale=1.0, showMobs=false, showPets=false, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=false, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.18p1, zoomLevel=0, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=true, showPlayerLoc=true, showKeys=false, playerDisplayScale=1.0, showMobs=false, showPets=false, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=false, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.18p1, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.18p1, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.18p1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.9.18p1, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.18p1, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[15:46:08] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[15:46:08] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 340.21ms
-[15:46:13] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[15:46:13] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[15:46:13] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[15:46:14] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[15:46:14] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 292.14ms
-[15:46:14] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.10.3 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/5789363
-[15:46:42] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[15:47:09] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[15:47:09] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 3954MB total, 1280MB free 
-[15:47:09] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
-[16:23:44] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[16:23:44] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[16:53:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for minestuck:textures/entity_icon/frog/base.png
-[17:16:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for minestuck:textures/entity_icon/frog/base.png
-[17:38:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for minestuck:textures/entity_icon/frog/base.png
-[18:03:35] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:overworld
-[18:03:37] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[18:03:37] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror~overworld. Memory: 4096MB total, 808MB free 
-[18:03:42] [IO-Worker-128/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [31, 19]
-[18:03:47] [IO-Worker-130/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [19, 17]
-[18:03:48] [IO-Worker-137/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [19, 16]
-[18:03:48] [IO-Worker-130/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [24, 9]
-[18:03:54] [IO-Worker-134/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [28, 3]
-[18:03:55] [IO-Worker-123/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [31, 3]
-[18:03:55] [IO-Worker-130/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [15, 15]
-[18:03:57] [IO-Worker-134/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [15, 18]
-[18:03:58] [IO-Worker-128/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [14, 18]
-[18:04:07] [IO-Worker-130/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [25, 1]
-[18:12:14] [IO-Worker-154/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [22, 0]
-[18:12:14] [IO-Worker-154/ERROR] [CacheFileStorage] Error reading chunk for ChunkPos [27, 1]
-[18:32:40] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[18:37:38] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[20:20:29] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror:overworld
-[20:20:32] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:20:32] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~abydos. Memory: 4096MB total, 1318MB free 
-[20:23:01] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:abydos
-[20:23:03] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:23:03] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 4096MB total, 579MB free 
-[20:30:49] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:overworld
-[20:30:52] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:30:52] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\the_nether. Memory: 4096MB total, 1533MB free 
-[20:32:11] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:the_nether
-[20:32:12] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:32:12] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 4096MB total, 1518MB free 
-[20:32:50] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:overworld
-[20:32:50] [JM-task-35/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@245dec53
-[20:32:52] [Render thread/INFO] [WaypointStore] Loaded 7 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:32:52] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\the_end. Memory: 4096MB total, 1171MB free 
-[20:33:01] [Render thread/INFO] [DeathPointHandler] shinyjiggly died at BlockPos{x=127, y=2, z=-43}. Deathpoints enabled: true. Deathpoint created: true
-[20:33:05] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:the_end
-[20:33:07] [Render thread/INFO] [WaypointStore] Loaded 8 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:33:07] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror~overworld. Memory: 4096MB total, 951MB free 
-[20:39:44] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror:overworld
-[20:39:44] [JM-task-37/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@58b8b27a
-[20:39:49] [Render thread/INFO] [WaypointStore] Loaded 8 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:39:49] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\the_end. Memory: 4096MB total, 1215MB free 
-[20:58:26] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[21:03:48] [Render thread/INFO] [StatTimer] TileDrawStep.updateScaledTexture hit max count, 1000000
-[21:03:49] [Render thread/INFO] [StatTimer] TileDrawStep.draw(high) hit max count, 1000000
-[21:16:56] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[22:31:47] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:the_end
-[22:31:53] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[22:52:08] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[22:52:20] [Render thread/INFO] [WaypointStore] Loaded 50 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[22:52:21] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\the_end. Memory: 4096MB total, 1238MB free 
-[23:13:53] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture was slow: 50.1353 (Warning limit reached)
-[23:13:54] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture: Avg:     0.01ms, Min:        0ms, Max:     304.41ms, Total:          5 sec, Count:   712971, Canceled:        0, Slow:       10
-[23:22:08] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[23:22:08] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[01:45:59] [Render thread/INFO] [StatTimer] TileDrawStep.updateScaledTexture hit max count, 1000000
-[01:46:01] [Render thread/INFO] [StatTimer] TileDrawStep.draw(high) hit max count, 1000000
-[02:26:15] [Render thread/INFO] [DeathPointHandler] shinyjiggly died at BlockPos{x=-1792, y=2, z=540}. Deathpoints enabled: true. Deathpoint created: true
-[02:26:18] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:the_end
-[02:26:26] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[02:26:27] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror~overworld. Memory: 4096MB total, 1303MB free 
-[02:32:24] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror:overworld
-[02:32:30] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[02:32:30] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\the_end. Memory: 4096MB total, 1347MB free 
-[02:37:08] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:the_end
-[02:37:14] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[02:37:14] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror~overworld. Memory: 4096MB total, 1395MB free 
-[02:38:18] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror:overworld
-[02:38:19] [JM-task-224/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@7d73779a
-[02:38:20] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[02:38:20] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\the_end. Memory: 4096MB total, 632MB free 
-[02:38:28] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:the_end
-[02:38:28] [JM-task-225/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@40baf128
-[02:38:34] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[02:38:34] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror~overworld. Memory: 4096MB total, 538MB free 
-[02:38:54] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror:overworld
-[02:38:56] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[02:38:56] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\the_end. Memory: 4096MB total, 1270MB free 
-[02:39:11] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:the_end
-[02:39:13] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[02:39:13] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror~overworld. Memory: 4096MB total, 1219MB free 
-[02:39:40] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\overworldmirror:overworld
-[02:39:47] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[11:26:19] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[11:26:19] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 380.32ms
+[11:26:26] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[11:26:26] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[11:26:26] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[11:26:28] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[11:26:28] [Render thread/DEBUG] [StatTimer] elapsed was slow: 1881.1922
+[11:26:28] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 1881.19ms
+[11:26:29] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.10.3 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/5789363
+[11:28:32] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[11:29:10] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
+[11:29:10] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 3870MB total, 1462MB free 
+[11:29:10] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[11:58:40] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[11:58:40] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[12:24:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for minestuck:textures/entity_icon/frog/base.png
+[14:33:29] [Render thread/INFO] [StatTimer] TileDrawStep.updateScaledTexture hit max count, 1000000
+[14:33:29] [Render thread/INFO] [StatTimer] TileDrawStep.draw(high) hit max count, 1000000
+[15:32:25] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[15:32:27] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[16:29:32] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[16:30:00] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\village\waypoints
+[16:30:01] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\village\overworld. Memory: 4096MB total, 1179MB free 
+[16:52:11] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[16:56:34] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[16:56:36] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[16:56:47] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[16:56:53] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
+[16:56:53] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 4096MB total, 729MB free 
+[17:29:19] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[17:30:51] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[18:10:05] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[18:10:07] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[18:41:17] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[18:41:32] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
+[18:41:32] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 4096MB total, 493MB free 
+[18:46:36] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[18:46:38] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[18:49:47] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[18:50:52] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\GAME Office\waypoints
+[18:50:52] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\GAME Office\overworld. Memory: 4096MB total, 682MB free 
+[18:51:38] [JM-task-35/WARN] [StatTimer] SurfaceRenderer.renderSurface was slow: 1499.3732 (Warning limit reached)
+[18:51:38] [JM-task-35/WARN] [StatTimer] SurfaceRenderer.renderSurface: Avg:   116.89ms, Min:     1.87ms, Max:    6134.09ms, Total:         34 sec, Count:      293, Canceled:        0, Slow:       10
+[18:53:22] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[18:53:22] [JM-task-35/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@4b86f920
+[18:53:31] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[18:55:19] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[18:56:09] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Office\waypoints
+[18:56:09] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Office\overworld. Memory: 4096MB total, 716MB free 
+[19:13:25] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture was slow: 601.7103 (Warning limit reached)
+[19:13:25] [Render thread/WARN] [StatTimer] TileDrawStep.updateRegionTexture: Avg:     0.02ms, Min:        0ms, Max:    1355.99ms, Total:          5 sec, Count:   386622, Canceled:        0, Slow:       10
+[19:34:05] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[19:34:19] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[19:40:04] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[19:40:26] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Office Building PvP\waypoints
+[19:40:27] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Office Building PvP\overworld. Memory: 4096MB total, 837MB free 
+[20:07:11] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[20:12:04] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[21:57:59] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[21:58:03] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:01:48] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:02:03] [Render thread/INFO] [WaypointStore] Loaded 55 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
+[22:02:03] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 4096MB total, 713MB free 
+[22:18:50] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
+[22:18:55] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
