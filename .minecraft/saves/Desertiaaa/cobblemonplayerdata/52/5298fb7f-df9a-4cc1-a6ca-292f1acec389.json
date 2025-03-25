@@ -1,0 +1,29 @@
+{
+  "uuid": "5298fb7f-df9a-4cc1-a6ca-292f1acec389",
+  "starterPrompted": true,
+  "starterLocked": false,
+  "starterSelected": true,
+  "starterUUID": "409faaf4-ecc8-442c-8902-99757fcb3361",
+  "keyItems": [],
+  "battleTheme": "cobblemon:battle.pvp.default",
+  "extraData": {},
+  "advancementData": {
+    "totalCaptureCount": 1,
+    "totalEggsHatched": 0,
+    "totalEvolvedCount": 0,
+    "totalBattleVictoryCount": 1,
+    "totalPvPBattleVictoryCount": 0,
+    "totalPvWBattleVictoryCount": 1,
+    "totalPvNBattleVictoryCount": 0,
+    "totalShinyCaptureCount": 0,
+    "totalTradedCount": 0,
+    "totalTypeCaptureCounts": {
+      "water": 1,
+      "psychic": 1
+    },
+    "totalDefeatedCounts": {
+      "cobblemon:cacnea": 1
+    },
+    "aspectsCollected": {}
+  }
+}
