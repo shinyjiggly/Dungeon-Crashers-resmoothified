@@ -1,0 +1,14 @@
+name = "CobbleBoom"
+filename = "cobbleboom-forge-1.3.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/75Ons9AY/versions/SZomxLHA/cobbleboom-forge-1.3.jar"
+hash-format = "sha512"
+hash = "49dd5ecf11517e7b64490fe28c0e7ca3f126ee2b2370e414c8fb8a9efebabf22082dbdbdd978e757b193653ba1f23bb102a49a8487eaf09b1f30e81123214713"
+
+[update]
+[update.modrinth]
+mod-id = "75Ons9AY"
+version = "SZomxLHA"

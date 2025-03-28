@@ -1,0 +1,14 @@
+name = "Cobblemon Field Moves"
+filename = "cobblemon-field-moves-1.5-forge-1.1.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/gRy0el9F/versions/x8bLzvCb/cobblemon-field-moves-1.5-forge-1.1.1.jar"
+hash-format = "sha512"
+hash = "3bad912161c8a3849b8909dcdb61d6aa1ffbd5712e6cbf98c30512316d61f4bc8ea1c5849d0cf03363c6d6888d650988160a056ed827ed0b59b7296975f91f04"
+
+[update]
+[update.modrinth]
+mod-id = "gRy0el9F"
+version = "x8bLzvCb"
