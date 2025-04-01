@@ -5339,5 +5339,101 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/light_gray_glazed_terracotta": {
+    "criteria": {
+      "has_light_gray_terracotta": "2025-03-31 22:31:23 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_gray_grill": {
+    "criteria": {
+      "has_terracotta": "2025-03-31 22:31:23 -0700"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/evolution/protector": {
+    "criteria": {
+      "has_terracotta": "2025-03-31 22:31:23 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/birch_hedge": {
+    "criteria": {
+      "has_leaves": "2025-03-31 22:37:41 -0700"
+    },
+    "done": true
+  },
+  "minestuck:recipes/redstone/solid_switch": {
+    "criteria": {
+      "has_glowstone": "2025-03-31 22:41:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-03-31 22:53:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-03-31 22:53:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_stairs_from_prismarine_stonecutting": {
+    "criteria": {
+      "has_prismarine_brick": "2025-03-31 22:53:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_brick_slab": {
+    "criteria": {
+      "has_prismarine_bricks": "2025-03-31 22:53:48 -0700"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/evolution/electirizer": {
+    "criteria": {
+      "has_redstone": "2025-04-01 01:24:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-04-01 00:04:23 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2025-04-01 00:25:37 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_glazed_terracotta": {
+    "criteria": {
+      "has_gray_terracotta": "2025-04-01 00:05:02 -0700"
+    },
+    "done": true
+  },
+  "cobblemon:recipes/held/magnet": {
+    "criteria": {
+      "has_redstone": "2025-04-01 01:24:48 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/packed_ice_from_freezing": {
+    "criteria": {
+      "has_ice": "2025-04-01 00:04:23 -0700"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/gray_grill": {
+    "criteria": {
+      "has_terracotta": "2025-04-01 00:05:02 -0700"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

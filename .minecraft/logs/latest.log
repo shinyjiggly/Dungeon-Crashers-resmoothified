@@ -1,61 +1,461 @@
-[28Mar2025 00:01:07.655] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Pory is now level 21!
-[28Mar2025 00:02:58.111] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Run away from the opposing Pokémon to flee and end the battle.
-[28Mar2025 00:03:27.254] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Changeling is now level 19!
-[28Mar2025 00:04:01.637] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28Mar2025 00:04:01.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[28Mar2025 00:04:01.717] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[28Mar2025 00:04:01.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[28Mar2025 00:04:01.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[28Mar2025 00:04:01.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[28Mar2025 00:04:01.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[28Mar2025 00:04:01.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[28Mar2025 00:04:01.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[28Mar2025 00:04:01.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[28Mar2025 00:04:01.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[28Mar2025 00:08:05.705] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Changeling is now level 20!
-[28Mar2025 00:12:07.239] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[28Mar2025 00:12:07.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[28Mar2025 00:12:07.363] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[28Mar2025 00:12:07.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[28Mar2025 00:12:07.379] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[28Mar2025 00:12:07.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[28Mar2025 00:12:07.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[28Mar2025 00:12:07.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[28Mar2025 00:12:07.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[28Mar2025 00:12:07.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[28Mar2025 00:12:07.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[28Mar2025 00:12:08.394] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[28Mar2025 00:12:08.395] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[28Mar2025 00:12:08.396] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[28Mar2025 00:12:08.406] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[28Mar2025 00:12:08.407] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
-[28Mar2025 00:12:08.426] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:forge_gui took 15.78 milliseconds
-[28Mar2025 00:12:08.427] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 20.16 ms
-[28Mar2025 00:12:08.460] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shinyjiggly lost connection: Disconnected
-[28Mar2025 00:12:08.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly left the game
-[28Mar2025 00:12:08.593] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[28Mar2025 00:12:08.778] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[28Mar2025 00:12:08.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[28Mar2025 00:12:08.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[28Mar2025 00:12:08.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[28Mar2025 00:12:09.208] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[28Mar2025 00:12:09.210] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[28Mar2025 00:12:09.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[28Mar2025 00:12:09.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[28Mar2025 00:12:09.217] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[28Mar2025 00:12:09.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[28Mar2025 00:12:09.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[28Mar2025 00:12:09.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[28Mar2025 00:12:09.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[28Mar2025 00:12:09.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Desertiaaa): All chunks are saved
-[28Mar2025 00:12:09.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (land_shinyjiggly): All chunks are saved
-[28Mar2025 00:12:09.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
-[28Mar2025 00:12:09.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
-[28Mar2025 00:12:09.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
-[28Mar2025 00:12:09.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skaia): All chunks are saved
-[28Mar2025 00:12:09.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[28Mar2025 00:12:09.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
-[28Mar2025 00:12:09.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[28Mar2025 00:12:09.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
-[28Mar2025 00:12:09.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[28Mar2025 00:12:14.208] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[01Apr2025 00:00:55.379] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 00:01:08.584] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (422, 66, 579)
+[01Apr2025 00:01:08.587] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 40817 blocks affected
+[01Apr2025 00:01:08.587] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 00:01:08.587] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 00:01:08.836] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.841] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.841] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.847] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.847] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.847] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.847] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.847] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.847] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.847] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.847] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.847] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:08.849] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:14.127] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 00:01:23.481] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (422, 64, 580)
+[01Apr2025 00:01:23.482] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 40817 blocks affected
+[01Apr2025 00:01:23.482] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 00:01:23.482] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 00:01:23.689] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.689] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.691] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:23.698] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:46.897] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 00:01:56.486] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (422, 64, 580)
+[01Apr2025 00:01:56.487] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 40817 blocks affected
+[01Apr2025 00:01:56.488] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 00:01:56.488] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 00:01:56.694] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.696] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.696] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.699] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.699] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.699] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.699] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.699] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.699] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.699] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.699] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.700] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:01:56.700] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:05.697] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 00:02:15.786] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (422, 65, 580)
+[01Apr2025 00:02:15.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 40817 blocks affected
+[01Apr2025 00:02:15.789] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 00:02:15.789] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 00:02:16.016] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.016] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.017] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.023] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.023] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.023] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.023] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.023] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.023] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.024] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.024] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.024] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:16.024] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:02:40.094] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 00:03:13.379] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (412, 65, 580)
+[01Apr2025 00:03:13.382] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 40817 blocks affected
+[01Apr2025 00:03:13.383] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 00:03:13.384] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 00:03:13.587] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.589] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.589] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.589] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.589] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.589] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.589] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.590] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.590] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.591] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.591] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.595] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:13.595] [Server thread/WARN] [net.minecraft.world.level.block.entity.BlockEntity/]: Skipping BlockEntity with id flower_pot
+[01Apr2025 00:03:40.819] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (459, 66, 588).
+[01Apr2025 00:03:47.507] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (413, 66, 586) (141).
+[01Apr2025 00:03:51.668] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (141 blocks affected).
+[01Apr2025 00:04:07.577] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (445, 65, 588) (198).
+[01Apr2025 00:04:10.874] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (460, 65, 586) (48).
+[01Apr2025 00:04:16.256] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (48 blocks affected).
+[01Apr2025 00:04:23.756] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1001 advancements
+[01Apr2025 00:04:33.374] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (460, 65, 586) (1).
+[01Apr2025 00:04:40.710] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (425, 76, 612) (11664).
+[01Apr2025 00:04:47.459] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 337 blocks have been replaced.
+[01Apr2025 00:05:02.758] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1003 advancements
+[01Apr2025 00:06:00.119] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (428, 76, 594) (76).
+[01Apr2025 00:06:01.760] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (423, 71, 599) (216).
+[01Apr2025 00:06:04.020] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 8 blocks have been replaced.
+[01Apr2025 00:06:07.361] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (422, 72, 599) (4).
+[01Apr2025 00:06:09.856] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (428, 76, 594) (210).
+[01Apr2025 00:06:11.313] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 20 blocks have been replaced.
+[01Apr2025 00:06:28.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (429, 77, 595) (8).
+[01Apr2025 00:06:31.152] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (442, 78, 599) (140).
+[01Apr2025 00:06:32.409] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 22 blocks have been replaced.
+[01Apr2025 00:06:44.260] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (440, 71, 618) (480).
+[01Apr2025 00:06:47.199] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (433, 66, 618) (48).
+[01Apr2025 00:06:48.463] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 48 blocks have been replaced.
+[01Apr2025 00:07:02.307] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (423, 69, 610) (396).
+[01Apr2025 00:07:07.059] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (423, 66, 600) (44).
+[01Apr2025 00:07:08.722] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 11 blocks have been replaced.
+[01Apr2025 00:11:27.062] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (419, 66, 589) (60).
+[01Apr2025 00:11:35.064] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (410, 78, 628) (5200).
+[01Apr2025 00:11:54.250] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 378 blocks have been replaced.
+[01Apr2025 00:13:53.112] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (464, 65, 595) (26180).
+[01Apr2025 00:14:00.900] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (460, 65, 628) (170).
+[01Apr2025 00:14:10.715] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (170 blocks affected).
+[01Apr2025 00:17:26.312] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (460, 66, 585) (88).
+[01Apr2025 00:17:33.161] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (412, 66, 580) (294).
+[01Apr2025 00:17:41.875] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (294 blocks affected).
+[01Apr2025 00:17:59.257] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (468, 65, 585) (684).
+[01Apr2025 00:18:04.712] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (434, 66, 580) (420).
+[01Apr2025 00:18:07.053] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (420 blocks affected).
+[01Apr2025 00:18:14.574] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (440, 66, 585) (42).
+[01Apr2025 00:18:19.266] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (412, 66, 588) (116).
+[01Apr2025 00:18:20.718] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (116 blocks affected).
+[01Apr2025 00:23:11.181] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (445, 65, 585) (272).
+[01Apr2025 00:23:16.908] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (447, 65, 576) (30).
+[01Apr2025 00:23:21.232] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (30 blocks affected).
+[01Apr2025 00:25:37.966] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1004 advancements
+[01Apr2025 00:29:47.639] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
+[01Apr2025 00:37:39.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Set the weather to clear]
+[01Apr2025 00:37:39.546] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the weather to clear
+[01Apr2025 00:38:35.397] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Set the time to 1000]
+[01Apr2025 00:38:35.402] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 1000
+[01Apr2025 00:39:00.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The time is 584303034
+[01Apr2025 00:40:01.981] [WorldEdit Task Executor - 4/INFO] [com.sk89q.worldedit.command.SchematicCommands/]: shinyjiggly loaded C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\config\worldedit\schematics\orantower.schematic
+[01Apr2025 00:40:01.999] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] orantower.schematic loaded. Paste it with //paste
+[01Apr2025 00:40:16.673] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (380, 64, 566)
+[01Apr2025 00:40:16.673] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 57017 blocks affected
+[01Apr2025 00:40:16.673] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 00:40:16.674] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 00:40:27.837] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 00:40:42.356] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (410, 67, 559) (2052).
+[01Apr2025 00:40:50.110] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (389, 64, 582) (2112).
+[01Apr2025 00:40:55.876] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (2112 blocks affected).
+[01Apr2025 00:41:07.722] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (389, 66, 582) (3).
+[01Apr2025 00:41:13.556] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (393, 67, 559) (240).
+[01Apr2025 00:41:16.377] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (240 blocks affected).
+[01Apr2025 00:41:20.873] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (394, 67, 559) (2).
+[01Apr2025 00:41:25.363] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (396, 67, 582) (72).
+[01Apr2025 00:41:27.912] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (72 blocks affected).
+[01Apr2025 00:41:40.310] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (396, 67, 564)
+[01Apr2025 00:41:40.311] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 57017 blocks affected
+[01Apr2025 00:41:40.312] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 00:41:40.312] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 00:41:52.382] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 00:42:04.519] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (412, 69, 570)
+[01Apr2025 00:42:04.520] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 57017 blocks affected
+[01Apr2025 00:42:04.520] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 00:42:04.521] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 00:42:31.812] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 00:42:46.776] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (402, 66, 574)
+[01Apr2025 00:42:46.778] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 57017 blocks affected
+[01Apr2025 00:42:46.778] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 00:42:46.778] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 00:44:03.607] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (396, 64, 586) (20).
+[01Apr2025 00:44:11.564] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (369, 63, 587) (112).
+[01Apr2025 00:44:17.458] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (112 blocks affected).
+[01Apr2025 00:44:54.256] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (388, 64, 587) (40).
+[01Apr2025 00:44:57.359] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (398, 64, 590) (44).
+[01Apr2025 00:44:59.180] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (44 blocks affected).
+[01Apr2025 00:45:05.981] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (396, 64, 593) (12).
+[01Apr2025 00:45:07.419] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (399, 64, 591) (12).
+[01Apr2025 00:45:08.653] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (12 blocks affected).
+[01Apr2025 00:45:57.021] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (397, 67, 562) (360).
+[01Apr2025 00:46:01.416] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (402, 68, 557) (72).
+[01Apr2025 00:46:04.013] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (72 blocks affected).
+[01Apr2025 00:46:09.908] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (403, 67, 559) (12).
+[01Apr2025 00:46:14.364] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (407, 69, 568) (150).
+[01Apr2025 00:46:15.675] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (150 blocks affected).
+[01Apr2025 00:47:01.535] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (403, 67, 586) (285).
+[01Apr2025 00:47:03.955] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (405, 67, 579) (24).
+[01Apr2025 00:47:05.481] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (24 blocks affected).
+[01Apr2025 00:54:03.794] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
+[01Apr2025 00:55:29.173] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (434, 66, 563) (1020).
+[01Apr2025 00:55:32.058] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (424, 66, 561) (33).
+[01Apr2025 00:55:39.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (33 blocks affected).
+[01Apr2025 00:56:03.969] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (445, 72, 562) (308).
+[01Apr2025 00:56:08.108] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (439, 78, 559) (196).
+[01Apr2025 00:56:18.549] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 144 blocks have been replaced.
+[01Apr2025 00:56:30.324] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 60 blocks have been replaced.
+[01Apr2025 00:58:21.825] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (441, 77, 564) (36).
+[01Apr2025 00:58:27.705] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (438, 70, 558) (224).
+[01Apr2025 00:58:31.665] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 143 blocks have been replaced.
+[01Apr2025 00:58:37.413] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (434, 73, 557) (40).
+[01Apr2025 00:58:42.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (442, 78, 561) (270).
+[01Apr2025 00:58:46.581] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 69 blocks have been replaced.
+[01Apr2025 00:58:57.109] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (444, 72, 563) (63).
+[01Apr2025 00:58:59.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (443, 77, 561) (36).
+[01Apr2025 00:59:00.701] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 22 blocks have been replaced.
+[01Apr2025 00:59:10.970] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (447, 72, 559) (90).
+[01Apr2025 00:59:15.316] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (436, 77, 565) (504).
+[01Apr2025 00:59:16.623] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 73 blocks have been replaced.
+[01Apr2025 01:00:59.714] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ------------ Available schematics ------------\n[L] hospital.schem\n[L] Modofficeb.schematic\n[L] officetower.schematic\n[L] orantower.schematic\n[L] tehbank.schem\n[L] tower1.schematic\n[L] tower2.schematic\n[L] train-e1250.schem\n--------------- <<< Page 2 of 2 ---------------
+[01Apr2025 01:17:49.562] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Respawn point set
+[01Apr2025 01:24:48.399] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1006 advancements
+[01Apr2025 01:27:13.692] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (391, 78, 590) (2392).
+[01Apr2025 01:27:14.511] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (393, 78, 588) (9).
+[01Apr2025 01:27:20.334] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 9 blocks affected
+[01Apr2025 01:27:20.334] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:27:20.335] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:27:28.981] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (390, 79, 589)
+[01Apr2025 01:27:28.983] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 9 blocks affected
+[01Apr2025 01:27:28.984] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:27:28.984] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:27:41.683] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (390, 79, 585)
+[01Apr2025 01:27:41.683] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 9 blocks affected
+[01Apr2025 01:27:41.684] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:27:41.735] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:28:40.224] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (398, 74, 583) (180).
+[01Apr2025 01:56:06.315] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (386, 74, 583) (240).
+[01Apr2025 01:56:09.877] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (398, 82, 591) (1053).
+[01Apr2025 01:56:27.240] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 01:56:27.247] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:56:27.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:57:00.953] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (399, 83, 574)
+[01Apr2025 01:57:00.959] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 01:57:00.960] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:57:00.961] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:57:06.719] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 01:57:14.197] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 83, 581)
+[01Apr2025 01:57:14.198] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 01:57:14.198] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:57:14.198] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:57:51.871] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 91, 581)
+[01Apr2025 01:57:51.875] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 01:57:51.876] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:57:51.878] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:58:47.050] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 99, 582)
+[01Apr2025 01:58:47.062] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 01:58:47.063] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:58:47.064] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:58:50.883] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 01:58:54.421] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 01:58:59.558] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Redid 1 available edits.
+[01Apr2025 01:59:04.703] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 99, 580)
+[01Apr2025 01:59:04.703] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 01:59:04.703] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:59:04.703] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:59:17.302] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 01:59:22.159] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 99, 581)
+[01Apr2025 01:59:22.161] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 01:59:22.162] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 01:59:22.163] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 01:59:32.128] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:00:05.952] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 66, 580)
+[01Apr2025 02:00:05.956] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:00:05.956] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:00:05.956] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:00:29.895] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:00:35.218] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 66, 582)
+[01Apr2025 02:00:35.220] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:00:35.222] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:00:35.224] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:00:42.246] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:00:45.484] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 66, 581)
+[01Apr2025 02:00:45.485] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:00:45.485] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:00:45.485] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:01:44.679] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 99, 581)
+[01Apr2025 02:01:44.683] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:01:44.684] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:01:44.685] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:03:15.388] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard copy has been rotated.
+[01Apr2025 02:03:20.896] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (381, 66, 574)
+[01Apr2025 02:03:20.900] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:03:20.902] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:03:20.903] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:03:26.640] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:03:29.727] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (386, 66, 574)
+[01Apr2025 02:03:29.727] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:03:29.727] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:03:29.727] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:03:47.726] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:03:53.102] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (384, 66, 574)
+[01Apr2025 02:03:53.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:03:53.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:03:53.105] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:03:56.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:03:59.497] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (385, 66, 574)
+[01Apr2025 02:03:59.499] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:03:59.499] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:03:59.499] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:04:54.758] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (385, 75, 574)
+[01Apr2025 02:04:54.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:04:54.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:04:54.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:06:08.855] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (385, 83, 574)
+[01Apr2025 02:06:08.858] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:06:08.858] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:06:08.858] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:07:06.140] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (385, 91, 574)
+[01Apr2025 02:07:06.154] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:07:06.154] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:07:06.154] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:08:03.499] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (385, 99, 574)
+[01Apr2025 02:08:03.510] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:08:03.510] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:08:03.511] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:08:24.192] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard copy has been rotated.
+[01Apr2025 02:08:44.958] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 99, 567)
+[01Apr2025 02:08:44.960] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:08:44.961] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:08:44.962] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:09:36.473] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 91, 567)
+[01Apr2025 02:09:36.478] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1053 blocks affected
+[01Apr2025 02:09:36.478] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:09:36.480] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:10:09.220] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5573ms or 111 ticks behind
+[01Apr2025 02:11:16.117] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (387, 98, 558) (6936).
+[01Apr2025 02:11:18.275] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (397, 98, 564) (77).
+[01Apr2025 02:11:39.557] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (77 blocks affected).
+[01Apr2025 02:13:17.374] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (398, 97, 565) (8).
+[01Apr2025 02:13:25.805] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (386, 90, 557) (864).
+[01Apr2025 02:13:54.921] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
+[01Apr2025 02:13:54.919] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 864 blocks affected
+[01Apr2025 02:13:54.928] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:13:54.928] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:14:18.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 83, 567)
+[01Apr2025 02:14:18.107] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 864 blocks affected
+[01Apr2025 02:14:18.107] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:14:18.107] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:14:27.833] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:14:32.553] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 83, 568)
+[01Apr2025 02:14:32.553] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 864 blocks affected
+[01Apr2025 02:14:32.555] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:14:32.555] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:15:16.529] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:15:25.774] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (386, 90, 557) (1).
+[01Apr2025 02:15:37.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (398, 97, 566) (1040).
+[01Apr2025 02:15:58.169] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1040 blocks affected
+[01Apr2025 02:15:58.171] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:15:58.171] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:16:17.513] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 83, 568)
+[01Apr2025 02:16:17.513] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1040 blocks affected
+[01Apr2025 02:16:17.513] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:16:17.513] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:16:46.891] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:17:17.586] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 83, 566)
+[01Apr2025 02:17:17.593] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1040 blocks affected
+[01Apr2025 02:17:17.593] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:17:17.594] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:17:30.260] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:17:32.742] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 83, 567)
+[01Apr2025 02:17:32.743] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1040 blocks affected
+[01Apr2025 02:17:32.743] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:17:32.743] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:18:13.652] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 75, 567)
+[01Apr2025 02:18:13.681] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1040 blocks affected
+[01Apr2025 02:18:13.681] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:18:13.681] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:18:20.262] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4222ms or 84 ticks behind
+[01Apr2025 02:18:41.953] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 66, 568)
+[01Apr2025 02:18:41.957] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1040 blocks affected
+[01Apr2025 02:18:41.957] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:18:41.957] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:19:15.754] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
+[01Apr2025 02:19:25.137] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (392, 66, 567)
+[01Apr2025 02:19:25.173] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 1040 blocks affected
+[01Apr2025 02:19:25.173] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[01Apr2025 02:19:25.173] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[01Apr2025 02:22:10.554] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (401, 65, 575) (7904).
+[01Apr2025 02:22:22.675] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (406, 65, 573) (9282).
+[01Apr2025 02:22:25.432] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (401, 65, 575) (18).
+[01Apr2025 02:22:30.438] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (18 blocks affected).
+[01Apr2025 02:22:37.111] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (404, 66, 575) (8).
+[01Apr2025 02:22:41.610] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (414, 68, 571) (165).
+[01Apr2025 02:22:44.670] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (165 blocks affected).
+[01Apr2025 02:23:24.195] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3955ms or 79 ticks behind
+[01Apr2025 02:23:44.792] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (415, 68, 566) (12).
+[01Apr2025 02:23:46.956] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (410, 68, 568) (18).
+[01Apr2025 02:23:48.649] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (18 blocks affected).
+[01Apr2025 02:23:54.070] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (415, 68, 569) (12).
+[01Apr2025 02:23:56.254] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (411, 67, 570) (20).
+[01Apr2025 02:23:57.500] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (20 blocks affected).
+[01Apr2025 02:26:05.095] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (407, 65, 574) (75).
+[01Apr2025 02:26:08.339] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (413, 65, 572) (21).
+[01Apr2025 02:26:10.919] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (21 blocks affected).
+[01Apr2025 02:26:18.656] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3316ms or 66 ticks behind
+[01Apr2025 02:28:08.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (419, 66, 574) (42).
+[01Apr2025 02:28:13.248] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (422, 66, 572) (12).
+[01Apr2025 02:28:15.431] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (12 blocks affected).
+[01Apr2025 02:28:33.473] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4339ms or 86 ticks behind
+[01Apr2025 02:29:26.438] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (422, 67, 563) (20).
+[01Apr2025 02:29:30.229] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (411, 67, 561) (36).
+[01Apr2025 02:29:31.787] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (36 blocks affected).
+[01Apr2025 02:31:53.494] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2953ms or 59 ticks behind
+[01Apr2025 02:32:01.374] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.31.59.png
+[01Apr2025 02:32:11.207] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2716ms or 54 ticks behind
+[01Apr2025 02:32:23.261] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.32.22.png
+[01Apr2025 02:32:39.192] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.32.38.png
+[01Apr2025 02:32:45.836] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.32.45.png
+[01Apr2025 02:32:58.245] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.32.57.png
+[01Apr2025 02:33:21.976] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.33.21.png
+[01Apr2025 02:33:28.358] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.33.27.png
+[01Apr2025 02:33:33.529] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.33.33.png
+[01Apr2025 02:34:07.791] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.34.06.png
+[01Apr2025 02:34:12.178] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-04-01_02.34.10.png
+[01Apr2025 02:34:22.597] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2990ms or 59 ticks behind
+[01Apr2025 02:35:45.947] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[01Apr2025 02:35:46.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[01Apr2025 02:35:46.624] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[01Apr2025 02:35:46.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[01Apr2025 02:35:46.645] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[01Apr2025 02:35:46.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[01Apr2025 02:35:46.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[01Apr2025 02:35:46.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[01Apr2025 02:35:46.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[01Apr2025 02:35:46.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[01Apr2025 02:35:46.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[01Apr2025 02:35:48.525] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[01Apr2025 02:35:48.530] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[01Apr2025 02:35:48.533] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[01Apr2025 02:35:48.533] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[01Apr2025 02:35:48.576] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[01Apr2025 02:35:48.617] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:forge_gui took 16.28 milliseconds
+[01Apr2025 02:35:48.626] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 88.66 ms
+[01Apr2025 02:35:48.747] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shinyjiggly lost connection: Disconnected
+[01Apr2025 02:35:48.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly left the game
+[01Apr2025 02:35:49.325] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[01Apr2025 02:35:56.427] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[01Apr2025 02:35:56.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[01Apr2025 02:35:56.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[01Apr2025 02:35:56.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[01Apr2025 02:35:57.088] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[01Apr2025 02:35:57.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[01Apr2025 02:35:57.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[01Apr2025 02:35:57.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[01Apr2025 02:35:57.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[01Apr2025 02:35:57.105] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[01Apr2025 02:35:57.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[01Apr2025 02:35:57.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[01Apr2025 02:35:57.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Desertiaaa): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (land_shinyjiggly): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skaia): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
+[01Apr2025 02:35:57.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01Apr2025 02:36:26.622] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
