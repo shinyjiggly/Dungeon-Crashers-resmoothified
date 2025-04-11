@@ -1,0 +1,22 @@
+{
+  "id": "Aquelian-town_-932-64-129",
+  "name": "Aquelian town",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--12663605-waypoint-icon.png",
+  "x": -932,
+  "y": 64,
+  "z": 129,
+  "r": 62,
+  "g": 196,
+  "b": 203,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

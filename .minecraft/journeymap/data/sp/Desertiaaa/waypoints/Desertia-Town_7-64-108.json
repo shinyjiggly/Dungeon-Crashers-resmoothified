@@ -1,0 +1,22 @@
+{
+  "id": "Desertia-Town_7-64-108",
+  "name": "Desertia Town",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--345086-waypoint-icon.png",
+  "x": 7,
+  "y": 64,
+  "z": 108,
+  "r": 250,
+  "g": 188,
+  "b": 2,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
