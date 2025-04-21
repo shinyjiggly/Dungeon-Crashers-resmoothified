@@ -1,0 +1,22 @@
+{
+  "id": "Death-15-38-49-04-20-2025_-298-62-283",
+  "name": "Death 15:38:49 04-20-2025",
+  "icon": "journeymap:ui/img/waypoint-death-icon.png",
+  "colorizedIcon": "fake:color--16183670-waypoint-death-icon.png",
+  "x": -298,
+  "y": 62,
+  "z": 283,
+  "r": 9,
+  "g": 14,
+  "b": 138,
+  "enable": true,
+  "type": "Death",
+  "origin": "journeymap",
+  "dimensions": [
+    "minestuck:land_shinyjiggly"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}
