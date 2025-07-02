@@ -1,9 +1,9 @@
-[15:15:28] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[15:15:28] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[15:15:28] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[15:15:28] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[15:15:28] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[15:15:31] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18p1, built with forge 1.20.1-47.1.46
+[20:38:33] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[20:38:33] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[20:38:33] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[20:38:33] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[20:38:33] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[20:38:33] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18p1, built with forge 1.20.1-47.1.46
 forge: 47.2.0
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -21,164 +21,39 @@ FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.18p1, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.18p1, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.18p1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.9.18p1, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.18p1, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[15:15:31] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[15:15:32] [Render thread/DEBUG] [StatTimer] elapsed was slow: 3207.4655
-[15:15:32] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 3207.47ms
-[15:15:32] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[15:15:32] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[15:15:32] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[15:15:32] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[15:15:32] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 437.89ms
-[15:15:33] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.10.3 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/5540985
-[15:17:35] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0821_rookidee/rookidee.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0041_zubat/zubat.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0285_shroomish/shroomish.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0585_deerling/deerling_spring.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0659_bunnelby/bunnelby.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0198_murkrow/murkrow.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0048_venonat/venonat.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0013_weedle/weedle.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0164_noctowl/noctowl.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0708_phantump/phantump.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0163_hoothoot/hoothoot.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0077_ponyta/ponyta_galar.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
-[15:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0822_corvisquire/corvisquire.png
-[15:18:10] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\waypoints
-[15:18:10] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\overworld. Memory: 4096MB total, 770MB free 
-[15:18:10] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
-[15:18:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
-[15:18:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0859_impidimp/impidimp.png
-[15:18:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0915_lechonk/lechonk.png
-[15:19:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0661_fletchling/fletchling.png
-[15:19:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0046_paras/paras.png
-[15:19:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
-[15:19:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0216_teddiursa/teddiursa.png
-[15:21:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0273_seedot/seedot.png
-[15:22:41] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\minecraft:overworld
-[15:22:44] [JM-task-4/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@670dda07
-[15:22:45] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\waypoints
-[15:22:45] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\minestuck~land_shinyjiggly. Memory: 4096MB total, 917MB free 
-[15:22:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for minestuck:textures/entity_icon/consort/turtle.png
-[15:23:51] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\minestuck:land_shinyjiggly
-[15:23:53] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\waypoints
-[15:23:53] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\overworld. Memory: 4096MB total, 905MB free 
-[15:23:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0037_vulpix/vulpix.png
-[15:24:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0662_fletchinder/fletchinder.png
-[15:24:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0430_honchkrow/honchkrow.png
-[15:24:28] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0663_talonflame/talonflame.png
-[15:24:55] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\minecraft:overworld
-[15:24:57] [Render thread/INFO] [WaypointStore] Loaded 0 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\waypoints
-[15:24:57] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\minestuck~land_shinyjiggly. Memory: 4096MB total, 922MB free 
-[15:38:49] [Render thread/INFO] [DeathPointHandler] shinyjiggly died at BlockPos{x=-298, y=62, z=283}. Deathpoints enabled: true. Deathpoint created: true
-[15:38:51] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\minestuck:land_shinyjiggly
-[15:38:52] [Render thread/INFO] [WaypointStore] Loaded 1 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\waypoints
-[15:38:52] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\autumnal\overworld. Memory: 4096MB total, 860MB free 
-[15:38:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0280_ralts/ralts.png
-[15:38:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0167_spinarak/spinarak.png
-[15:39:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0014_kakuna/kakuna.png
-[15:39:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0401_kricketot/kricketot.png
-[15:39:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0092_gastly/gastly.png
-[15:39:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0161_sentret/sentret.png
-[15:39:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata_alolan.png
-[15:41:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0427_buneary/buneary.png
-[15:41:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
-[15:41:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0915_lechonk/lechonk.png
-[15:41:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0822_corvisquire/corvisquire.png
-[15:41:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0427_buneary/buneary.png
-[15:41:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0821_rookidee/rookidee.png
-[15:41:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0661_fletchling/fletchling.png
-[15:41:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0198_murkrow/murkrow.png
-[15:41:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0014_kakuna/kakuna.png
-[15:41:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0013_weedle/weedle.png
-[15:41:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0041_zubat/zubat.png
-[15:41:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0216_teddiursa/teddiursa.png
-[15:41:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0859_impidimp/impidimp.png
-[15:41:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0285_shroomish/shroomish.png
-[15:42:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0051_dugtrio/dugtrio.png
-[15:42:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0273_seedot/seedot.png
-[15:42:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0916_oinkologne/oinkologne_male.png
-[15:42:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
-[15:42:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0050_diglett/diglett.png
-[15:42:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0037_vulpix/vulpix.png
-[15:42:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0161_sentret/sentret.png
-[15:42:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0291_ninjask/ninjask.png
-[15:43:00] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\minecraft:overworld
-[15:43:00] [JM-task-14/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@52f28dfe
-[15:43:01] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[15:43:09] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[15:43:13] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[15:43:13] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 4096MB total, 873MB free 
-[15:43:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0331_cacnea/cacnea.png
-[15:43:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0027_sandshrew/sandshrew.png
-[15:43:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0449_hippopotas/hippopotas_male.png
-[15:43:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0556_maractus/maractus.png
-[15:43:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0551_sandile/sandile.png
-[15:43:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0024_arbok/arbok.png
-[15:43:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0955_flittle/flittle.png
-[15:43:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0023_ekans/ekans.png
-[15:43:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0403_shinx/shinx.png
-[15:44:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0052_meowth/meowth.png
-[15:44:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0104_cubone/cubone.png
-[15:44:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0328_trapinch/trapinch.png
-[15:44:55] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0132_ditto/ditto.png
-[15:45:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0109_koffing/koffing.png
-[15:45:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0450_hippowdon/hippowdon_female.png
-[15:46:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0332_cacturne/cacturne.png
-[15:46:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0028_sandslash/sandslash.png
-[15:46:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0552_krokorok/krokorok.png
-[15:46:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0331_cacnea/cacnea.png
-[15:46:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0556_maractus/maractus.png
-[15:46:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0450_hippowdon/hippowdon_female.png
-[15:46:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0050_diglett/diglett.png
-[15:46:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0332_cacturne/cacturne.png
-[15:46:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0028_sandslash/sandslash.png
-[15:46:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0027_sandshrew/sandshrew.png
-[15:46:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0552_krokorok/krokorok.png
-[15:46:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0023_ekans/ekans.png
-[15:46:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0449_hippopotas/hippopotas_male.png
-[15:46:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0551_sandile/sandile.png
-[15:46:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0403_shinx/shinx.png
-[15:46:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0109_koffing/koffing.png
-[15:47:11] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0041_zubat/zubat.png
-[15:47:15] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0227_skarmory/skarmory.png
-[15:47:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0955_flittle/flittle.png
-[15:47:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0209_snubbull/snubbull.png
-[15:48:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0051_dugtrio/dugtrio.png
-[15:48:27] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:overworld
-[15:48:28] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[15:48:28] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~lantea. Memory: 4096MB total, 537MB free 
-[15:49:03] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:lantea
-[15:49:04] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[15:49:05] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~chulak. Memory: 4096MB total, 963MB free 
-[15:57:00] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:chulak
-[15:57:02] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[15:57:02] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworld. Memory: 4096MB total, 689MB free 
-[15:57:04] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\minecraft:overworld
-[15:57:05] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[15:57:05] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~abydos. Memory: 4096MB total, 972MB free 
-[15:57:39] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:abydos
-[15:57:39] [JM-task-21/WARN] [TaskBatch] TaskBatch thread interrupted: journeymap.client.task.multi.MapPlayerTask$MapPlayerTaskBatch@4fc7bdda
-[15:57:41] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[15:57:41] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~chulak. Memory: 4096MB total, 803MB free 
-[15:57:59] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:chulak
-[15:58:00] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[15:58:00] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~abydos. Memory: 4096MB total, 757MB free 
-[15:58:52] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:abydos
-[15:58:53] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[15:58:53] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~chulak. Memory: 4096MB total, 540MB free 
-[16:22:53] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[16:22:53] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[16:38:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0137_porygon/porygon.png
-[20:50:09] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\sgjourney:chulak
-[20:50:12] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[20:38:33] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 352.19ms
+[20:38:35] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[20:38:35] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[20:38:35] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[20:38:35] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[20:38:35] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 326.2ms
+[20:38:36] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.10.3 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/5789363
+[20:39:06] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[20:39:36] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
+[20:39:36] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~chulak. Memory: 3366MB total, 295MB free 
+[20:39:37] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[20:50:40] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:chulak
+[20:50:41] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
+[20:50:41] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~abydos. Memory: 4096MB total, 1170MB free 
+[21:15:48] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[21:16:00] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[22:10:49] [Render thread/INFO] [StatTimer] TileDrawStep.updateScaledTexture hit max count, 1000000
+[22:10:50] [Render thread/INFO] [StatTimer] TileDrawStep.draw(high) hit max count, 1000000
+[22:16:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0137_porygon/porygon.png
+[22:26:28] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\sgjourney:abydos
+[22:26:30] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:43:44] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[22:43:48] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
+[22:43:48] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~abydos. Memory: 4096MB total, 760MB free 
+[22:57:33] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\sgjourney:abydos
+[22:57:34] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
