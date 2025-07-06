@@ -1,873 +1,175 @@
-[01Jul2025 20:37:50.573] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, shinyjiggly, --version, 1.20.1, --gameDir, C:/Users/agent/AppData/Roaming/PrismLauncher/instances/Dungeon Crashers resmoothified/.minecraft, --assetsDir, C:/Users/agent/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 5298fb7fdf9a4cc1a6ca292f1acec389, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
-[01Jul2025 20:37:50.592] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[01Jul2025 20:37:53.660] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[01Jul2025 20:37:53.858] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[01Jul2025 20:37:53.992] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[01Jul2025 20:37:54.071] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[01Jul2025 20:37:54.103] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[01Jul2025 20:37:54.156] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[01Jul2025 20:37:54.178] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 27.20.100.8476, Intel
-[01Jul2025 20:37:54.193] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/agent/AppData/Roaming/PrismLauncher/instances/Dungeon%20Crashers%20resmoothified/.minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar%23185%23188!/ Service=ModLauncher Env=CLIENT
-[01Jul2025 20:37:54.679] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[01Jul2025 20:37:54.685] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[01Jul2025 20:37:54.693] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[01Jul2025 20:37:54.699] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[01Jul2025 20:37:55.179] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 56 dependencies adding them to mods collection
-[01Jul2025 20:37:56.332] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 24 candidates to load
-[01Jul2025 20:37:57.923] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[01Jul2025 20:37:59.586] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[01Jul2025 20:37:59.862] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft, --assetsDir, C:\Users\agent\AppData\Roaming\PrismLauncher\assets, --uuid, 5298fb7fdf9a4cc1a6ca292f1acec389, --username, shinyjiggly, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
-[01Jul2025 20:38:00.376] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.14.0+mc1.20.1: 74 options available, 0 override(s) found
-[01Jul2025 20:38:00.378] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[01Jul2025 20:38:00.429] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[01Jul2025 20:38:01.599] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
-java.lang.IllegalStateException: Field f_47437_ is not private and an instance field
-	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:260) ~[coremods-5.0.1.jar:?]
-	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$39$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
-	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:648) ~[nashorn-core-15.3.jar:?]
-	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513) ~[nashorn-core-15.3.jar:?]
-	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520) ~[nashorn-core-15.3.jar:?]
-	at org.openjdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:111) ~[nashorn-core-15.3.jar:?]
-	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:18) ~[coremods-5.0.1.jar:5.0.1+15+master.dc5a2922]
-	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:18) ~[coremods-5.0.1.jar:?]
-	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:10) ~[coremods-5.0.1.jar:?]
-	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:38) ~[coremods-5.0.1.jar:?]
-	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:117) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:250) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$10(LaunchPluginHandler.java:100) ~[modlauncher-10.0.9.jar:?]
-	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2056) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo.getTargetClass(MixinInfo.java:1018) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo.readTargetClasses(MixinInfo.java:1008) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo.parseTargets(MixinInfo.java:896) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:869) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:777) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:540) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[mixin-0.8.5.jar:0.8.5+Jenkins-b310.git-155314e6e91465dad727e621a569906a410cd6f4]
-	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar:10.0.9+10.0.9+main.dcd20f30]
-	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Class.java:467) ~[?:?]
-	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.lambda$updateModuleReads$0(ConnectorLoaderService.java:65) ~[Connector-1.0.0-beta.43+1.20.1.jar%23185!/:1.0.0-beta.43+1.20.1]
-	at cpw.mods.modlauncher.api.LamdbaExceptionUtils.uncheck(LamdbaExceptionUtils.java:95) ~[modlauncher-10.0.9.jar%23140!/:10.0.9+10.0.9+main.dcd20f30]
-	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.updateModuleReads(ConnectorLoaderService.java:65) ~[Connector-1.0.0-beta.43+1.20.1.jar%23185!/:1.0.0-beta.43+1.20.1]
-	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.2.0.jar:1.0]
-	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:207) ~[fmlloader-1.20.1-47.2.0.jar:1.0]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.2.0.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?]
-	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88) ~[?:?]
-	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126) ~[?:?]
-	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71) ~[?:?]
-[01Jul2025 20:38:02.661] [main/WARN] [mixin/]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel.adorn.block.variant.BlockVariantSets)
-[01Jul2025 20:38:02.662] [main/WARN] [mixin/]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod (unknown)
-[01Jul2025 20:38:03.248] [main/WARN] [mixin/]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr.catcore.server.translations.api.resource.language.SystemDelegatedLanguage)
-[01Jul2025 20:38:03.757] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
-[01Jul2025 20:38:03.878] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[01Jul2025 20:38:06.528] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (18.89 s after launch)
-[01Jul2025 20:38:06.898] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[01Jul2025 20:38:06.898] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[01Jul2025 20:38:09.201] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2668 milliseconds
-[01Jul2025 20:38:13.057] [pool-4-thread-1/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
-java.lang.IllegalStateException: Field f_47437_ is not private and an instance field
-	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:260) ~[coremods-5.0.1.jar:?]
-	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$39$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
-	at org.openjdk.nashorn.internal.runtime.ScriptFunctionData.invoke(ScriptFunctionData.java:648) ~[nashorn-core-15.3.jar:?]
-	at org.openjdk.nashorn.internal.runtime.ScriptFunction.invoke(ScriptFunction.java:513) ~[nashorn-core-15.3.jar:?]
-	at org.openjdk.nashorn.internal.runtime.ScriptRuntime.apply(ScriptRuntime.java:520) ~[nashorn-core-15.3.jar:?]
-	at org.openjdk.nashorn.api.scripting.ScriptObjectMirror.call(ScriptObjectMirror.java:111) ~[nashorn-core-15.3.jar:?]
-	at net.minecraftforge.coremod.NashornFactory.lambda$getFunction$0(NashornFactory.java:18) ~[coremods-5.0.1.jar:5.0.1+15+master.dc5a2922]
-	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:18) ~[coremods-5.0.1.jar:?]
-	at net.minecraftforge.coremod.transformer.CoreModClassTransformer.runCoremod(CoreModClassTransformer.java:10) ~[coremods-5.0.1.jar:?]
-	at net.minecraftforge.coremod.transformer.CoreModBaseTransformer.transform(CoreModBaseTransformer.java:38) ~[coremods-5.0.1.jar:?]
-	at cpw.mods.modlauncher.TransformerHolder.transform(TransformerHolder.java:41) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.ClassTransformer.performVote(ClassTransformer.java:179) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:117) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
-	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
-	at net.minecraft.world.level.biome.FixedBiomeSource.<clinit>(FixedBiomeSource.java:17) ~[client-1.20.1-20230612.114412-srg.jar%23218!/:?]
-	at net.minecraft.world.level.biome.BiomeSources.m_220586_(BiomeSources.java:8) ~[client-1.20.1-20230612.114412-srg.jar%23218!/:?]
-	at net.minecraft.core.registries.BuiltInRegistries.m_258029_(BuiltInRegistries.java:448) ~[client-1.20.1-20230612.114412-srg.jar%23218!/:?]
-	at net.minecraft.core.registries.BuiltInRegistries.m_258037_(BuiltInRegistries.java:462) ~[client-1.20.1-20230612.114412-srg.jar%23218!/:?]
-	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
-	at net.minecraft.core.registries.BuiltInRegistries.m_257453_(BuiltInRegistries.java:461) ~[client-1.20.1-20230612.114412-srg.jar%23218!/:?]
-	at net.minecraft.core.registries.BuiltInRegistries.m_257498_(BuiltInRegistries.java:455) ~[client-1.20.1-20230612.114412-srg.jar%23218!/:?]
-	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23218!/:?]
-	at net.minecraft.client.main.Main.lambda$main$0(Main.java:151) ~[client-1.20.1-20230612.114412-srg.jar%23218!/:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
-	at java.lang.Thread.run(Thread.java:842) ~[?:?]
-[01Jul2025 20:38:13.851] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/agent/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23218!/assets/.mcassetsroot' uses unexpected schema
-[01Jul2025 20:38:13.851] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/agent/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23218!/data/.mcassetsroot' uses unexpected schema
-[01Jul2025 20:38:13.878] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01Jul2025 20:38:14.561] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: shinyjiggly
-[01Jul2025 20:38:14.706] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
-[01Jul2025 20:38:14.993] [Render thread/INFO] [config2brigadier/]: Loaded C2B lib.
-[01Jul2025 20:38:15.034] [Render thread/INFO] [owo/]: DerGeistdesMatze - i will take the l
-[01Jul2025 20:38:15.168] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:last_location
-[01Jul2025 20:38:15.168] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:spawn_point
-[01Jul2025 20:38:15.169] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:ender_chests
-[01Jul2025 20:38:15.169] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:experience
-[01Jul2025 20:38:15.169] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:inventories
-[01Jul2025 20:38:15.172] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:styled_nicknames
-[01Jul2025 20:38:15.175] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:fabric_tailor
-[01Jul2025 20:38:15.175] [Render thread/INFO] [switchy_compat/]: [Switchy Compat] Initialized!
-[01Jul2025 20:38:15.202] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_proxy:proxies
-[01Jul2025 20:38:15.202] [Render thread/INFO] [switchy/]: [Switchy] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
-[01Jul2025 20:38:15.390] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:last_location
-[01Jul2025 20:38:15.390] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:spawn_point
-[01Jul2025 20:38:15.391] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:ender_chests
-[01Jul2025 20:38:15.391] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:experience
-[01Jul2025 20:38:15.391] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:inventories
-[01Jul2025 20:38:15.391] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_proxy:proxies
-[01Jul2025 20:38:15.392] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:fabric_tailor
-[01Jul2025 20:38:15.393] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:styled_nicknames
-[01Jul2025 20:38:15.393] [Render thread/INFO] [switchy_compat_ui/]: [Switchy Compat UI] Initialized!
-[01Jul2025 20:38:15.394] [Render thread/INFO] [switchy-client/]: [Switchy Client] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
-[01Jul2025 20:38:15.592] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
-[01Jul2025 20:38:15.598] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[01Jul2025 20:38:16.091] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[01Jul2025 20:38:16.833] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[01Jul2025 20:38:16.840] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 6.654 ms
-[01Jul2025 20:38:16.981] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[01Jul2025 20:38:16.982] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[01Jul2025 20:38:17.015] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
-[01Jul2025 20:38:17.027] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod overworldmirror is signed with a valid certificate.
-[01Jul2025 20:38:17.190] [modloading-worker-0/INFO] [cobbleboom/]: Initializing cobbleboom config
-[01Jul2025 20:38:17.359] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[01Jul2025 20:38:17.429] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[01Jul2025 20:38:17.439] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Launching Cobblemon 1.5.2 
-[01Jul2025 20:38:17.443] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting ForgePermissionApiPermissionValidator, player permissions will be checked using MinecraftForge' PermissionAPI, non player command sources will use Minecraft' permission level system, see https://docs.minecraftforge.net/en/latest/ and https://minecraft.fandom.com/wiki/Permission_level
-[01Jul2025 20:38:17.840] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting the Best Spawner...
-[01Jul2025 20:38:17.851] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning condition types.
-[01Jul2025 20:38:17.910] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning context types.
-[01Jul2025 20:38:17.918] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 spawn detail types.
-[01Jul2025 20:38:18.775] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[01Jul2025 20:38:18.775] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[01Jul2025 20:38:24.158] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
-[01Jul2025 20:38:25.185] [Render thread/INFO] [journeymap/]: Registering Keybinds
-[01Jul2025 20:38:25.489] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
-[01Jul2025 20:38:25.490] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, fabric
-[01Jul2025 20:38:25.541] [Thread-1/INFO] [ModernFix/]: Please use /mfrc to reload any changed mod config files
-[01Jul2025 20:38:26.021] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Initializing...
-[01Jul2025 20:38:26.080] [Worker-ResourceReload-5/INFO] [journeymap/]: No plugins for JourneyMap API discovered.
-[01Jul2025 20:38:26.233] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[01Jul2025 20:38:26.297] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
-[01Jul2025 20:38:26.919] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File cobblemon:sounds/pokemon/rattata/rattata_alolan_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.rattata_alolan.cry
-[01Jul2025 20:38:26.921] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File cobblemon:sounds/pokemon/petilil/petilil_hisui_bias_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.petilil_hisui_bias.cry
-[01Jul2025 20:38:26.970] [Worker-ResourceReload-1/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[01Jul2025 20:38:27.734] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting showdown service...
-[01Jul2025 20:38:27.948] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 5.1.4.299 Target: 5.1.4.382
-[01Jul2025 20:38:27.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[01Jul2025 20:38:28.134] [Worker-ResourceReload-0/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/machine/grist_widget with size 196x196 limits mip level from 4 to 2
-[01Jul2025 20:38:28.136] [Worker-ResourceReload-0/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/power_hub/front with size 16x14 limits mip level from 2 to 1
-[01Jul2025 20:38:28.450] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
-com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%23100!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%23100!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%23100!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%23100!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23219!/:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23219!/:?]
-Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%23100!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%23100!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%23100!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
-	... 6 more
-[01Jul2025 20:38:28.456] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
-[01Jul2025 20:38:28.599] [Worker-ResourceReload-2/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5260b3fa]
-[01Jul2025 20:38:28.614] [Worker-ResourceReload-2/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
-[01Jul2025 20:38:28.762] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.109.6 Target: 1.116.0
-[01Jul2025 20:38:28.762] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[01Jul2025 20:38:29.148] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: OUTDATED Current: 5.9.18p1 Target: 5.10.3
-[01Jul2025 20:38:29.148] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01Jul2025 20:38:29.377] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.4.0
-[01Jul2025 20:38:29.377] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Starting version check at https://api.u-team.info/update/overworldmirror.json
-[01Jul2025 20:38:30.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Found status: UP_TO_DATE Current: 1.7.0.23 Target: null
-[01Jul2025 20:38:31.910] [Worker-ResourceReload-5/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'sgjourney:block/naquadah_generator_mark_i' referenced from: sgjourney:naquadah_generator_mark_i#: java.io.FileNotFoundException: sgjourney:models/block/naquadah_generator_mark_i.json
-[01Jul2025 20:38:32.646] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon/]: Showdown has been started!
-[01Jul2025 20:38:32.652] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
-[01Jul2025 20:38:32.652] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_features registry
-[01Jul2025 20:38:32.654] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:global_species_features registry
-[01Jul2025 20:38:32.657] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_feature_assignments registry
-[01Jul2025 20:38:32.697] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:action_effects registry
-[01Jul2025 20:38:32.700] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:moves registry
-[01Jul2025 20:38:32.706] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:abilities registry
-[01Jul2025 20:38:32.709] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species registry
-[01Jul2025 20:38:32.710] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_additions registry
-[01Jul2025 20:38:32.710] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:pokeballs registry
-[01Jul2025 20:38:32.713] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:properties_tab_completion registry
-[01Jul2025 20:38:32.714] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_detail_presets registry
-[01Jul2025 20:38:32.728] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_rules registry
-[01Jul2025 20:38:32.748] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:mechanics registry
-[01Jul2025 20:38:32.750] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:bag_items registry
-[01Jul2025 20:38:32.756] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:dialogues registry
-[01Jul2025 20:38:32.758] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:natural_materials registry
-[01Jul2025 20:38:32.761] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:fossils registry
-[01Jul2025 20:38:32.774] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_pool_world registry
-[01Jul2025 20:38:32.804] [Worker-ResourceReload-6/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:berries registry
-[01Jul2025 20:38:32.957] [Render thread/INFO] [journeymap/]: Initializing Packet Registries
-[01Jul2025 20:38:33.166] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Initializing Cobblemon client
-[01Jul2025 20:38:33.185] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Pokémon renderer
-[01Jul2025 20:38:33.188] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering PokéBall renderer
-[01Jul2025 20:38:33.189] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Boat renderer
-[01Jul2025 20:38:33.190] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Boat with Chest renderer
-[01Jul2025 20:38:33.190] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Generic Bedrock Entity renderer
-[01Jul2025 20:38:33.191] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering custom BuiltinItemRenderers
-[01Jul2025 20:38:33.252] [Render thread/INFO] [journeymap/]: Journeymap Initializing
-[01Jul2025 20:38:35.889] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
-[01Jul2025 20:38:36.004] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[01Jul2025 20:38:36.005] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[01Jul2025 20:38:36.007] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cobblemon:pokemon.evolving
-[01Jul2025 20:38:36.816] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speaker (Realtek(R) Audio)
-[01Jul2025 20:38:36.817] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[01Jul2025 20:38:36.944] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[01Jul2025 20:38:37.095] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[01Jul2025 20:38:37.098] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[01Jul2025 20:38:37.102] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[01Jul2025 20:38:37.108] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[01Jul2025 20:38:37.143] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[01Jul2025 20:38:37.145] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[01Jul2025 20:38:37.147] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[01Jul2025 20:38:37.150] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[01Jul2025 20:38:37.591] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[01Jul2025 20:38:37.997] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
-[01Jul2025 20:38:38.008] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
-[01Jul2025 20:38:38.099] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
-[01Jul2025 20:38:38.179] [Render thread/WARN] [net.minecraft.client.particle.ParticleEngine/]: Missing particle sprites: cobblemon:mushroommize
-[01Jul2025 20:38:38.179] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
-[01Jul2025 20:38:38.182] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[01Jul2025 20:38:38.186] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 cobblemon:textures/atlas/berries.png-atlas
-[01Jul2025 20:38:38.189] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading assets...
-[01Jul2025 20:38:38.190] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading particle effects...
-[01Jul2025 20:38:38.320] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 531 particle effects
-[01Jul2025 20:38:38.357] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading animations...
-[01Jul2025 20:38:42.760] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 4337 animations from 701 animation groups
-[01Jul2025 20:38:42.760] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Pokémon models...
-[01Jul2025 20:38:43.656] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 763 Pokémon models.
-[01Jul2025 20:38:44.228] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Poké Ball models...
-[01Jul2025 20:38:44.235] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 2 Poké Ball models.
-[01Jul2025 20:38:44.277] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 71 berry models
-[01Jul2025 20:38:44.277] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Fossil Pokémon models...
-[01Jul2025 20:38:44.284] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 19 Fossil Pokémon models.
-[01Jul2025 20:38:44.298] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Block Entity models...
-[01Jul2025 20:38:44.304] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 Block Entity models.
-[01Jul2025 20:38:44.328] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Generic models...
-[01Jul2025 20:38:44.334] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 Generic models.
-[01Jul2025 20:38:44.356] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 0 misc models
-[01Jul2025 20:38:44.356] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded assets
-[01Jul2025 20:38:44.356] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 computercraft:textures/atlas/gui.png-atlas
-[01Jul2025 20:38:44.359] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minestuck:textures/atlas/land_sky.png-atlas
-[01Jul2025 20:38:44.364] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
-[01Jul2025 20:38:46.560] [Render thread/WARN] [ModernFix/]: Game took 58.927 seconds to start
-[01Jul2025 20:38:59.254] [Render thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[01Jul2025 20:39:00.213] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
-[01Jul2025 20:39:00.353] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2537 advancements
-[01Jul2025 20:39:00.385] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
-[01Jul2025 20:39:00.386] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
-[01Jul2025 20:39:00.409] [Render thread/INFO] [com.mraof.minestuck.util.BoondollarPriceManager/]: Loaded 192 boondollar prices
-[01Jul2025 20:39:03.828] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 936 moves
-[01Jul2025 20:39:03.886] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 314 abilities
-[01Jul2025 20:39:04.121] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Finished additions
-[01Jul2025 20:39:05.199] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Imported 244 held item IDs from showdown
-[01Jul2025 20:39:05.199] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1025 Pokémon species
-[01Jul2025 20:39:05.221] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 43 spawn detail presets.
-[01Jul2025 20:39:05.254] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting dummy Showdown battle to force it to pre-load data.
-[01Jul2025 20:39:05.305] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 15 fossils
-[01Jul2025 20:39:05.839] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 69 berries
-[01Jul2025 20:39:05.843] [ForkJoinPool.commonPool-worker-1/INFO] [xyz.nucleoid.server.translations.impl.ServerTranslations/]: Loaded 226 translation keys
-[01Jul2025 20:39:06.017] [Render thread/INFO] [com.mraof.minestuck.alchemy.recipe.generator.recipe.RecipeGeneratedCostHandler/]: Generated 1407 grist conversions from recipes.
-[01Jul2025 20:39:06.191] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[01Jul2025 20:39:06.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Jul2025 20:39:07.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Jul2025 20:39:08.589] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 20:39:08.589] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 20:39:08.589] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 20:39:08.627] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 20:39:09.123] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 20:39:09.703] [Server thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting Forge permission node registry
-[01Jul2025 20:39:09.704] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Jul2025 20:39:09.711] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2602 ms
-[01Jul2025 20:39:09.750] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Stargate Network is up to date (Version: 7)
-[01Jul2025 20:39:09.838] [Server thread/INFO] [ModernFix/]: Instantiating Mojang DFU
-[01Jul2025 20:39:10.810] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 232 milliseconds
-[01Jul2025 20:39:29.791] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 7, from 10
-[01Jul2025 20:39:29.798] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 10, from 0
-[01Jul2025 20:39:29.859] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[01Jul2025 20:39:30.538] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[01Jul2025 20:39:31.906] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: shinyjiggly[local:E:5747ca9b] logged in with entity id 116 at (177.84569795378255, 75.68080983234653, 85.09495896787348)
-[01Jul2025 20:39:32.199] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[01Jul2025 20:39:32.199] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[01Jul2025 20:39:32.307] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6b0d8818=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/memory_crystal
-[01Jul2025 20:39:32.307] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4c951338=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/classic_milky_way_variant_crystal
-[01Jul2025 20:39:32.308] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@f65aa97=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_movie_variant_crystal
-[01Jul2025 20:39:32.308] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1179883f=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_atlantis_variant_crystal
-[01Jul2025 20:39:32.309] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5a94cc67=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_materialization_crystal
-[01Jul2025 20:39:32.309] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@63c9a4fc=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/control_crystal
-[01Jul2025 20:39:32.311] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@25c2f350=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/universe_upgrade_crystal
-[01Jul2025 20:39:32.311] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5a673c4b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_transfer_crystal
-[01Jul2025 20:39:32.312] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@21624da5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_promo_variant_crystal
-[01Jul2025 20:39:32.313] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@41917eb0=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_upgrade_crystal
-[01Jul2025 20:39:32.313] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@59f6a5c6=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/communication_crystal
-[01Jul2025 20:39:32.314] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@a35ac46=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_upgrade_crystal
-[01Jul2025 20:39:32.314] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@17add6ae=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/materialization_crystal
-[01Jul2025 20:39:32.315] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6fd5552e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_control_crystal
-[01Jul2025 20:39:32.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@49716cdd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/energy_crystal
-[01Jul2025 20:39:32.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3fa0ab4c=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/transfer_crystal
-[01Jul2025 20:39:32.316] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5d9a4326=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_sg-1_variant_crystal
-[01Jul2025 20:39:32.319] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@138ecfe2=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/tollan_upgrade_crystal
-[01Jul2025 20:39:32.320] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@59d51357=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_energy_crystal
-[01Jul2025 20:39:32.321] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5eee34f6=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_communication_crystal
-[01Jul2025 20:39:32.322] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@f83b144=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/stargate_variant_crystal
-[01Jul2025 20:39:32.324] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@77c515a4=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_memory_crystal
-[01Jul2025 20:39:32.325] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5bfc2af4=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/large_control_crystal
-[01Jul2025 20:39:32.331] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[01Jul2025 20:39:32.358] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[01Jul2025 20:39:32.360] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[01Jul2025 20:39:32.360] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[01Jul2025 20:39:32.376] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[01Jul2025 20:39:32.381] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 4.722 ms
-[01Jul2025 20:39:32.381] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[01Jul2025 20:39:32.385] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 3.009 ms
-[01Jul2025 20:39:32.388] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[01Jul2025 20:39:32.426] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly joined the game
-[01Jul2025 20:39:32.526] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 137.5 milliseconds
-[01Jul2025 20:39:32.529] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 141.0 ms
-[01Jul2025 20:39:32.541] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[01Jul2025 20:39:32.547] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2253ms or 45 ticks behind
-[01Jul2025 20:39:32.566] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 23.17 milliseconds
-[01Jul2025 20:39:32.580] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 37.06 ms
-[01Jul2025 20:39:32.582] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[01Jul2025 20:39:32.586] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 3.922 ms
-[01Jul2025 20:39:32.589] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[01Jul2025 20:39:32.593] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 2.077 ms
-[01Jul2025 20:39:32.594] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[01Jul2025 20:39:32.599] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.shared.integration.jei.RecipeResolver
-[01Jul2025 20:39:32.599] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 4.678 ms
-[01Jul2025 20:39:32.599] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[01Jul2025 20:39:32.618] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 17.64 ms
-[01Jul2025 20:39:32.622] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[01Jul2025 20:39:33.324] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 701.4 milliseconds
-[01Jul2025 20:39:33.376] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: uteamcore:jei took 51.82 milliseconds
-[01Jul2025 20:39:33.574] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: minestuck:minestuck took 190.6 milliseconds
-[01Jul2025 20:39:33.575] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 952.8 ms
-[01Jul2025 20:39:33.581] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[01Jul2025 20:39:33.587] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 6.404 ms
-[01Jul2025 20:39:33.589] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[01Jul2025 20:39:33.591] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[01Jul2025 20:39:33.606] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 13.92 ms
-[01Jul2025 20:39:33.620] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[01Jul2025 20:39:33.624] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[01Jul2025 20:39:33.625] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[01Jul2025 20:39:33.632] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 5.622 ms
-[01Jul2025 20:39:33.632] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[01Jul2025 20:39:33.691] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3487 ingredients
-[01Jul2025 20:39:34.365] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3487 ingredients
-[01Jul2025 20:39:34.366] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 735.0 ms
-[01Jul2025 20:39:34.528] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 905.4 milliseconds
-[01Jul2025 20:39:34.528] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 906.7 ms
-[01Jul2025 20:39:34.529] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 939.7 ms
-[01Jul2025 20:39:34.529] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[01Jul2025 20:39:34.530] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.world.item.ItemStack
-[01Jul2025 20:39:34.538] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 8.124 ms
-[01Jul2025 20:39:34.538] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 2.177 s
-[01Jul2025 20:39:35.093] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1061 advancements
-[01Jul2025 20:39:35.376] [Render thread/WARN] [ModernFix/]: Time from main menu to in-game was 29.356459 seconds
-[01Jul2025 20:39:35.377] [Render thread/WARN] [ModernFix/]: Total time to load game and open world was 88.283455 seconds
-[01Jul2025 20:39:37.067] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] JourneyMap: Press [J]
-[01Jul2025 20:39:52.402] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4856ms or 97 ticks behind
-[01Jul2025 20:50:40.881] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Jul2025 20:50:40.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[01Jul2025 20:50:40.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[01Jul2025 20:50:40.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[01Jul2025 20:50:40.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[01Jul2025 20:50:40.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[01Jul2025 20:50:40.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[01Jul2025 20:50:40.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[01Jul2025 20:50:40.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[01Jul2025 20:50:40.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[01Jul2025 20:50:40.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[01Jul2025 20:51:55.145] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Jul2025 20:51:55.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[01Jul2025 20:51:55.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[01Jul2025 20:51:55.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[01Jul2025 20:51:55.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[01Jul2025 20:51:55.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[01Jul2025 20:51:55.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[01Jul2025 20:51:55.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[01Jul2025 20:51:55.317] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[01Jul2025 20:51:55.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[01Jul2025 20:51:55.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[01Jul2025 21:05:30.145] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Jul2025 21:05:30.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[01Jul2025 21:05:30.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[01Jul2025 21:05:30.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[01Jul2025 21:05:30.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[01Jul2025 21:05:30.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[01Jul2025 21:05:30.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[01Jul2025 21:05:30.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[01Jul2025 21:05:30.281] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[01Jul2025 21:05:30.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[01Jul2025 21:05:30.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[01Jul2025 21:06:14.196] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Jul2025 21:06:14.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[01Jul2025 21:06:14.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[01Jul2025 21:06:14.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[01Jul2025 21:06:14.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[01Jul2025 21:06:14.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[01Jul2025 21:06:14.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[01Jul2025 21:06:14.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[01Jul2025 21:06:14.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[01Jul2025 21:06:14.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[01Jul2025 21:06:14.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[01Jul2025 21:10:48.765] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1062 advancements
-[01Jul2025 21:11:57.964] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (129, 77, 169).
-[01Jul2025 21:12:11.341] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (137, 83, 176) (504).
-[01Jul2025 21:12:18.654] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 504 blocks affected
-[01Jul2025 21:12:18.656] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 21:12:18.657] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 21:12:33.678] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (124, 77, 189)
-[01Jul2025 21:12:33.679] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 504 blocks affected
-[01Jul2025 21:12:33.680] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 21:12:33.681] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 21:12:52.510] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 21:13:00.128] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (126, 77, 190)
-[01Jul2025 21:13:00.129] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 504 blocks affected
-[01Jul2025 21:13:00.130] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 21:13:00.131] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 21:13:49.153] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (135, 76, 186) (264).
-[01Jul2025 21:13:51.894] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (129, 76, 191) (42).
-[01Jul2025 21:14:03.600] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (42 blocks affected).
-[01Jul2025 21:14:49.303] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (128, 76, 185) (14).
-[01Jul2025 21:14:52.894] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (113, 74, 195) (528).
-[01Jul2025 21:14:55.444] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (528 blocks affected).
-[01Jul2025 21:15:01.596] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (112, 76, 184) (72).
-[01Jul2025 21:15:06.023] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (83, 76, 206) (690).
-[01Jul2025 21:15:07.672] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (690 blocks affected).
-[01Jul2025 21:15:13.898] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (113, 76, 185) (682).
-[01Jul2025 21:15:16.993] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (91, 75, 197) (598).
-[01Jul2025 21:15:18.402] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (598 blocks affected).
-[01Jul2025 21:15:37.242] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (126, 75, 195) (108).
-[01Jul2025 21:15:45.762] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (94, 75, 202) (264).
-[01Jul2025 21:15:50.545] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (264 blocks affected).
-[01Jul2025 21:15:56.393] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (95, 76, 202) (4).
-[01Jul2025 21:16:02.759] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (122, 76, 195) (224).
-[01Jul2025 21:16:04.287] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (224 blocks affected).
-[01Jul2025 21:18:22.100] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1072 advancements
-[01Jul2025 21:18:38.249] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (128, 76, 185) (77).
-[01Jul2025 21:18:47.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (136, 83, 192) (576).
-[01Jul2025 21:18:56.206] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 21:18:56.207] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 21:18:56.207] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 21:46:57.342] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (125, 76, 181) (1152).
-[01Jul2025 21:47:09.236] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (181, 76, 179) (171).
-[01Jul2025 21:47:20.765] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (171 blocks affected).
-[01Jul2025 21:47:43.900] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (119, 76, 184) (378).
-[01Jul2025 21:47:45.097] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (117, 76, 184) (3).
-[01Jul2025 21:47:51.443] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (117, 76, 205) (66).
-[01Jul2025 21:47:53.552] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (66 blocks affected).
-[01Jul2025 21:49:14.644] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (120, 76, 196) (40).
-[01Jul2025 21:49:19.945] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (136, 76, 206) (187).
-[01Jul2025 21:49:23.633] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (187 blocks affected).
-[01Jul2025 21:51:14.624] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (119, 77, 196)
-[01Jul2025 21:51:14.627] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 21:51:14.627] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 21:51:14.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 21:51:23.146] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 21:51:27.147] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (121, 77, 196)
-[01Jul2025 21:51:27.148] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 21:51:27.149] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 21:51:27.151] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 21:53:10.646] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (116, 76, 189) (378).
-[01Jul2025 21:53:17.348] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (91, 76, 187) (78).
-[01Jul2025 21:53:25.479] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (78 blocks affected).
-[01Jul2025 21:54:17.299] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (99, 83, 172) (1152).
-[01Jul2025 21:54:22.050] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (107, 76, 179) (576).
-[01Jul2025 21:54:31.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 21:54:31.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 21:54:31.629] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 21:54:43.322] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (117, 77, 193)
-[01Jul2025 21:54:43.323] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 21:54:43.324] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 21:54:43.324] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 21:55:12.441] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 21:55:16.697] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (114, 77, 193)
-[01Jul2025 21:55:16.698] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 21:55:16.699] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 21:55:16.700] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 21:58:54.942] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (84, 76, 185) (168).
-[01Jul2025 21:58:56.543] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (91, 76, 185) (8).
-[01Jul2025 21:59:02.662] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (8 blocks affected).
-[01Jul2025 21:59:05.299] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (91, 76, 186) (2).
-[01Jul2025 21:59:07.094] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (83, 76, 186) (9).
-[01Jul2025 21:59:08.859] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (9 blocks affected).
-[01Jul2025 21:59:10.946] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (91, 76, 190) (45).
-[01Jul2025 21:59:14.046] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (79, 76, 198) (117).
-[01Jul2025 21:59:15.338] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (117 blocks affected).
-[01Jul2025 22:00:12.565] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard copy has been rotated.
-[01Jul2025 22:00:19.120] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (98, 77, 188)
-[01Jul2025 22:00:19.121] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:00:19.122] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:00:19.122] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:00:25.434] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 22:00:33.596] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (90, 77, 187)
-[01Jul2025 22:00:33.597] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:00:33.599] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:00:33.599] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:00:45.909] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 22:00:49.932] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (93, 77, 185)
-[01Jul2025 22:00:49.933] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:00:49.933] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:00:49.933] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:01:58.352] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (84, 76, 189) (60).
-[01Jul2025 22:02:02.949] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (70, 76, 187) (45).
-[01Jul2025 22:02:09.037] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (45 blocks affected).
-[01Jul2025 22:02:32.048] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (80, 76, 186) (22).
-[01Jul2025 22:02:33.154] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (78, 76, 186) (3).
-[01Jul2025 22:02:41.045] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (78, 76, 160) (81).
-[01Jul2025 22:02:42.687] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (81 blocks affected).
-[01Jul2025 22:04:00.393] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (129, 76, 176) (884).
-[01Jul2025 22:04:03.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (137, 83, 169) (576).
-[01Jul2025 22:04:11.646] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:04:11.646] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:04:11.646] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:04:30.504] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (84, 77, 165)
-[01Jul2025 22:04:30.505] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:04:30.506] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:04:30.507] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:05:12.443] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (80, 76, 190) (10208).
-[01Jul2025 22:05:20.247] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (78, 76, 213) (72).
-[01Jul2025 22:05:22.922] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (72 blocks affected).
-[01Jul2025 22:05:42.752] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (82, 77, 199)
-[01Jul2025 22:05:42.753] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:05:42.754] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:05:42.755] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:08:12.805] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (86, 83, 174) (2880).
-[01Jul2025 22:08:16.004] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (93, 77, 182) (1024).
-[01Jul2025 22:08:17.752] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (93, 77, 182) (1).
-[01Jul2025 22:08:21.848] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (93, 76, 182) (2).
-[01Jul2025 22:08:25.195] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (86, 83, 174) (576).
-[01Jul2025 22:08:35.462] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:08:35.462] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:08:35.463] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:08:48.242] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (154, 77, 178)
-[01Jul2025 22:08:48.244] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:08:48.244] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:08:48.244] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:09:11.914] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 22:09:17.909] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (149, 77, 176)
-[01Jul2025 22:09:17.909] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:09:17.909] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:09:17.911] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:09:43.151] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (157, 76, 178) (325).
-[01Jul2025 22:09:48.953] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (159, 76, 157) (66).
-[01Jul2025 22:09:52.651] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (66 blocks affected).
-[01Jul2025 22:11:17.818] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (167, 77, 177)
-[01Jul2025 22:11:17.819] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:11:17.819] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:11:17.819] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:12:07.770] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (99, 83, 179) (11224).
-[01Jul2025 22:12:09.046] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (99, 83, 179) (1).
-[01Jul2025 22:12:12.897] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (108, 76, 172) (640).
-[01Jul2025 22:12:16.097] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (107, 76, 172) (2).
-[01Jul2025 22:12:20.250] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 2 blocks affected
-[01Jul2025 22:12:20.250] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:12:20.250] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:12:40.793] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (156, 77, 158)
-[01Jul2025 22:12:40.793] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 2 blocks affected
-[01Jul2025 22:12:40.793] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:12:40.794] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:12:49.290] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 22:13:00.445] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (107, 76, 172) (1).
-[01Jul2025 22:13:08.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (99, 83, 179) (576).
-[01Jul2025 22:13:14.587] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:13:14.587] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:13:14.587] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:13:26.328] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (156, 77, 157)
-[01Jul2025 22:13:26.328] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:13:26.329] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:13:26.329] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:13:38.490] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 22:13:42.463] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (153, 77, 155)
-[01Jul2025 22:13:42.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:13:42.464] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:13:42.466] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:14:50.299] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (75, 77, 165)
-[01Jul2025 22:14:50.301] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:14:50.302] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:14:50.303] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:15:05.542] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (76, 77, 177)
-[01Jul2025 22:15:05.543] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:15:05.543] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:15:05.543] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:15:50.452] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (93, 83, 160) (140).
-[01Jul2025 22:15:56.997] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (85, 76, 167) (576).
-[01Jul2025 22:16:05.266] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:16:05.266] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:16:05.267] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:16:23.560] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (160, 77, 159)
-[01Jul2025 22:16:23.561] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:16:23.562] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:16:23.562] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:16:33.172] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 22:16:35.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (162, 77, 159)
-[01Jul2025 22:16:35.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 576 blocks affected
-[01Jul2025 22:16:35.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
-[01Jul2025 22:16:35.969] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
-[01Jul2025 22:17:52.898] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (166, 77, 139) (4756).
-[01Jul2025 22:17:59.502] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (122, 76, 139) (90).
-[01Jul2025 22:18:26.510] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Invalid value for <pattern> (Block name 'stripped_acacia_picketfence' was not recognized.), acceptable values are any pattern
-[01Jul2025 22:18:26.525] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Usage: //set <pattern>
-[01Jul2025 22:20:07.628] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (90 blocks affected).
-[01Jul2025 22:20:18.844] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Undid 1 available edits.
-[01Jul2025 22:20:27.902] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (122, 77, 139) (2).
-[01Jul2025 22:20:34.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (166, 77, 139) (45).
-[01Jul2025 22:20:49.069] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (45 blocks affected).
-[01Jul2025 22:21:05.204] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (174, 77, 138) (18).
-[01Jul2025 22:21:05.766] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (174, 77, 138) (1).
-[01Jul2025 22:21:21.151] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (174, 77, 38) (101).
-[01Jul2025 22:21:23.806] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (101 blocks affected).
-[01Jul2025 22:21:45.894] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (174, 77, 38) (1).
-[01Jul2025 22:22:03.250] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (68, 77, 38) (107).
-[01Jul2025 22:22:05.149] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (107 blocks affected).
-[01Jul2025 22:22:12.305] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (68, 77, 38) (1).
-[01Jul2025 22:22:29.150] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (68, 77, 138) (101).
-[01Jul2025 22:22:31.455] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (101 blocks affected).
-[01Jul2025 22:22:38.602] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (69, 77, 139) (204).
-[01Jul2025 22:22:51.103] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (114, 77, 139) (4794).
-[01Jul2025 22:22:59.200] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (69, 77, 139) (46).
-[01Jul2025 22:23:00.910] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Operation completed (46 blocks affected).
-[01Jul2025 22:26:26.795] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Jul2025 22:26:26.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[01Jul2025 22:26:26.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[01Jul2025 22:26:26.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[01Jul2025 22:26:26.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[01Jul2025 22:26:26.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[01Jul2025 22:26:26.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[01Jul2025 22:26:26.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[01Jul2025 22:26:26.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[01Jul2025 22:26:26.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[01Jul2025 22:26:26.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[01Jul2025 22:26:28.719] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[01Jul2025 22:26:28.719] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[01Jul2025 22:26:28.721] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[01Jul2025 22:26:28.723] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[01Jul2025 22:26:28.727] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
-[01Jul2025 22:26:28.732] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 7.810 ms
-[01Jul2025 22:26:28.761] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shinyjiggly lost connection: Disconnected
-[01Jul2025 22:26:28.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly left the game
-[01Jul2025 22:26:28.826] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[01Jul2025 22:26:28.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Jul2025 22:26:28.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Jul2025 22:26:29.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Jul2025 22:26:29.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[01Jul2025 22:26:29.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[01Jul2025 22:26:29.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[01Jul2025 22:26:29.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[01Jul2025 22:26:29.390] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[01Jul2025 22:26:29.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[01Jul2025 22:26:29.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[01Jul2025 22:26:29.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[01Jul2025 22:26:29.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[01Jul2025 22:26:29.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[01Jul2025 22:26:29.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Desertiaaa): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skaia): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (land_shinyjiggly): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
-[01Jul2025 22:26:29.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01Jul2025 22:43:42.435] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
-[01Jul2025 22:43:42.506] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2537 advancements
-[01Jul2025 22:43:42.521] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
-[01Jul2025 22:43:42.521] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
-[01Jul2025 22:43:42.526] [Render thread/INFO] [com.mraof.minestuck.util.BoondollarPriceManager/]: Loaded 192 boondollar prices
-[01Jul2025 22:43:43.029] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 936 moves
-[01Jul2025 22:43:43.076] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 314 abilities
-[01Jul2025 22:43:43.280] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Finished additions
-[01Jul2025 22:43:43.916] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Imported 244 held item IDs from showdown
-[01Jul2025 22:43:43.916] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1025 Pokémon species
-[01Jul2025 22:43:44.044] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 43 spawn detail presets.
-[01Jul2025 22:43:44.055] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting dummy Showdown battle to force it to pre-load data.
-[01Jul2025 22:43:44.069] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 15 fossils
-[01Jul2025 22:43:44.353] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 69 berries
-[01Jul2025 22:43:44.361] [ForkJoinPool.commonPool-worker-15/INFO] [xyz.nucleoid.server.translations.impl.ServerTranslations/]: Loaded 226 translation keys
-[01Jul2025 22:43:44.479] [Render thread/INFO] [com.mraof.minestuck.alchemy.recipe.generator.recipe.RecipeGeneratedCostHandler/]: Generated 1407 grist conversions from recipes.
-[01Jul2025 22:43:44.566] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[01Jul2025 22:43:44.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[01Jul2025 22:43:44.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[01Jul2025 22:43:44.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 22:43:45.222] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[01Jul2025 22:43:45.682] [Server thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting Forge permission node registry
-[01Jul2025 22:43:45.682] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[01Jul2025 22:43:45.688] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Stargate Network is up to date (Version: 7)
-[01Jul2025 22:43:45.692] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 984 ms
-[01Jul2025 22:43:46.316] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 7, from 10
-[01Jul2025 22:43:46.317] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 10, from 0
-[01Jul2025 22:43:46.818] [Netty Local Client IO #1/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[01Jul2025 22:43:46.877] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: shinyjiggly[local:E:80324020] logged in with entity id 1335 at (123.05192296202675, 80.65851067026196, 143.77586156122234)
-[01Jul2025 22:43:46.919] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[01Jul2025 22:43:46.919] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[01Jul2025 22:43:46.998] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5788e55a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/materialization_crystal
-[01Jul2025 22:43:46.999] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@64626ed0=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/classic_milky_way_variant_crystal
-[01Jul2025 22:43:46.999] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6fc3668e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_upgrade_crystal
-[01Jul2025 22:43:46.999] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@22f7c729=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_promo_variant_crystal
-[01Jul2025 22:43:47.000] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6a6746ce=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_control_crystal
-[01Jul2025 22:43:47.000] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@210ca5a7=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/memory_crystal
-[01Jul2025 22:43:47.001] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2e6fcd6e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/universe_upgrade_crystal
-[01Jul2025 22:43:47.005] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@9e918ca=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/stargate_variant_crystal
-[01Jul2025 22:43:47.006] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@226fc937=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_sg-1_variant_crystal
-[01Jul2025 22:43:47.007] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2339991f=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_movie_variant_crystal
-[01Jul2025 22:43:47.008] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@239c6481=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/tollan_upgrade_crystal
-[01Jul2025 22:43:47.009] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7a2041dd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_energy_crystal
-[01Jul2025 22:43:47.009] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@59198c64=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/transfer_crystal
-[01Jul2025 22:43:47.011] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@902db31=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/large_control_crystal
-[01Jul2025 22:43:47.011] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7c86c577=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/control_crystal
-[01Jul2025 22:43:47.011] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1e8058ff=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_transfer_crystal
-[01Jul2025 22:43:47.012] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6e6dbb84=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_materialization_crystal
-[01Jul2025 22:43:47.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly joined the game
-[01Jul2025 22:43:47.012] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7045a751=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_memory_crystal
-[01Jul2025 22:43:47.012] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3d532cf7=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/communication_crystal
-[01Jul2025 22:43:47.013] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@6de35884=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_communication_crystal
-[01Jul2025 22:43:47.014] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4dd16a02=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_upgrade_crystal
-[01Jul2025 22:43:47.014] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@c63c0cd=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_atlantis_variant_crystal
-[01Jul2025 22:43:47.015] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@7c6a61fe=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/energy_crystal
-[01Jul2025 22:43:47.017] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[01Jul2025 22:43:47.035] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[01Jul2025 22:43:47.035] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[01Jul2025 22:43:47.035] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
-[01Jul2025 22:43:47.036] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
-[01Jul2025 22:43:47.037] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 1.315 ms
-[01Jul2025 22:43:47.037] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
-[01Jul2025 22:43:47.038] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 507.4 ?s
-[01Jul2025 22:43:47.038] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
-[01Jul2025 22:43:47.081] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 42.46 milliseconds
-[01Jul2025 22:43:47.081] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 43.31 ms
-[01Jul2025 22:43:47.083] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
-[01Jul2025 22:43:47.086] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 2.624 ms
-[01Jul2025 22:43:47.086] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
-[01Jul2025 22:43:47.087] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 472.8 ?s
-[01Jul2025 22:43:47.087] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
-[01Jul2025 22:43:47.088] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 601.3 ?s
-[01Jul2025 22:43:47.088] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
-[01Jul2025 22:43:47.088] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.shared.integration.jei.RecipeResolver
-[01Jul2025 22:43:47.089] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 588.7 ?s
-[01Jul2025 22:43:47.089] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
-[01Jul2025 22:43:47.090] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 820.1 ?s
-[01Jul2025 22:43:47.090] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
-[01Jul2025 22:43:47.431] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 340.3 milliseconds
-[01Jul2025 22:43:47.553] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: minestuck:minestuck took 106.8 milliseconds
-[01Jul2025 22:43:47.553] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 463.7 ms
-[01Jul2025 22:43:47.553] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
-[01Jul2025 22:43:47.555] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 732.4 ?s
-[01Jul2025 22:43:47.556] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
-[01Jul2025 22:43:47.556] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
-[01Jul2025 22:43:47.556] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 621.8 ?s
-[01Jul2025 22:43:47.556] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
-[01Jul2025 22:43:47.557] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[01Jul2025 22:43:47.557] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
-[01Jul2025 22:43:47.561] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 3.655 ms
-[01Jul2025 22:43:47.561] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
-[01Jul2025 22:43:47.563] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3487 ingredients
-[01Jul2025 22:43:47.971] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3487 ingredients
-[01Jul2025 22:43:47.971] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 410.9 ms
-[01Jul2025 22:43:48.034] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 477.5 milliseconds
-[01Jul2025 22:43:48.034] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 478.5 ms
-[01Jul2025 22:43:48.034] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 479.6 ms
-[01Jul2025 22:43:48.034] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
-[01Jul2025 22:43:48.035] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.world.item.ItemStack
-[01Jul2025 22:43:48.039] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 4.319 ms
-[01Jul2025 22:43:48.039] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 1.004 s
-[01Jul2025 22:43:48.058] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1072 advancements
-[01Jul2025 22:43:48.752] [Render thread/WARN] [ModernFix/]: Time from main menu to in-game was 4.273121 seconds
-[01Jul2025 22:43:48.754] [Render thread/WARN] [ModernFix/]: Total time to load game and open world was 63.20012 seconds
-[01Jul2025 22:49:23.609] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (124, 61, 131).
-[01Jul2025 22:49:23.936] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (124, 61, 131) (1).
-[01Jul2025 22:49:31.684] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (124, 76, 131) (16).
-[01Jul2025 22:57:31.445] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[01Jul2025 22:57:31.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[01Jul2025 22:57:31.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[01Jul2025 22:57:31.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[01Jul2025 22:57:31.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[01Jul2025 22:57:31.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[01Jul2025 22:57:31.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[01Jul2025 22:57:31.547] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[01Jul2025 22:57:31.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[01Jul2025 22:57:31.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[01Jul2025 22:57:31.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[01Jul2025 22:57:33.134] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[01Jul2025 22:57:33.134] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[01Jul2025 22:57:33.134] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[01Jul2025 22:57:33.134] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
-[01Jul2025 22:57:33.136] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
-[01Jul2025 22:57:33.146] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 11.52 ms
-[01Jul2025 22:57:33.196] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shinyjiggly lost connection: Disconnected
-[01Jul2025 22:57:33.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly left the game
-[01Jul2025 22:57:33.230] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[01Jul2025 22:57:33.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[01Jul2025 22:57:33.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[01Jul2025 22:57:33.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[01Jul2025 22:57:33.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
-[01Jul2025 22:57:33.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
-[01Jul2025 22:57:33.475] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
-[01Jul2025 22:57:33.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
-[01Jul2025 22:57:33.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
-[01Jul2025 22:57:33.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
-[01Jul2025 22:57:33.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
-[01Jul2025 22:57:33.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
-[01Jul2025 22:57:33.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
-[01Jul2025 22:57:33.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
-[01Jul2025 22:57:33.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Desertiaaa): All chunks are saved
-[01Jul2025 22:57:33.570] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skaia): All chunks are saved
-[01Jul2025 22:57:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
-[01Jul2025 22:57:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (land_shinyjiggly): All chunks are saved
-[01Jul2025 22:57:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01Jul2025 22:57:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
-[01Jul2025 22:57:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
-[01Jul2025 22:57:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
-[01Jul2025 22:57:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01Jul2025 22:57:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
-[01Jul2025 22:57:33.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01Jul2025 22:57:37.212] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[06Jul2025 00:02:01.453] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (265, 77, 152).
+[06Jul2025 00:02:05.116] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (279, 77, 138) (225).
+[06Jul2025 00:02:14.993] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 225 blocks affected
+[06Jul2025 00:02:14.994] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:02:14.996] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:02:21.413] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (279, 78, 138)
+[06Jul2025 00:02:21.417] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 225 blocks affected
+[06Jul2025 00:02:21.417] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:02:21.417] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:02:35.842] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (279, 78, 138)
+[06Jul2025 00:02:35.844] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 225 blocks affected
+[06Jul2025 00:02:35.846] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:02:35.848] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:02:45.796] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (279, 80, 138)
+[06Jul2025 00:02:45.797] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 225 blocks affected
+[06Jul2025 00:02:45.798] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:02:45.799] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:02:51.829] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (279, 80, 138)
+[06Jul2025 00:02:51.829] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 225 blocks affected
+[06Jul2025 00:02:51.829] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:02:51.830] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:02:56.214] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (279, 80, 138)
+[06Jul2025 00:02:56.216] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 225 blocks affected
+[06Jul2025 00:02:56.217] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:02:56.218] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:03:00.456] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (279, 80, 138)
+[06Jul2025 00:03:00.457] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 225 blocks affected
+[06Jul2025 00:03:00.458] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:03:00.460] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:05:27.308] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (279, 79, 138) (3).
+[06Jul2025 00:05:32.304] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (265, 77, 152) (675).
+[06Jul2025 00:05:48.963] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:05:48.964] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:05:48.964] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:05:55.081] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 79, 152)
+[06Jul2025 00:05:55.083] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:05:55.084] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:05:55.085] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:00.955] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 81, 152)
+[06Jul2025 00:06:00.956] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:00.958] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:00.959] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:04.812] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 83, 152)
+[06Jul2025 00:06:04.814] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:04.816] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:04.817] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:11.416] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 85, 152)
+[06Jul2025 00:06:11.419] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:11.420] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:11.421] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:15.447] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 87, 152)
+[06Jul2025 00:06:15.447] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:15.448] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:15.449] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:18.817] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 89, 152)
+[06Jul2025 00:06:18.818] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:18.819] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:18.822] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:24.045] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 91, 152)
+[06Jul2025 00:06:24.047] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:24.048] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:24.048] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:42.006] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 93, 152)
+[06Jul2025 00:06:42.008] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:42.009] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:42.010] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:44.375] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 95, 152)
+[06Jul2025 00:06:44.376] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:44.377] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:44.377] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:48.640] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 97, 152)
+[06Jul2025 00:06:48.640] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:48.641] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:48.642] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:51.418] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 99, 152)
+[06Jul2025 00:06:51.453] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:51.455] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:51.456] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:55.506] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 101, 152)
+[06Jul2025 00:06:55.506] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:55.506] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:55.507] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:06:59.202] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 103, 152)
+[06Jul2025 00:06:59.202] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:06:59.202] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:06:59.202] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:07:03.857] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 105, 152)
+[06Jul2025 00:07:03.857] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:07:03.859] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:07:03.860] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:08:02.392] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 107, 152)
+[06Jul2025 00:08:02.393] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:08:02.397] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:08:02.397] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:08:07.105] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 108, 152)
+[06Jul2025 00:08:07.107] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:08:07.107] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:08:07.108] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:08:10.332] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 110, 152)
+[06Jul2025 00:08:10.333] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:08:10.334] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:08:10.334] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:08:13.448] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 112, 152)
+[06Jul2025 00:08:13.449] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:08:13.450] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:08:13.451] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:08:16.473] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 114, 152)
+[06Jul2025 00:08:16.475] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:08:16.475] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:08:16.476] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:08:18.778] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 116, 152)
+[06Jul2025 00:08:18.780] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:08:18.780] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:08:18.781] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:08:21.228] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 118, 152)
+[06Jul2025 00:08:21.229] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:08:21.230] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:08:21.230] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:08:23.972] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The clipboard has been pasted at (265, 119, 152)
+[06Jul2025 00:08:23.974] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 675 blocks affected
+[06Jul2025 00:08:23.976] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 biomes affected
+[06Jul2025 00:08:23.977] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 0 entities affected
+[06Jul2025 00:11:28.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [shinyjiggly: Set the weather to clear]
+[06Jul2025 00:11:28.987] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the weather to clear
+[06Jul2025 00:12:44.740] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
+[06Jul2025 00:21:49.658] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] First position set to (281, 120, 132) (15708).
+[06Jul2025 00:21:55.019] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Second position set to (264, 120, 157) (468).
+[06Jul2025 00:22:13.139] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 192 blocks have been replaced.
+[06Jul2025 00:25:41.836] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-07-06_00.25.40.png
+[06Jul2025 00:26:36.697] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2025-07-06_00.26.35.png
+[06Jul2025 00:26:41.395] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Jul2025 00:26:41.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[06Jul2025 00:26:41.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[06Jul2025 00:26:41.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[06Jul2025 00:26:41.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[06Jul2025 00:26:41.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[06Jul2025 00:26:41.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[06Jul2025 00:26:41.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[06Jul2025 00:26:41.534] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[06Jul2025 00:26:41.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[06Jul2025 00:26:41.548] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[06Jul2025 00:26:44.517] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[06Jul2025 00:26:44.518] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[06Jul2025 00:26:44.519] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[06Jul2025 00:26:44.521] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[06Jul2025 00:26:44.523] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[06Jul2025 00:26:44.530] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 7.093 ms
+[06Jul2025 00:26:44.601] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shinyjiggly lost connection: Disconnected
+[06Jul2025 00:26:44.604] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly left the game
+[06Jul2025 00:26:44.663] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[06Jul2025 00:26:44.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Jul2025 00:26:44.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Jul2025 00:26:44.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Jul2025 00:26:44.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[06Jul2025 00:26:45.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[06Jul2025 00:26:45.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[06Jul2025 00:26:45.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[06Jul2025 00:26:45.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[06Jul2025 00:26:45.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[06Jul2025 00:26:45.173] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[06Jul2025 00:26:45.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[06Jul2025 00:26:45.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[06Jul2025 00:26:45.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[06Jul2025 00:26:45.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Desertiaaa): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (land_shinyjiggly): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skaia): All chunks are saved
+[06Jul2025 00:26:45.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06Jul2025 00:26:49.794] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

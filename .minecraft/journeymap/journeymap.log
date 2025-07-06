@@ -1,9 +1,9 @@
-[20:38:33] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
-[20:38:33] [Render thread/INFO] [JourneymapClient] initialize ENTER
-[20:38:33] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
-[20:38:33] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
-[20:38:33] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
-[20:38:33] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18p1, built with forge 1.20.1-47.1.46
+[23:10:44] [Render thread/INFO] [JMLogger] JourneyMap log initialized.
+[23:10:44] [Render thread/INFO] [JourneymapClient] initialize ENTER
+[23:10:44] [Render thread/INFO] [ClientAPI] [ClientAPI] built with JourneyMap API 1.9-SNAPSHOT
+[23:10:44] [Render thread/INFO] [PluginHelper] Initializing plugins with Client API: journeymap.client.api.impl.ClientAPI
+[23:10:44] [Render thread/DEBUG] [JourneymapClient] Loading and Generating Journeymap configs
+[23:10:44] [Render thread/INFO] [?] Version: JourneyMap 1.20.1-5.9.18p1, built with forge 1.20.1-47.1.46
 forge: 47.2.0
 Environment: os.name, os.arch, java.version, user.country, user.language=null, game language=en_us, locale=en_us
 Features: 
@@ -17,43 +17,264 @@ Features:
 	MapBiome : singleplayer = true , multiplayer = true
 MiniMapProperties{state=Valid, file=journeymap.minimap.config, configVersion=5.9.18p1, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_circle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=-305, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
 MiniMapProperties{state=Valid, file=journeymap.minimap2.config, configVersion=5.9.18p1, zoomLevel=0, compassFontScale=1.0, terrainAlpha=100, showEntityNames=true, positionX=0.9, positionY=0.25, effectVertical=false, showPlayerHeading=true, sizePercent=30, playerDisplayScale=1.0, showDayNight=true, showPets=true, preferredMapType=day, showCompass=true, mobDisplay=jm.common.entity_display.dots, systemTimeRealFormat=HH:mm:ss, shape=jm.minimap.shape_rectangle, showSelf=true, selfDisplayScale=1.0, showGrid=true, reticleOrientation=jm.minimap.orientation.compass, gameTimeRealFormat=HH:mm:ss, effectTranslateX=0, showWaypoints=true, minimapKeyMovementSpeed=0.001, showAnimals=true, infoSlotAlpha=0.7, effectTranslateY=0, showWaypointLabels=true, moveEffectIcons=true, position=jm.minimap.position_topright, fontScale=1.0, showPlayers=true, waypointIconScale=1.0, frameAlpha=100, effectReversed=false, backgroundAlpha=0.8, enabled=true, showVillagers=true, info2Label=jm.theme.labelsource.gametime, info3Label=jm.theme.labelsource.location, showMobs=true, waypointLabelScale=1.0, showReticle=true, orientation=jm.minimap.orientation.north, info4Label=jm.theme.labelsource.biome, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, showCaves=true, showMobHeading=true, locationFormatVerbose=true, info1Label=jm.theme.labelsource.blank}
-FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.18p1, zoomLevel=1, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=false, showPlayerLoc=true, showKeys=false, playerDisplayScale=1.0, showMobs=false, showPets=false, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=false, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
+FullMapProperties{state=Valid, file=journeymap.fullmap.config, configVersion=5.9.18p1, zoomLevel=3, showPlayers=true, waypointIconScale=1.0, showEntityNames=true, showPlayerHeading=true, showVillagers=false, showPlayerLoc=true, showKeys=false, playerDisplayScale=1.0, showMobs=false, showPets=false, waypointLabelScale=1.0, preferredMapType=day, mobDisplay=jm.common.entity_display.dots, showSelf=true, locationFormat=xzyv, playerDisplay=jm.common.entity_display.dots, mobDisplayScale=1.0, selfDisplayScale=1.0, showGrid=false, showMouseLoc=true, showWaypoints=true, showCaves=true, showAnimals=false, showMobHeading=true, showWaypointLabels=true, locationFormatVerbose=true, fontScale=1.0}
 WaypointProperties{state=Valid, file=journeymap.waypoint.config, configVersion=5.9.18p1, autoRemoveDeathpointDistance=2, dateFormat=MM-dd-yyyy, autoRemoveDeathpoints=false, fullscreenDoubleClickToCreate=true, managerDimensionFocus=false, minDistance=4, boldLabel=false, textureSmall=true, showDeathpointlabel=true, beaconEnabled=true, createDeathpoints=true, showName=true, disableStrikeThrough=false, maxDistance=0, autoHideLabel=true, autoRemoveTempWaypoints=2, teleportCommand=/tp {name} {x} {y} {z}, showStaticBeam=true, shaderBeacon=false, timeFormat=HH:mm:ss, showDeviationLabel=false, showDistance=true, showRotatingBeam=true, fontScale=2.0, showTexture=true, managerEnabled=true}
 WebMapProperties{state=Valid, file=journeymap.webmap.config, configVersion=5.9.18p1, port=8080, enabled=false}
 CoreProperties{state=Valid, file=journeymap.core.config, configVersion=5.9.18p1, verboseColorPalette=false, maxPlayersData=32, mapSurfaceAboveCaves=true, dataCachingEnabled=true, optionsManagerViewed=5.9.18p1, announceMod=true, colorPassive=#bbbbbb, mapBlendWater=false, renderDistanceSurfaceMax=0, seedId=false, radarVerticalDistance=16, mapBlendGrass=true, recordCacheStats=false, hideSneakingEntities=true, revealShape=jm.minimap.shape_circle, mapBiome=true, alwaysMapSurface=false, colorVillager=#88e188, mapPlants=false, colorPet=#0077ff, radarLateralDistance=64, mapBathymetry=false, mapCrops=true, maxMobsData=32, mapPlantShadows=false, alwaysMapCaves=false, checkUpdates=true, mapBlendFoliage=true, hideSpectators=false, mappingEnabled=true, colorPlayer=#ffffff, tileHighDisplayQuality=true, cacheVillagersData=2200, logLevel=INFO, maxVillagersData=32, mapWaterBiomeColors=false, maxAnimalsData=32, mapTransparency=true, caveBlackAsClear=false, tileRenderType=1, caveIgnoreGlass=true, mapTopography=true, renderDistanceCaveMax=0, mapAntialiasing=true, colorSelf=#0000ff, cachePlayersData=2000, cacheMobsData=3000, cachePlayerData=1000, splashViewed=5.9.18p1, colorHostile=#ff0000, cacheAnimalsData=3100, themeName=OceanMonument, mapCaveLighting=true, renderDelay=2, glErrorChecking=false, autoMapPoll=2000}
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
-[20:38:33] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
-[20:38:33] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 352.19ms
-[20:38:35] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
-[20:38:35] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
-[20:38:35] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
-[20:38:35] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
-[20:38:35] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 326.2ms
-[20:38:36] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.10.3 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/5789363
-[20:39:06] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[20:39:36] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:39:36] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~chulak. Memory: 3366MB total, 295MB free 
-[20:39:37] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
-[20:50:40] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:chulak
-[20:50:41] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[20:50:41] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~abydos. Memory: 4096MB total, 1170MB free 
-[21:15:48] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
-[21:16:00] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
-[22:10:49] [Render thread/INFO] [StatTimer] TileDrawStep.updateScaledTexture hit max count, 1000000
-[22:10:50] [Render thread/INFO] [StatTimer] TileDrawStep.draw(high) hit max count, 1000000
-[22:16:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0137_porygon/porygon.png
-[22:26:28] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\sgjourney:abydos
-[22:26:30] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[22:43:44] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
-[22:43:48] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
-[22:43:48] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~abydos. Memory: 4096MB total, 760MB free 
-[22:57:33] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\sgjourney:abydos
-[22:57:34] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeKeyEvents
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChatEvents
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeHudOverlayEvents
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeWorldEvent
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeChunkEvents
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeClientTickEvent
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeRenderLevelLastEvent
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeLoggedInEvent
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgeTextureStitchedEvent
+[23:10:44] [Render thread/DEBUG] [ForgeEventHandlerManager] Handler registered: journeymap.client.event.forge.ForgePopupCustomEvents
+[23:10:44] [Render thread/INFO] [JourneymapClient] initialize EXIT, elapsed count 1 avg 323.64ms
+[23:10:46] [Render thread/INFO] [JourneymapClient] Journeymap PostInit
+[23:10:46] [Render thread/DEBUG] [JourneymapClient] postInitialize ENTER
+[23:10:46] [Render thread/TRACE] [ThemeLoader] Initializing themes ...
+[23:10:46] [Render thread/INFO] [ThemeLoader] Preloaded theme textures: 73
+[23:10:46] [Render thread/INFO] [JourneymapClient] postInitialize EXIT, elapsed count 1 avg 306.93ms
+[23:10:47] [JM-VersionCheck-1/INFO] [VersionCheck] Newer version online: JourneyMap 5.10.3 for Minecraft 1.20.1 on https://www.curseforge.com/minecraft/mc-mods/journeymap/files/5789363
+[23:12:36] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
+[23:13:14] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
+[23:13:14] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney~abydos. Memory: 4096MB total, 834MB free 
+[23:13:15] [Render thread/INFO] [ChatLog] JourneyMap: Press [J]
+[23:14:24] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\sgjourney:abydos
+[23:14:26] [Render thread/INFO] [WaypointStore] Loaded 57 waypoints from C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\waypoints
+[23:14:26] [Render thread/INFO] [JourneymapClient] Mapping started in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\sp\Desertiaaa\overworldmirror~overworld. Memory: 4096MB total, 839MB free 
+[23:14:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0167_spinarak/spinarak.png
+[23:14:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0659_bunnelby/bunnelby.png
+[23:14:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0273_seedot/seedot.png
+[23:14:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0285_shroomish/shroomish.png
+[23:14:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0915_lechonk/lechonk.png
+[23:14:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0669_flabebe/flabebe.png
+[23:14:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0585_deerling/deerling_summer.png
+[23:14:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0016_pidgey/pidgey.png
+[23:14:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0163_hoothoot/hoothoot.png
+[23:14:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0168_ariados/ariados.png
+[23:14:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[23:14:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0427_buneary/buneary.png
+[23:14:52] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0661_fletchling/fletchling.png
+[23:14:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0013_weedle/weedle.png
+[23:14:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0276_taillow/taillow.png
+[23:14:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0161_sentret/sentret.png
+[23:15:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0417_pachirisu/pachirisu.png
+[23:15:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0216_teddiursa/teddiursa.png
+[23:15:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0415_combee/combee.png
+[23:16:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0296_makuhita/makuhita.png
+[23:16:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0396_starly/starly.png
+[23:16:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0399_bidoof/bidoof.png
+[23:16:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0519_pidove/pidove.png
+[23:16:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0074_geodude/geodude.png
+[23:16:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0137_porygon/porygon.png
+[23:16:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0632_durant/durant.png
+[23:16:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0066_machop/machop.png
+[23:16:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0532_timburr/timburr.png
+[23:16:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0096_drowzee/drowzee.png
+[23:17:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0056_mankey/mankey.png
+[23:17:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[23:17:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0599_klink/klink.png
+[23:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
+[23:18:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0043_oddish/oddish.png
+[23:18:23] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
+[23:20:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0314_illumise/illumise.png
+[23:21:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0313_volbeat/volbeat.png
+[23:23:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0504_patrat/patrat.png
+[23:23:14] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0098_krabby/krabby.png
+[23:23:17] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0885_dreepy/dreepy.png
+[23:23:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0311_plusle/plusle.png
+[23:23:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0172_pichu/pichu.png
+[23:25:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0099_kingler/kingler.png
+[23:25:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[23:25:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[23:25:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0161_sentret/sentret.png
+[23:25:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[23:26:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0313_volbeat/volbeat.png
+[23:26:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0098_krabby/krabby.png
+[23:26:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0399_bidoof/bidoof.png
+[23:26:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0659_bunnelby/bunnelby.png
+[23:26:00] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0099_kingler/kingler.png
+[23:26:31] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
+[23:27:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0162_furret/furret.png
+[23:28:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0504_patrat/patrat.png
+[23:28:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0174_igglybuff/igglybuff.png
+[23:28:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0764_comfey/comfey.png
+[23:28:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0664_scatterbug/scatterbug.png
+[23:28:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[23:28:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0915_lechonk/lechonk.png
+[23:28:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0273_seedot/seedot.png
+[23:28:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0128_tauros/tauros.png
+[23:28:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0020_raticate/raticate.png
+[23:28:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0665_spewpa/spewpa.png
+[23:28:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0179_mareep/mareep.png
+[23:28:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
+[23:28:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0827_nickit/nickit.png
+[23:29:25] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0239_elekid/elekid.png
+[23:29:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0874_stonjourner/stonjourner.png
+[23:30:12] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0599_klink/klink.png
+[23:31:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[23:31:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0174_igglybuff/igglybuff.png
+[23:31:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[23:31:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0179_mareep/mareep.png
+[23:31:42] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0664_scatterbug/scatterbug.png
+[23:31:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
+[23:31:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0167_spinarak/spinarak.png
+[23:35:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0659_bunnelby/bunnelby.png
+[23:35:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[23:35:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0915_lechonk/lechonk.png
+[23:35:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0161_sentret/sentret.png
+[23:35:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0753_fomantis/fomantis.png
+[23:35:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0504_patrat/patrat.png
+[23:35:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0043_oddish/oddish.png
+[23:35:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0063_abra/abra.png
+[23:35:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0241_miltank/miltank.png
+[23:35:56] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0626_bouffalant/bouffalant.png
+[23:36:29] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0546_cottonee/cottonee.png
+[23:37:01] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0548_petilil/petilil.png
+[23:37:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0013_weedle/weedle.png
+[23:38:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0406_budew/budew.png
+[23:38:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0827_nickit/nickit.png
+[23:38:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
+[23:39:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0827_nickit/nickit.png
+[23:39:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[23:39:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[23:39:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0664_scatterbug/scatterbug.png
+[23:39:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0659_bunnelby/bunnelby.png
+[23:39:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0406_budew/budew.png
+[23:39:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[23:40:04] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0829_gossifleur/gossifleur.png
+[23:40:16] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0504_patrat/patrat.png
+[23:40:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0599_klink/klink.png
+[23:40:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
+[23:40:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0665_spewpa/spewpa.png
+[23:40:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0174_igglybuff/igglybuff.png
+[23:40:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0924_tandemaus/tandemaus.png
+[23:40:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0043_oddish/oddish.png
+[23:40:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0753_fomantis/fomantis.png
+[23:41:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0546_cottonee/cottonee.png
+[23:41:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0161_sentret/sentret.png
+[23:41:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0749_mudbray/mudbray.png
+[23:42:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0754_lurantis/lurantis.png
+[23:42:49] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0168_ariados/ariados.png
+[23:43:20] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0831_wooloo/wooloo.png
+[23:43:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0660_diggersby/diggersby.png
+[23:43:41] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0179_mareep/mareep.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0599_klink/klink.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0161_sentret/sentret.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0827_nickit/nickit.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0754_lurantis/lurantis.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0174_igglybuff/igglybuff.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0168_ariados/ariados.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0546_cottonee/cottonee.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0504_patrat/patrat.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0831_wooloo/wooloo.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0043_oddish/oddish.png
+[23:43:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0660_diggersby/diggersby.png
+[23:44:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0659_bunnelby/bunnelby.png
+[23:44:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0163_hoothoot/hoothoot.png
+[23:44:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0832_dubwool/dubwool.png
+[23:44:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[23:44:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0241_miltank/miltank.png
+[23:45:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
+[23:45:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0505_watchog/watchog.png
+[23:46:07] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0063_abra/abra.png
+[23:46:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0753_fomantis/fomantis.png
+[23:46:45] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0915_lechonk/lechonk.png
+[23:47:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0626_bouffalant/bouffalant.png
+[23:47:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0664_scatterbug/scatterbug.png
+[23:47:10] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0013_weedle/weedle.png
+[23:47:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0081_magnemite/magnemite.png
+[23:47:36] [Render thread/INFO] [StatTimer] TileDrawStep.updateRegionTexture hit max count, 1000000
+[23:47:48] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0548_petilil/petilil.png
+[23:47:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0659_bunnelby/bunnelby.png
+[23:47:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0546_cottonee/cottonee.png
+[23:47:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0081_magnemite/magnemite.png
+[23:47:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0753_fomantis/fomantis.png
+[23:47:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
+[23:47:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0161_sentret/sentret.png
+[23:47:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0548_petilil/petilil.png
+[23:47:54] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0924_tandemaus/tandemaus.png
+[23:47:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[23:47:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[23:47:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0599_klink/klink.png
+[23:47:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0063_abra/abra.png
+[23:47:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0831_wooloo/wooloo.png
+[23:47:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
+[23:47:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[23:47:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0626_bouffalant/bouffalant.png
+[23:47:57] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0664_scatterbug/scatterbug.png
+[23:48:38] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0163_hoothoot/hoothoot.png
+[23:48:51] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0043_oddish/oddish.png
+[23:49:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0829_gossifleur/gossifleur.png
+[23:50:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0406_budew/budew.png
+[23:51:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0504_patrat/patrat.png
+[23:51:34] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0425_drifloon/drifloon.png
+[23:51:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[23:51:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[23:51:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0406_budew/budew.png
+[23:51:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0504_patrat/patrat.png
+[23:51:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0659_bunnelby/bunnelby.png
+[23:51:47] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0425_drifloon/drifloon.png
+[23:51:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[23:51:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0599_klink/klink.png
+[23:51:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0063_abra/abra.png
+[23:51:50] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0081_magnemite/magnemite.png
+[23:52:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0924_tandemaus/tandemaus.png
+[23:52:26] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
+[23:53:53] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
+[23:54:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0179_mareep/mareep.png
+[23:55:06] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0664_scatterbug/scatterbug.png
+[23:55:06] [Render thread/INFO] [StatTimer] TileDrawStep.draw(low) hit max count, 1000000
+[23:55:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0753_fomantis/fomantis.png
+[23:55:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[23:55:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
+[23:55:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[23:55:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0753_fomantis/fomantis.png
+[23:55:43] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0599_klink/klink.png
+[23:56:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0406_budew/budew.png
+[23:56:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0546_cottonee/cottonee.png
+[23:57:27] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0924_tandemaus/tandemaus.png
+[23:57:40] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[23:58:30] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
+[00:00:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[00:00:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[00:00:08] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0599_klink/klink.png
+[00:00:21] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[00:00:24] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0264_linoone/linoone.png
+[00:00:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0915_lechonk/lechonk.png
+[00:00:36] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0174_igglybuff/igglybuff.png
+[00:00:58] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0504_patrat/patrat.png
+[00:03:13] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0664_scatterbug/scatterbug.png
+[00:04:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0273_seedot/seedot.png
+[00:04:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0010_caterpie/caterpie.png
+[00:04:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0011_metapod/metapod.png
+[00:04:32] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0273_seedot/seedot.png
+[00:04:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0599_klink/klink.png
+[00:04:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0664_scatterbug/scatterbug.png
+[00:04:37] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0161_sentret/sentret.png
+[00:04:44] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0019_rattata/rattata.png
+[00:05:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0659_bunnelby/bunnelby.png
+[00:05:33] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0915_lechonk/lechonk.png
+[00:06:02] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0263_zigzagoon/zigzagoon.png
+[00:06:05] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0162_furret/furret.png
+[00:08:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0174_igglybuff/igglybuff.png
+[00:08:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0417_pachirisu/pachirisu.png
+[00:08:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0043_oddish/oddish.png
+[00:08:46] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0874_stonjourner/stonjourner.png
+[00:25:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0427_buneary/buneary.png
+[00:25:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0753_fomantis/fomantis.png
+[00:25:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0504_patrat/patrat.png
+[00:25:09] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0179_mareep/mareep.png
+[00:25:22] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0239_elekid/elekid.png
+[00:25:59] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0098_krabby/krabby.png
+[00:26:03] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0079_slowpoke/slowpoke.png
+[00:26:18] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0767_wimpod/wimpod.png
+[00:26:35] [Render thread/WARN] [JMLogger] Can't get entityTexture for cobblemon:textures/entity_icon/0314_illumise/illumise.png
+[00:26:44] [Render thread/INFO] [JourneymapClient] Mapping halted in C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft\journeymap\data\mp\offline\overworldmirror:overworld
+[00:26:46] [Server thread/INFO] [ForgeConfig] Loading JourneyMap Forge Configs
