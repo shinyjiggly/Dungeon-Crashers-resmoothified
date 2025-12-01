@@ -11,9 +11,9 @@
     "totalCaptureCount": 1,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 28,
+    "totalBattleVictoryCount": 29,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 28,
+    "totalPvWBattleVictoryCount": 29,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -39,7 +39,8 @@
       "cobblemon:kricketot": 1,
       "cobblemon:spinarak": 1,
       "cobblemon:noctowl": 1,
-      "cobblemon:zigzagoon": 1
+      "cobblemon:zigzagoon": 1,
+      "cobblemon:machop": 1
     },
     "aspectsCollected": {}
   }
