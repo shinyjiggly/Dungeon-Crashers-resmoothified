@@ -1,0 +1,22 @@
+{
+  "id": "Charcherry-North_-179-80-373",
+  "name": "Charcherry North",
+  "icon": "journeymap:ui/img/waypoint-icon.png",
+  "colorizedIcon": "fake:color--1418173-waypoint-icon.png",
+  "x": -179,
+  "y": 80,
+  "z": -373,
+  "r": 234,
+  "g": 92,
+  "b": 67,
+  "enable": false,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    "overworldmirror:overworld"
+  ],
+  "persistent": true,
+  "showDeviation": false,
+  "iconColor": -1,
+  "customIconColor": false
+}

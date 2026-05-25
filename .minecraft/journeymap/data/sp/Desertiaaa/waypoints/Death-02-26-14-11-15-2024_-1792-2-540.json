@@ -9,7 +9,7 @@
   "r": 98,
   "g": 39,
   "b": 125,
-  "enable": true,
+  "enable": false,
   "type": "Death",
   "origin": "journeymap",
   "dimensions": [
