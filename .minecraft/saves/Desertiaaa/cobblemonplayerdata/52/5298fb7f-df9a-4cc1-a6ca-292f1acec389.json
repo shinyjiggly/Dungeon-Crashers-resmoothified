@@ -11,9 +11,9 @@
     "totalCaptureCount": 1,
     "totalEggsHatched": 0,
     "totalEvolvedCount": 0,
-    "totalBattleVictoryCount": 30,
+    "totalBattleVictoryCount": 31,
     "totalPvPBattleVictoryCount": 0,
-    "totalPvWBattleVictoryCount": 30,
+    "totalPvWBattleVictoryCount": 31,
     "totalPvNBattleVictoryCount": 0,
     "totalShinyCaptureCount": 0,
     "totalTradedCount": 0,
@@ -41,7 +41,8 @@
       "cobblemon:noctowl": 1,
       "cobblemon:zigzagoon": 1,
       "cobblemon:machop": 1,
-      "cobblemon:shedinja": 1
+      "cobblemon:shedinja": 1,
+      "cobblemon:wooloo": 1
     },
     "aspectsCollected": {}
   }
