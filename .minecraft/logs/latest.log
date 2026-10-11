@@ -1,30 +1,30 @@
-[08Oct2026 14:04:57.357] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, orchidkind, --version, 1.20.1, --gameDir, /home/beck/.local/share/PrismLauncher/instances/Dungeon-Crashers-resmoothified/.minecraft, --assetsDir, /home/beck/.local/share/PrismLauncher/assets, --assetIndex, 5, --uuid, f6b7a535ab9b4937822bd4a7e7c7bdc9, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
-[08Oct2026 14:04:57.360] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20 by Eclipse Adoptium; OS Linux arch amd64 version 7.2.9-1-cachyos
-[08Oct2026 14:04:59.651] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[08Oct2026 14:04:59.700] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[08Oct2026 14:04:59.921] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[08Oct2026 14:04:59.940] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[08Oct2026 14:04:59.957] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[08Oct2026 14:04:59.965] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[08Oct2026 14:04:59.967] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: zink Vulkan 1.4(NVIDIA GeForce RTX 4080 (NVIDIA_PROPRIETARY)) GL version 4.6 (Core Profile) Mesa 26.2.4-arch3.1, Mesa
-[08Oct2026 14:04:59.988] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/beck/.local/share/PrismLauncher/instances/Dungeon-Crashers-resmoothified/.minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar%23179%23182!/ Service=ModLauncher Env=CLIENT
-[08Oct2026 14:05:00.206] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[08Oct2026 14:05:00.207] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[08Oct2026 14:05:00.208] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[08Oct2026 14:05:00.208] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[08Oct2026 14:05:00.469] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 59 dependencies adding them to mods collection
-[08Oct2026 14:05:00.777] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 24 candidates to load
-[08Oct2026 14:05:01.391] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[08Oct2026 14:05:01.896] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[08Oct2026 14:05:01.979] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, /home/beck/.local/share/PrismLauncher/instances/Dungeon-Crashers-resmoothified/.minecraft, --assetsDir, /home/beck/.local/share/PrismLauncher/assets, --uuid, f6b7a535ab9b4937822bd4a7e7c7bdc9, --username, orchidkind, --assetIndex, 5, --accessToken, ❄❄❄❄❄❄❄❄, --userType, msa, --versionType, release, --width, 854, --height, 480]
-[08Oct2026 14:05:02.020] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 41 options available, 0 override(s) found
-[08Oct2026 14:05:02.070] [main/WARN] [ModernFixConfig/]: ModelDataManager bugfixes have been disabled to prevent broken rendering with Rubidium installed. Please migrate to Embeddium.
-[08Oct2026 14:05:02.075] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.14.0+mc1.20.1: 74 options available, 1 override(s) found
-[08Oct2026 14:05:02.076] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.model_data_manager_cme' overriden (by mods [rubidium]) to 'false'
-[08Oct2026 14:05:02.077] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[08Oct2026 14:05:02.092] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[08Oct2026 14:05:02.210] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_4_forge.MixinPlugin/]: Packet Fixer forge 1.19.4-1.20.1 has been applied successfully.
-[08Oct2026 14:05:02.474] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
+[10Oct2026 22:29:18.351] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, shinyjiggly, --version, 1.20.1, --gameDir, C:/Users/agent/AppData/Roaming/PrismLauncher/instances/Dungeon Crashers resmoothified/.minecraft, --assetsDir, C:/Users/agent/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 5298fb7fdf9a4cc1a6ca292f1acec389, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[10Oct2026 22:29:18.355] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[10Oct2026 22:29:21.754] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[10Oct2026 22:29:21.958] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[10Oct2026 22:29:22.124] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[10Oct2026 22:29:22.232] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[10Oct2026 22:29:22.275] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[10Oct2026 22:29:22.312] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[10Oct2026 22:29:22.334] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Intel(R) UHD Graphics GL version 4.6.0 - Build 27.20.100.8476, Intel
+[10Oct2026 22:29:22.409] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/agent/AppData/Roaming/PrismLauncher/instances/Dungeon%20Crashers%20resmoothified/.minecraft/mods/Connector-1.0.0-beta.43+1.20.1.jar%23189%23192!/ Service=ModLauncher Env=CLIENT
+[10Oct2026 22:29:23.326] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[10Oct2026 22:29:23.330] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[10Oct2026 22:29:23.336] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[10Oct2026 22:29:23.341] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\agent\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[10Oct2026 22:29:24.089] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 59 dependencies adding them to mods collection
+[10Oct2026 22:29:25.245] [main/INFO] [dev.su5ed.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 24 candidates to load
+[10Oct2026 22:29:26.922] [main/INFO] [dev.su5ed.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[10Oct2026 22:29:28.441] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Oct2026 22:29:28.746] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\agent\AppData\Roaming\PrismLauncher\instances\Dungeon Crashers resmoothified\.minecraft, --assetsDir, C:\Users\agent\AppData\Roaming\PrismLauncher\assets, --uuid, 5298fb7fdf9a4cc1a6ca292f1acec389, --username, shinyjiggly, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[10Oct2026 22:29:28.938] [main/INFO] [Rubidium/]: Loaded configuration file for Rubidium: 41 options available, 0 override(s) found
+[10Oct2026 22:29:29.028] [main/WARN] [ModernFixConfig/]: ModelDataManager bugfixes have been disabled to prevent broken rendering with Rubidium installed. Please migrate to Embeddium.
+[10Oct2026 22:29:29.035] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.14.0+mc1.20.1: 74 options available, 1 override(s) found
+[10Oct2026 22:29:29.037] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.model_data_manager_cme' overriden (by mods [rubidium]) to 'false'
+[10Oct2026 22:29:29.037] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[10Oct2026 22:29:29.059] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[10Oct2026 22:29:29.224] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_4_forge.MixinPlugin/]: Packet Fixer forge 1.19.4-1.20.1 has been applied successfully.
+[10Oct2026 22:29:30.149] [main/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
 java.lang.IllegalStateException: Field f_47437_ is not private and an instance field
 	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:260) ~[coremods-5.0.1.jar:?]
 	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$39$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
@@ -67,12 +67,12 @@ java.lang.IllegalStateException: Field f_47437_ is not private and an instance f
 	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
 	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
 	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
 	at java.lang.Class.forName0(Native Method) ~[?:?]
-	at java.lang.Class.forName(Unknown Source) ~[?:?]
-	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.lambda$updateModuleReads$0(ConnectorLoaderService.java:65) ~[Connector-1.0.0-beta.43+1.20.1.jar%23179!/:1.0.0-beta.43+1.20.1]
-	at cpw.mods.modlauncher.api.LamdbaExceptionUtils.uncheck(LamdbaExceptionUtils.java:95) ~[modlauncher-10.0.9.jar%23130!/:10.0.9+10.0.9+main.dcd20f30]
-	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.updateModuleReads(ConnectorLoaderService.java:65) ~[Connector-1.0.0-beta.43+1.20.1.jar%23179!/:1.0.0-beta.43+1.20.1]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.lambda$updateModuleReads$0(ConnectorLoaderService.java:65) ~[Connector-1.0.0-beta.43+1.20.1.jar%23189!/:1.0.0-beta.43+1.20.1]
+	at cpw.mods.modlauncher.api.LamdbaExceptionUtils.uncheck(LamdbaExceptionUtils.java:95) ~[modlauncher-10.0.9.jar%23140!/:10.0.9+10.0.9+main.dcd20f30]
+	at dev.su5ed.sinytra.connector.service.ConnectorLoaderService$1.updateModuleReads(ConnectorLoaderService.java:65) ~[Connector-1.0.0-beta.43+1.20.1.jar%23189!/:1.0.0-beta.43+1.20.1]
 	at net.minecraftforge.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:71) ~[fmlloader-1.20.1-47.2.0.jar:1.0]
 	at net.minecraftforge.fml.loading.FMLLoader.beforeStart(FMLLoader.java:207) ~[fmlloader-1.20.1-47.2.0.jar:1.0]
 	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:92) ~[fmlloader-1.20.1-47.2.0.jar:?]
@@ -85,23 +85,23 @@ java.lang.IllegalStateException: Field f_47437_ is not private and an instance f
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
 	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?]
-	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) ~[?:?]
-	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]
-	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]
-[08Oct2026 14:05:02.823] [main/WARN] [mixin/]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel.adorn.block.variant.BlockVariantSets)
-[08Oct2026 14:05:02.823] [main/WARN] [mixin/]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod (unknown)
-[08Oct2026 14:05:02.982] [main/WARN] [mixin/]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr.catcore.server.translations.api.resource.language.SystemDelegatedLanguage)
-[08Oct2026 14:05:03.178] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
-[08Oct2026 14:05:03.201] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[08Oct2026 14:05:04.576] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (8.762 s after launch)
-[08Oct2026 14:05:04.665] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[08Oct2026 14:05:04.665] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
-[08Oct2026 14:05:05.240] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 662 milliseconds
-[08Oct2026 14:05:06.194] [pool-4-thread-1/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
+	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:88) ~[?:?]
+	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:126) ~[?:?]
+	at org.prismlauncher.EntryPoint.main(EntryPoint.java:71) ~[?:?]
+[10Oct2026 22:29:31.893] [main/WARN] [mixin/]: Error loading class: juuxel/adorn/block/variant/BlockVariantSets (java.lang.ClassNotFoundException: juuxel.adorn.block.variant.BlockVariantSets)
+[10Oct2026 22:29:31.895] [main/WARN] [mixin/]: @Mixin target juuxel.adorn.block.variant.BlockVariantSets was not found mixins.cobblemon-common.json:invoker.AdornRegisterInvoker from mod (unknown)
+[10Oct2026 22:29:32.718] [main/WARN] [mixin/]: Error loading class: fr/catcore/server/translations/api/resource/language/SystemDelegatedLanguage (java.lang.ClassNotFoundException: fr.catcore.server.translations.api.resource.language.SystemDelegatedLanguage)
+[10Oct2026 22:29:33.263] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[10Oct2026 22:29:33.313] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[10Oct2026 22:29:37.444] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (21.95 s after launch)
+[10Oct2026 22:29:37.891] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[10Oct2026 22:29:37.891] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[10Oct2026 22:29:40.234] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2784 milliseconds
+[10Oct2026 22:29:44.077] [pool-4-thread-1/ERROR] [net.minecraftforge.coremod.transformer.CoreModBaseTransformer/COREMOD]: Error occurred applying transform of coremod coremods/field_to_method.js function biome
 java.lang.IllegalStateException: Field f_47437_ is not private and an instance field
 	at net.minecraftforge.coremod.api.ASMAPI.redirectFieldToMethod(ASMAPI.java:260) ~[coremods-5.0.1.jar:?]
 	at org.openjdk.nashorn.internal.scripts.Script$Recompilation$39$292A$\^eval\_.initializeCoreMod#transformer(<eval>:11) ~[?:?]
@@ -122,335 +122,381 @@ java.lang.IllegalStateException: Field f_47437_ is not private and an instance f
 	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
 	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
 	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
-	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:?]
-	at net.minecraft.world.level.biome.FixedBiomeSource.<clinit>(FixedBiomeSource.java:17) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at net.minecraft.world.level.biome.BiomeSources.m_220586_(BiomeSources.java:8) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at net.minecraft.core.registries.BuiltInRegistries.m_258029_(BuiltInRegistries.java:448) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at net.minecraft.core.registries.BuiltInRegistries.m_258037_(BuiltInRegistries.java:462) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at java.util.LinkedHashMap.forEach(Unknown Source) ~[?:?]
-	at net.minecraft.core.registries.BuiltInRegistries.m_257453_(BuiltInRegistries.java:461) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at net.minecraft.core.registries.BuiltInRegistries.m_257498_(BuiltInRegistries.java:455) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at net.minecraft.client.main.Main.lambda$main$0(Main.java:151) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) ~[?:?]
-	at java.util.concurrent.FutureTask.run(Unknown Source) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source) ~[?:?]
-	at java.lang.Thread.run(Unknown Source) ~[?:?]
-[08Oct2026 14:05:06.532] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/beck/.local/share/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23216!/assets/.mcassetsroot' uses unexpected schema
-[08Oct2026 14:05:06.532] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/beck/.local/share/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23216!/data/.mcassetsroot' uses unexpected schema
-[08Oct2026 14:05:06.544] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[08Oct2026 14:05:06.996] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: orchidkind
-[08Oct2026 14:05:07.041] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
-[08Oct2026 14:05:07.125] [Render thread/INFO] [config2brigadier/]: Loaded C2B lib.
-[08Oct2026 14:05:07.139] [Render thread/INFO] [owo/]: Hey - if you want to spice up your house, Jello has about 1833 colors; atleast one of them has to tickle your fancy
-[08Oct2026 14:05:07.173] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:last_location
-[08Oct2026 14:05:07.174] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:spawn_point
-[08Oct2026 14:05:07.174] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:ender_chests
-[08Oct2026 14:05:07.174] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:experience
-[08Oct2026 14:05:07.174] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:inventories
-[08Oct2026 14:05:07.174] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:styled_nicknames
-[08Oct2026 14:05:07.175] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:fabric_tailor
-[08Oct2026 14:05:07.175] [Render thread/INFO] [switchy_compat/]: [Switchy Compat] Initialized!
-[08Oct2026 14:05:07.185] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_proxy:proxies
-[08Oct2026 14:05:07.185] [Render thread/INFO] [switchy/]: [Switchy] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
-[08Oct2026 14:05:07.253] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:last_location
-[08Oct2026 14:05:07.253] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:spawn_point
-[08Oct2026 14:05:07.253] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:ender_chests
-[08Oct2026 14:05:07.253] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:experience
-[08Oct2026 14:05:07.253] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:inventories
-[08Oct2026 14:05:07.253] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_proxy:proxies
-[08Oct2026 14:05:07.254] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:fabric_tailor
-[08Oct2026 14:05:07.254] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:styled_nicknames
-[08Oct2026 14:05:07.254] [Render thread/INFO] [switchy_compat_ui/]: [Switchy Compat UI] Initialized!
-[08Oct2026 14:05:07.254] [Render thread/INFO] [switchy-client/]: [Switchy Client] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
-[08Oct2026 14:05:07.323] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
-[08Oct2026 14:05:07.325] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[08Oct2026 14:05:07.347] [Render thread/INFO] [Rubidium-PostlaunchChecks/]: OpenGL Vendor: Mesa
-[08Oct2026 14:05:07.347] [Render thread/INFO] [Rubidium-PostlaunchChecks/]: OpenGL Renderer: zink Vulkan 1.4(NVIDIA GeForce RTX 4080 (NVIDIA_PROPRIETARY))
-[08Oct2026 14:05:07.347] [Render thread/INFO] [Rubidium-PostlaunchChecks/]: OpenGL Version: 4.6 (Core Profile) Mesa 26.2.4-arch3.1
-[08Oct2026 14:05:08.413] [modloading-worker-0/INFO] [Rubidium-GraphicsAdapterProbe/]: Searching for graphics cards...
-[08Oct2026 14:05:08.438] [modloading-worker-0/INFO] [Rubidium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=AD103 [GeForce RTX 4080], version=615.71.09]
-[08Oct2026 14:05:08.438] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[08Oct2026 14:05:08.450] [modloading-worker-0/INFO] [Rubidium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Alder Lake-S GT1 [UHD Graphics 770], version=unknown]
-[08Oct2026 14:05:08.477] [modloading-worker-0/WARN] [Rubidium-Workarounds/]: Rubidium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS, NO_ERROR_CONTEXT_UNSUPPORTED]
-[08Oct2026 14:05:08.462] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
-[08Oct2026 14:05:08.477] [modloading-worker-0/WARN] [Rubidium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
-[08Oct2026 14:05:08.482] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[08Oct2026 14:05:08.482] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[08Oct2026 14:05:08.487] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod overworldmirror is signed with a valid certificate.
-[08Oct2026 14:05:08.492] [modloading-worker-0/INFO] [cobbleboom/]: Initializing cobbleboom config
-[08Oct2026 14:05:08.682] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
-[08Oct2026 14:05:08.684] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.156 ms
-[08Oct2026 14:05:08.695] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
-[08Oct2026 14:05:08.739] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
-[08Oct2026 14:05:08.742] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Launching Cobblemon 1.5.2 
-[08Oct2026 14:05:08.744] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting ForgePermissionApiPermissionValidator, player permissions will be checked using MinecraftForge' PermissionAPI, non player command sources will use Minecraft' permission level system, see https://docs.minecraftforge.net/en/latest/ and https://minecraft.fandom.com/wiki/Permission_level
-[08Oct2026 14:05:08.943] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting the Best Spawner...
-[08Oct2026 14:05:08.947] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning condition types.
-[08Oct2026 14:05:08.955] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning context types.
-[08Oct2026 14:05:08.958] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 spawn detail types.
-[08Oct2026 14:05:09.289] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[08Oct2026 14:05:09.289] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
-[08Oct2026 14:05:10.967] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
-[08Oct2026 14:05:11.402] [Render thread/INFO] [journeymap/]: Registering Keybinds
-[08Oct2026 14:05:11.465] [Render thread/ERROR] [com.mojang.text2speech.Narrator/]: Error while loading the narrator
-com.mojang.text2speech.Narrator$InitializeException: Failed to load library flite
-	at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:69) ~[text2speech-1.17.9.jar%2398!/:?]
-	at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%2398!/:?]
-	at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%2398!/:?]
-	at net.minecraft.client.GameNarrator.<init>(GameNarrator.java:19) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at net.minecraft.client.Minecraft.<init>(Minecraft.java:553) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-	at net.minecraft.client.main.Main.main(Main.java:182) ~[minecraft-1.20.1-client.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.0.jar:?]
-	at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.0.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
-	at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?]
-	at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) ~[?:?]
-	at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]
-	at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]
-Caused by: java.lang.UnsatisfiedLinkError: Unable to load library 'flite':
-libflite.so: cannot open shared object file: No such file or directory
-libflite.so: cannot open shared object file: No such file or directory
-Native library (linux-x86-64/libflite.so) not found in resource path (/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-linux/3.3.2-lwjgl.1/lwjgl-glfw-natives-linux-3.3.2-lwjgl.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-linux/3.3.1/lwjgl-jemalloc-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-linux/3.3.1/lwjgl-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-linux/3.3.1/lwjgl-openal-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-linux/3.3.1/lwjgl-opengl-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-linux/3.3.1/lwjgl-stb-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-linux/3.3.1/lwjgl-tinyfd-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar:/home/beck/.local/share/PrismLauncher/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar:/home/beck/.local/share/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/beck/.local/share/PrismLauncher/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/beck/.local/share/PrismLauncher/libraries/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/authlib/4.0.43/authlib-4.0.43.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar:/home/beck/.local/share/PrismLauncher/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/beck/.local/share/PrismLauncher/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/beck/.local/share/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar:/home/beck/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/beck/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/home/beck/.local/share/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar:/home/beck/.local/share/PrismLauncher/libraries/io/github/zekerzhayard/ForgeWrapper/prism-2026-08-01/ForgeWrapper-prism-2026-08-01.jar:/home/beck/.local/share/PrismLauncher/libraries/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm/9.5/asm-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar:/home/beck/.local/share/PrismLauncher/libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar:/home/beck/.local/share/PrismLauncher/libraries/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar:/home/beck/.local/share/PrismLauncher/libraries/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar:/home/beck/.local/share/PrismLauncher/libraries/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar:/home/beck/.local/share/PrismLauncher/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar:/home/beck/.local/share/PrismLauncher/libraries/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/fmlloader/1.20.1-47.2.0/fmlloader-1.20.1-47.2.0.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.0/fmlearlydisplay-1.20.1-47.2.0.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/minecraft/1.20.1/minecraft-1.20.1-client.jar)
-	at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:307) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:467) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-	at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:409) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-	at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%2398!/:?]
-	... 28 more
-	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so: cannot open shared object file: No such file or directory
-		at com.sun.jna.Native.open(Native Method) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:197) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:467) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:409) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%2398!/:?]
-		at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%2398!/:?]
-		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%2398!/:?]
-		at net.minecraft.client.GameNarrator.<init>(GameNarrator.java:19) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-		at net.minecraft.client.Minecraft.<init>(Minecraft.java:553) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-		at net.minecraft.client.main.Main.main(Main.java:182) ~[minecraft-1.20.1-client.jar:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
-		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar:?]
-		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.0.jar:?]
-		at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.0.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
-		at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?]
-		at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) ~[?:?]
-		at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]
-		at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]
-	Suppressed: java.lang.UnsatisfiedLinkError: libflite.so: cannot open shared object file: No such file or directory
-		at com.sun.jna.Native.open(Native Method) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:210) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:467) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:409) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%2398!/:?]
-		at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%2398!/:?]
-		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%2398!/:?]
-		at net.minecraft.client.GameNarrator.<init>(GameNarrator.java:19) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-		at net.minecraft.client.Minecraft.<init>(Minecraft.java:553) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-		at net.minecraft.client.main.Main.main(Main.java:182) ~[minecraft-1.20.1-client.jar:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
-		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar:?]
-		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.0.jar:?]
-		at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.0.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
-		at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?]
-		at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) ~[?:?]
-		at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]
-		at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]
-	Suppressed: java.io.IOException: Native library (linux-x86-64/libflite.so) not found in resource path (/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw-natives-linux/3.3.2-lwjgl.1/lwjgl-glfw-natives-linux-3.3.2-lwjgl.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-glfw/3.3.1/lwjgl-glfw-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc-natives-linux/3.3.1/lwjgl-jemalloc-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-jemalloc/3.3.1/lwjgl-jemalloc-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-natives-linux/3.3.1/lwjgl-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-openal-natives-linux/3.3.1/lwjgl-openal-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-openal/3.3.1/lwjgl-openal-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl-natives-linux/3.3.1/lwjgl-opengl-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-opengl/3.3.1/lwjgl-opengl-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-stb-natives-linux/3.3.1/lwjgl-stb-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-stb/3.3.1/lwjgl-stb-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd-natives-linux/3.3.1/lwjgl-tinyfd-natives-linux-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl-tinyfd/3.3.1/lwjgl-tinyfd-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/lwjgl/lwjgl/3.3.1/lwjgl-3.3.1.jar:/home/beck/.local/share/PrismLauncher/libraries/com/github/oshi/oshi-core/6.2.2/oshi-core-6.2.2.jar:/home/beck/.local/share/PrismLauncher/libraries/com/google/code/gson/gson/2.10/gson-2.10.jar:/home/beck/.local/share/PrismLauncher/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/beck/.local/share/PrismLauncher/libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/home/beck/.local/share/PrismLauncher/libraries/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/authlib/4.0.43/authlib-4.0.43.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/brigadier/1.1.8/brigadier-1.1.8.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/datafixerupper/6.0.8/datafixerupper-6.0.8.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/logging/1.1.1/logging-1.1.1.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/text2speech/1.17.9/text2speech-1.17.9.jar:/home/beck/.local/share/PrismLauncher/libraries/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/beck/.local/share/PrismLauncher/libraries/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/home/beck/.local/share/PrismLauncher/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-aarch_64.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport-native-epoll/4.1.82.Final/netty-transport-native-epoll-4.1.82.Final-linux-x86_64.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport-native-unix-common/4.1.82.Final/netty-transport-native-unix-common-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar:/home/beck/.local/share/PrismLauncher/libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar:/home/beck/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar:/home/beck/.local/share/PrismLauncher/libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/home/beck/.local/share/PrismLauncher/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/httpcomponents/httpcore/4.4.15/httpcore-4.4.15.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-api/2.19.0/log4j-api-2.19.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-core/2.19.0/log4j-core-2.19.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.19.0/log4j-slf4j2-impl-2.19.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/slf4j/slf4j-api/2.0.1/slf4j-api-2.0.1.jar:/home/beck/.local/share/PrismLauncher/libraries/io/github/zekerzhayard/ForgeWrapper/prism-2026-08-01/ForgeWrapper-prism-2026-08-01.jar:/home/beck/.local/share/PrismLauncher/libraries/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm/9.5/asm-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar:/home/beck/.local/share/PrismLauncher/libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar:/home/beck/.local/share/PrismLauncher/libraries/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar:/home/beck/.local/share/PrismLauncher/libraries/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar:/home/beck/.local/share/PrismLauncher/libraries/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar:/home/beck/.local/share/PrismLauncher/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar:/home/beck/.local/share/PrismLauncher/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar:/home/beck/.local/share/PrismLauncher/libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar:/home/beck/.local/share/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar:/home/beck/.local/share/PrismLauncher/libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar:/home/beck/.local/share/PrismLauncher/libraries/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/fmlloader/1.20.1-47.2.0/fmlloader-1.20.1-47.2.0.jar:/home/beck/.local/share/PrismLauncher/libraries/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.0/fmlearlydisplay-1.20.1-47.2.0.jar:/home/beck/.local/share/PrismLauncher/libraries/com/mojang/minecraft/1.20.1/minecraft-1.20.1-client.jar)
-		at com.sun.jna.Native.extractFromResourcePath(Native.java:1145) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:281) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:467) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:409) ~[jna-5.12.1.jar%23114!/:5.12.1 (b0)]
-		at com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:67) ~[text2speech-1.17.9.jar%2398!/:?]
-		at com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:18) ~[text2speech-1.17.9.jar%2398!/:?]
-		at com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41) ~[text2speech-1.17.9.jar%2398!/:?]
-		at net.minecraft.client.GameNarrator.<init>(GameNarrator.java:19) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-		at net.minecraft.client.Minecraft.<init>(Minecraft.java:553) ~[client-1.20.1-20230612.114412-srg.jar%23216!/:?]
-		at net.minecraft.client.main.Main.main(Main.java:182) ~[minecraft-1.20.1-client.jar:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
-		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.0.jar:?]
-		at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:99) ~[fmlloader-1.20.1-47.2.0.jar:?]
-		at net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$makeService$0(CommonClientLaunchHandler.java:25) ~[fmlloader-1.20.1-47.2.0.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:?]
-		at java.lang.reflect.Method.invoke(Unknown Source) ~[?:?]
-		at io.github.zekerzhayard.forgewrapper.installer.Main.main(Main.java:67) ~[?:?]
-		at org.prismlauncher.launcher.impl.StandardLauncher.launch(StandardLauncher.java:115) ~[?:?]
-		at org.prismlauncher.EntryPoint.listen(EntryPoint.java:129) ~[?:?]
-		at org.prismlauncher.EntryPoint.main(EntryPoint.java:70) ~[?:?]
-[08Oct2026 14:05:11.478] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
-[08Oct2026 14:05:11.478] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, fabric
-[08Oct2026 14:05:11.496] [Thread-1/INFO] [ModernFix/]: Please use /mfrc to reload any changed mod config files
-[08Oct2026 14:05:11.508] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Initializing...
-[08Oct2026 14:05:11.527] [Worker-ResourceReload-17/INFO] [journeymap/]: No plugins for JourneyMap API discovered.
-[08Oct2026 14:05:11.557] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
-[08Oct2026 14:05:11.568] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[08Oct2026 14:05:11.671] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting showdown service...
-[08Oct2026 14:05:11.843] [Worker-ResourceReload-12/WARN] [net.minecraft.client.sounds.SoundManager/]: File cobblemon:sounds/pokemon/rattata/rattata_alolan_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.rattata_alolan.cry
-[08Oct2026 14:05:11.847] [Worker-ResourceReload-12/WARN] [net.minecraft.client.sounds.SoundManager/]: File cobblemon:sounds/pokemon/petilil/petilil_hisui_bias_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.petilil_hisui_bias.cry
-[08Oct2026 14:05:11.849] [Worker-ResourceReload-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[08Oct2026 14:05:11.871] [Worker-ResourceReload-16/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@31fcd077]
-[08Oct2026 14:05:11.878] [Worker-ResourceReload-16/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
-[08Oct2026 14:05:11.990] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 5.1.4.299 Target: 5.1.4.382
-[08Oct2026 14:05:12.001] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
-[08Oct2026 14:05:12.142] [Worker-ResourceReload-10/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/machine/grist_widget with size 196x196 limits mip level from 4 to 2
-[08Oct2026 14:05:12.145] [Worker-ResourceReload-10/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/power_hub/front with size 16x14 limits mip level from 2 to 1
-[08Oct2026 14:05:12.347] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at net.minecraft.world.level.biome.FixedBiomeSource.<clinit>(FixedBiomeSource.java:17) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?]
+	at net.minecraft.world.level.biome.BiomeSources.m_220586_(BiomeSources.java:8) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258029_(BuiltInRegistries.java:448) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_258037_(BuiltInRegistries.java:462) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:721) ~[?:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257453_(BuiltInRegistries.java:461) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?]
+	at net.minecraft.core.registries.BuiltInRegistries.m_257498_(BuiltInRegistries.java:455) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?]
+	at net.minecraft.server.Bootstrap.m_135870_(Bootstrap.java:55) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?]
+	at net.minecraft.client.main.Main.lambda$main$0(Main.java:151) ~[client-1.20.1-20230612.114412-srg.jar%23226!/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+[10Oct2026 22:29:45.101] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/agent/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23226!/assets/.mcassetsroot' uses unexpected schema
+[10Oct2026 22:29:45.102] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/agent/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23226!/data/.mcassetsroot' uses unexpected schema
+[10Oct2026 22:29:45.128] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Oct2026 22:29:45.914] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: shinyjiggly
+[10Oct2026 22:29:46.101] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
+[10Oct2026 22:29:46.480] [Render thread/INFO] [config2brigadier/]: Loaded C2B lib.
+[10Oct2026 22:29:46.541] [Render thread/INFO] [owo/]: as a based person once said: it doesn't have to be balanced unless you're making a pvp focused mod
+[10Oct2026 22:29:46.673] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:last_location
+[10Oct2026 22:29:46.674] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_teleport:spawn_point
+[10Oct2026 22:29:46.674] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:ender_chests
+[10Oct2026 22:29:46.675] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:experience
+[10Oct2026 22:29:46.675] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_inventories:inventories
+[10Oct2026 22:29:46.679] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:styled_nicknames
+[10Oct2026 22:29:46.681] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy:fabric_tailor
+[10Oct2026 22:29:46.681] [Render thread/INFO] [switchy_compat/]: [Switchy Compat] Initialized!
+[10Oct2026 22:29:46.720] [Render thread/INFO] [switchy/]: [Switchy] Registered module switchy_proxy:proxies
+[10Oct2026 22:29:46.720] [Render thread/INFO] [switchy/]: [Switchy] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
+[10Oct2026 22:29:46.915] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:last_location
+[10Oct2026 22:29:46.915] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_teleport:spawn_point
+[10Oct2026 22:29:46.916] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:ender_chests
+[10Oct2026 22:29:46.917] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:experience
+[10Oct2026 22:29:46.918] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_inventories:inventories
+[10Oct2026 22:29:46.918] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy_proxy:proxies
+[10Oct2026 22:29:46.921] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:fabric_tailor
+[10Oct2026 22:29:46.922] [Render thread/INFO] [switchy-client/]: [Switchy Client] Registered client module switchy:styled_nicknames
+[10Oct2026 22:29:46.922] [Render thread/INFO] [switchy_compat_ui/]: [Switchy Compat UI] Initialized!
+[10Oct2026 22:29:46.922] [Render thread/INFO] [switchy-client/]: [Switchy Client] Initialized! Registered Modules: [switchy:styled_nicknames, switchy_proxy:proxies, switchy_teleport:last_location, switchy_inventories:experience, switchy:fabric_tailor, switchy_inventories:ender_chests, switchy_teleport:spawn_point, switchy_inventories:inventories]
+[10Oct2026 22:29:47.191] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
+[10Oct2026 22:29:47.200] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[10Oct2026 22:29:47.260] [Render thread/INFO] [Rubidium-PostlaunchChecks/]: OpenGL Vendor: Intel
+[10Oct2026 22:29:47.260] [Render thread/INFO] [Rubidium-PostlaunchChecks/]: OpenGL Renderer: Intel(R) UHD Graphics
+[10Oct2026 22:29:47.260] [Render thread/INFO] [Rubidium-PostlaunchChecks/]: OpenGL Version: 4.6.0 - Build 27.20.100.8476
+[10Oct2026 22:29:48.000] [modloading-worker-0/INFO] [Rubidium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[10Oct2026 22:29:48.092] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[10Oct2026 22:29:48.526] [modloading-worker-0/WARN] [dynamic_fps/]: Dynamic FPS config missing or corrupted! Using defaults.
+[10Oct2026 22:29:48.973] [modloading-worker-0/INFO] [Rubidium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=NVIDIA, name=NVIDIA GeForce GTX 1650 Ti, version=DriverVersion=32.0.15.9282]
+[10Oct2026 22:29:48.973] [modloading-worker-0/INFO] [Rubidium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=INTEL, name=Intel(R) UHD Graphics, version=DriverVersion=27.20.100.8476]
+[10Oct2026 22:29:48.982] [modloading-worker-0/WARN] [Rubidium-Workarounds/]: Rubidium has applied one or more workarounds to prevent crashes or other issues on your system: [NVIDIA_THREADED_OPTIMIZATIONS]
+[10Oct2026 22:29:48.982] [modloading-worker-0/WARN] [Rubidium-Workarounds/]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[10Oct2026 22:29:49.030] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
+[10Oct2026 22:29:49.061] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[10Oct2026 22:29:49.061] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[10Oct2026 22:29:49.416] [modloading-worker-0/INFO] [info.u_team.u_team_core.util.verify.JarSignVerifier/]: Mod overworldmirror is signed with a valid certificate.
+[10Oct2026 22:29:49.555] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[10Oct2026 22:29:49.560] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 4.247 ms
+[10Oct2026 22:29:49.573] [modloading-worker-0/INFO] [cobbleboom/]: Initializing cobbleboom config
+[10Oct2026 22:29:49.874] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[10Oct2026 22:29:49.917] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting LaxPermissionValidator, permissions will be checked using Minecrafts permission level system, see https://minecraft.fandom.com/wiki/Permission_level
+[10Oct2026 22:29:49.922] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Launching Cobblemon 1.5.2 
+[10Oct2026 22:29:49.923] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Booting ForgePermissionApiPermissionValidator, player permissions will be checked using MinecraftForge' PermissionAPI, non player command sources will use Minecraft' permission level system, see https://docs.minecraftforge.net/en/latest/ and https://minecraft.fandom.com/wiki/Permission_level
+[10Oct2026 22:29:50.117] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting the Best Spawner...
+[10Oct2026 22:29:50.123] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning condition types.
+[10Oct2026 22:29:50.129] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 5 spawning context types.
+[10Oct2026 22:29:50.135] [modloading-worker-0/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 spawn detail types.
+[10Oct2026 22:29:50.647] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[10Oct2026 22:29:50.647] [Render thread/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[10Oct2026 22:29:53.453] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
+[10Oct2026 22:29:54.245] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[10Oct2026 22:29:54.506] [Render thread/INFO] [journeymap/]: Registering Keybinds
+[10Oct2026 22:29:54.810] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
+[10Oct2026 22:29:54.811] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, fabric
+[10Oct2026 22:29:54.866] [Thread-1/INFO] [ModernFix/]: Please use /mfrc to reload any changed mod config files
+[10Oct2026 22:29:55.165] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Initializing...
+[10Oct2026 22:29:55.214] [Worker-ResourceReload-3/INFO] [journeymap/]: No plugins for JourneyMap API discovered.
+[10Oct2026 22:29:55.323] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[10Oct2026 22:29:55.574] [Worker-ResourceReload-6/WARN] [net.minecraft.client.sounds.SoundManager/]: File cobblemon:sounds/pokemon/rattata/rattata_alolan_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.rattata_alolan.cry
+[10Oct2026 22:29:55.577] [Worker-ResourceReload-6/WARN] [net.minecraft.client.sounds.SoundManager/]: File cobblemon:sounds/pokemon/petilil/petilil_hisui_bias_cry.ogg does not exist, cannot add it to event cobblemon:pokemon.petilil_hisui_bias.cry
+[10Oct2026 22:29:55.649] [Worker-ResourceReload-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[10Oct2026 22:29:56.276] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 5.1.4.299 Target: 5.1.4.382
+[10Oct2026 22:29:56.278] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[10Oct2026 22:29:56.420] [Worker-ResourceReload-2/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4148ac82]
+[10Oct2026 22:29:56.430] [Worker-ResourceReload-2/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.15+6463-5ca4dff) is loaded
+[10Oct2026 22:29:56.765] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/machine/grist_widget with size 196x196 limits mip level from 4 to 2
+[10Oct2026 22:29:56.766] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture minestuck:block/power_hub/front with size 16x14 limits mip level from 2 to 1
+[10Oct2026 22:29:56.797] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2388!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2388!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2388!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2388!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23217!/:?]
-	at java.lang.Iterable.forEach(Unknown Source) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23217!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%23100!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.2.0.jar%23227!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.2.0.jar%23227!/:?]
 Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
-	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2388!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2388!/:?]
-	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2388!/:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2388!/:?]
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%23100!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%23100!/:?]
 	... 6 more
-[08Oct2026 14:05:12.347] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
-[08Oct2026 14:05:12.581] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.109.6 Target: 1.120.2
-[08Oct2026 14:05:12.581] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Starting version check at https://api.lostluma.net/updates/dynamic-fps?platform=forge
-[08Oct2026 14:05:13.259] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Found status: UP_TO_DATE Current: 3.11.4 Target: null
-[08Oct2026 14:05:13.259] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[08Oct2026 14:05:13.267] [Worker-ResourceReload-14/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'sgjourney:block/naquadah_generator_mark_i' referenced from: sgjourney:naquadah_generator_mark_i#: java.io.FileNotFoundException: sgjourney:models/block/naquadah_generator_mark_i.json
-[08Oct2026 14:05:13.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: AHEAD Current: 5.9.18p1 Target: null
-[08Oct2026 14:05:13.386] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[08Oct2026 14:05:13.416] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon/]: Showdown has been started!
-[08Oct2026 14:05:13.417] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Note: Cobblemon data registries are only loaded once per server instance as Pokémon species are not safe to reload.
-[08Oct2026 14:05:13.418] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_features registry
-[08Oct2026 14:05:13.419] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:global_species_features registry
-[08Oct2026 14:05:13.419] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_feature_assignments registry
-[08Oct2026 14:05:13.427] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:action_effects registry
-[08Oct2026 14:05:13.428] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:moves registry
-[08Oct2026 14:05:13.429] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:abilities registry
-[08Oct2026 14:05:13.429] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species registry
-[08Oct2026 14:05:13.429] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_additions registry
-[08Oct2026 14:05:13.429] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:pokeballs registry
-[08Oct2026 14:05:13.430] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:properties_tab_completion registry
-[08Oct2026 14:05:13.430] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_detail_presets registry
-[08Oct2026 14:05:13.433] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_rules registry
-[08Oct2026 14:05:13.439] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:mechanics registry
-[08Oct2026 14:05:13.440] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:bag_items registry
-[08Oct2026 14:05:13.442] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:dialogues registry
-[08Oct2026 14:05:13.442] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:natural_materials registry
-[08Oct2026 14:05:13.443] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:fossils registry
-[08Oct2026 14:05:13.447] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_pool_world registry
-[08Oct2026 14:05:13.452] [Worker-ResourceReload-18/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:berries registry
-[08Oct2026 14:05:13.521] [Render thread/INFO] [journeymap/]: Initializing Packet Registries
-[08Oct2026 14:05:13.561] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.4.10
-[08Oct2026 14:05:13.561] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Starting version check at https://api.u-team.info/update/overworldmirror.json
-[08Oct2026 14:05:13.604] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Found status: UP_TO_DATE Current: 1.7.0.23 Target: null
-[08Oct2026 14:05:13.646] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Initializing Cobblemon client
-[08Oct2026 14:05:13.652] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Pokémon renderer
-[08Oct2026 14:05:13.657] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering PokéBall renderer
-[08Oct2026 14:05:13.659] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Boat renderer
-[08Oct2026 14:05:13.659] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Boat with Chest renderer
-[08Oct2026 14:05:13.659] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Generic Bedrock Entity renderer
-[08Oct2026 14:05:13.660] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering custom BuiltinItemRenderers
-[08Oct2026 14:05:13.665] [Render thread/INFO] [journeymap/]: Journeymap Initializing
-[08Oct2026 14:05:14.835] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
-[08Oct2026 14:05:14.882] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[08Oct2026 14:05:14.883] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[08Oct2026 14:05:14.883] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cobblemon:pokemon.evolving
-[08Oct2026 14:05:14.910] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device Razer Kraken Kitty V2 BT
-[08Oct2026 14:05:14.911] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[08Oct2026 14:05:14.967] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[08Oct2026 14:05:15.055] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[08Oct2026 14:05:15.056] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[08Oct2026 14:05:15.056] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[08Oct2026 14:05:15.057] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[08Oct2026 14:05:15.062] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[08Oct2026 14:05:15.063] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[08Oct2026 14:05:15.063] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[08Oct2026 14:05:15.064] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[08Oct2026 14:05:15.136] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[08Oct2026 14:05:15.152] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
-[08Oct2026 14:05:15.153] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
-[08Oct2026 14:05:15.172] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
-[08Oct2026 14:05:15.182] [Render thread/WARN] [net.minecraft.client.particle.ParticleEngine/]: Missing particle sprites: cobblemon:mushroommize
-[08Oct2026 14:05:15.183] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
-[08Oct2026 14:05:15.183] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[08Oct2026 14:05:15.184] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 cobblemon:textures/atlas/berries.png-atlas
-[08Oct2026 14:05:15.185] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading assets...
-[08Oct2026 14:05:15.185] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading particle effects...
-[08Oct2026 14:05:15.239] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 531 particle effects
-[08Oct2026 14:05:15.255] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading animations...
-[08Oct2026 14:05:15.956] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 4337 animations from 701 animation groups
-[08Oct2026 14:05:15.956] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Pokémon models...
-[08Oct2026 14:05:16.031] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 763 Pokémon models.
-[08Oct2026 14:05:16.321] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Poké Ball models...
-[08Oct2026 14:05:16.324] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 2 Poké Ball models.
-[08Oct2026 14:05:16.336] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 71 berry models
-[08Oct2026 14:05:16.336] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Fossil Pokémon models...
-[08Oct2026 14:05:16.339] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 19 Fossil Pokémon models.
-[08Oct2026 14:05:16.344] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Block Entity models...
-[08Oct2026 14:05:16.346] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 Block Entity models.
-[08Oct2026 14:05:16.352] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Generic models...
-[08Oct2026 14:05:16.354] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 Generic models.
-[08Oct2026 14:05:16.408] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 0 misc models
-[08Oct2026 14:05:16.408] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded assets
-[08Oct2026 14:05:16.408] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 computercraft:textures/atlas/gui.png-atlas
-[08Oct2026 14:05:16.408] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minestuck:textures/atlas/land_sky.png-atlas
-[08Oct2026 14:05:16.409] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
-[08Oct2026 14:05:18.455] [Render thread/WARN] [ModernFix/]: Game took 22.641 seconds to start
+[10Oct2026 22:29:56.799] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Starting version check at https://api.modrinth.com/updates/cc-tweaked/forge_updates.json
+[10Oct2026 22:29:57.155] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting showdown service...
+[10Oct2026 22:29:57.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [computercraft] Found status: OUTDATED Current: 1.109.6 Target: 1.120.2
+[10Oct2026 22:29:57.195] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Starting version check at https://api.lostluma.net/updates/dynamic-fps?platform=forge
+[10Oct2026 22:29:57.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dynamic_fps] Found status: UP_TO_DATE Current: 3.11.4 Target: null
+[10Oct2026 22:29:57.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[10Oct2026 22:29:57.920] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: AHEAD Current: 5.9.18p1 Target: null
+[10Oct2026 22:29:57.921] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Oct2026 22:29:58.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.4.10
+[10Oct2026 22:29:58.108] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Starting version check at https://api.u-team.info/update/overworldmirror.json
+[10Oct2026 22:29:58.143] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [overworldmirror] Found status: UP_TO_DATE Current: 1.7.0.23 Target: null
+[10Oct2026 22:30:00.885] [Worker-ResourceReload-1/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'sgjourney:block/naquadah_generator_mark_i' referenced from: sgjourney:naquadah_generator_mark_i#: java.io.FileNotFoundException: sgjourney:models/block/naquadah_generator_mark_i.json
+[10Oct2026 22:30:01.676] [Cobblemon Showdown/INFO] [com.cobblemon.mod.common.Cobblemon/]: Showdown has been started!
+[10Oct2026 22:30:01.686] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Note: Cobblemon data registries are only loaded once per server instance as Pok�mon species are not safe to reload.
+[10Oct2026 22:30:01.687] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_features registry
+[10Oct2026 22:30:01.688] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:global_species_features registry
+[10Oct2026 22:30:01.691] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_feature_assignments registry
+[10Oct2026 22:30:01.740] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:action_effects registry
+[10Oct2026 22:30:01.747] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:moves registry
+[10Oct2026 22:30:01.752] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:abilities registry
+[10Oct2026 22:30:01.752] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species registry
+[10Oct2026 22:30:01.752] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:species_additions registry
+[10Oct2026 22:30:01.753] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:pokeballs registry
+[10Oct2026 22:30:01.757] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:properties_tab_completion registry
+[10Oct2026 22:30:01.758] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_detail_presets registry
+[10Oct2026 22:30:01.802] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_rules registry
+[10Oct2026 22:30:01.862] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:mechanics registry
+[10Oct2026 22:30:01.866] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:bag_items registry
+[10Oct2026 22:30:01.878] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:dialogues registry
+[10Oct2026 22:30:01.884] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:natural_materials registry
+[10Oct2026 22:30:01.887] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:fossils registry
+[10Oct2026 22:30:01.905] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:spawn_pool_world registry
+[10Oct2026 22:30:01.928] [Worker-ResourceReload-4/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registered the cobblemon:berries registry
+[10Oct2026 22:30:02.076] [Render thread/INFO] [journeymap/]: Initializing Packet Registries
+[10Oct2026 22:30:02.391] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Initializing Cobblemon client
+[10Oct2026 22:30:02.413] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Pok�mon renderer
+[10Oct2026 22:30:02.418] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Pok�Ball renderer
+[10Oct2026 22:30:02.420] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Boat renderer
+[10Oct2026 22:30:02.420] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Boat with Chest renderer
+[10Oct2026 22:30:02.420] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering Generic Bedrock Entity renderer
+[10Oct2026 22:30:02.421] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Registering custom BuiltinItemRenderers
+[10Oct2026 22:30:02.489] [Render thread/INFO] [journeymap/]: Journeymap Initializing
+[10Oct2026 22:30:06.109] [Render thread/WARN] [net.minecraftforge.fml.DeferredWorkQueue/LOADING]: Mod 'journeymap' took 1.122 s to run a deferred task.
+[10Oct2026 22:30:06.349] [Render thread/INFO] [net.minecraft.client.Options/]: Added resource packs: [vanilla, mod_resources]
+[10Oct2026 22:30:06.457] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[10Oct2026 22:30:06.457] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10Oct2026 22:30:06.458] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cobblemon:pokemon.evolving
+[10Oct2026 22:30:07.128] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphone (Realtek(R) Audio)
+[10Oct2026 22:30:07.130] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[10Oct2026 22:30:07.253] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[10Oct2026 22:30:07.442] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[10Oct2026 22:30:07.445] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[10Oct2026 22:30:07.451] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[10Oct2026 22:30:07.455] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[10Oct2026 22:30:07.492] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[10Oct2026 22:30:07.496] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[10Oct2026 22:30:07.498] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[10Oct2026 22:30:07.502] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[10Oct2026 22:30:07.926] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[10Oct2026 22:30:08.339] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader cobblemon:particle_add could not find sampler named Sampler2 in the specified shader program.
+[10Oct2026 22:30:08.349] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader cobblemon:particle_cutout could not find sampler named Sampler2 in the specified shader program.
+[10Oct2026 22:30:08.453] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 4096x2048x0 minecraft:textures/atlas/particles.png-atlas
+[10Oct2026 22:30:08.558] [Render thread/WARN] [net.minecraft.client.particle.ParticleEngine/]: Missing particle sprites: cobblemon:mushroommize
+[10Oct2026 22:30:08.559] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/paintings.png-atlas
+[10Oct2026 22:30:08.564] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[10Oct2026 22:30:08.568] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 cobblemon:textures/atlas/berries.png-atlas
+[10Oct2026 22:30:08.574] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading assets...
+[10Oct2026 22:30:08.577] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading particle effects...
+[10Oct2026 22:30:08.698] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 531 particle effects
+[10Oct2026 22:30:08.743] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading animations...
+[10Oct2026 22:30:10.471] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 4337 animations from 701 animation groups
+[10Oct2026 22:30:10.472] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Pok�mon models...
+[10Oct2026 22:30:10.633] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 763 Pok�mon models.
+[10Oct2026 22:30:11.169] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Pok� Ball models...
+[10Oct2026 22:30:11.176] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 2 Pok� Ball models.
+[10Oct2026 22:30:11.212] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 71 berry models
+[10Oct2026 22:30:11.212] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Fossil Pok�mon models...
+[10Oct2026 22:30:11.218] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 19 Fossil Pok�mon models.
+[10Oct2026 22:30:11.233] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Block Entity models...
+[10Oct2026 22:30:11.239] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 Block Entity models.
+[10Oct2026 22:30:11.261] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loading Generic models...
+[10Oct2026 22:30:11.266] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1 Generic models.
+[10Oct2026 22:30:11.285] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 0 misc models
+[10Oct2026 22:30:11.285] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded assets
+[10Oct2026 22:30:11.286] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 computercraft:textures/atlas/gui.png-atlas
+[10Oct2026 22:30:11.287] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minestuck:textures/atlas/land_sky.png-atlas
+[10Oct2026 22:30:11.293] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[10Oct2026 22:30:13.359] [Render thread/WARN] [ModernFix/]: Game took 57.876 seconds to start
+[10Oct2026 22:30:18.309] [Worker-Main-8/INFO] [ModernFix/]: Instantiating Mojang DFU
+[10Oct2026 22:30:18.827] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 101 milliseconds
+[10Oct2026 22:30:24.231] [Render thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[10Oct2026 22:30:24.978] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 14 recipes
+[10Oct2026 22:30:25.066] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2537 advancements
+[10Oct2026 22:30:25.091] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 9 turtle upgrades
+[10Oct2026 22:30:25.091] [Render thread/INFO] [dan200.computercraft.impl.UpgradeManager/]: Loaded 3 pocket computer upgrades
+[10Oct2026 22:30:25.109] [Render thread/INFO] [com.mraof.minestuck.util.BoondollarPriceManager/]: Loaded 192 boondollar prices
+[10Oct2026 22:30:28.555] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 936 moves
+[10Oct2026 22:30:28.649] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 314 abilities
+[10Oct2026 22:30:28.852] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Finished additions
+[10Oct2026 22:30:29.935] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Imported 244 held item IDs from showdown
+[10Oct2026 22:30:29.935] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 1025 Pok�mon species
+[10Oct2026 22:30:30.088] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 43 spawn detail presets.
+[10Oct2026 22:30:30.113] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting dummy Showdown battle to force it to pre-load data.
+[10Oct2026 22:30:30.156] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 15 fossils
+[10Oct2026 22:30:30.571] [Render thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Loaded 69 berries
+[10Oct2026 22:30:30.574] [ForkJoinPool.commonPool-worker-1/INFO] [xyz.nucleoid.server.translations.impl.ServerTranslations/]: Loaded 226 translation keys
+[10Oct2026 22:30:30.742] [Render thread/INFO] [com.mraof.minestuck.alchemy.recipe.generator.recipe.RecipeGeneratedCostHandler/]: Generated 1407 grist conversions from recipes.
+[10Oct2026 22:30:30.859] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[10Oct2026 22:30:30.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Oct2026 22:30:31.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Oct2026 22:30:32.358] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Oct2026 22:30:32.358] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Oct2026 22:30:32.415] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Oct2026 22:30:33.099] [Server thread/INFO] [com.cobblemon.mod.common.Cobblemon/]: Starting Forge permission node registry
+[10Oct2026 22:30:33.101] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Oct2026 22:30:33.102] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1712 ms
+[10Oct2026 22:30:33.105] [Server thread/INFO] [net.povstalec.sgjourney.StargateJourney/]: Stargate Network is up to date (Version: 7)
+[10Oct2026 22:30:49.561] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 8, from 10
+[10Oct2026 22:30:49.564] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 10, from 0
+[10Oct2026 22:30:49.627] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[10Oct2026 22:30:50.286] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[10Oct2026 22:30:50.522] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: shinyjiggly[local:E:aa0461c3] logged in with entity id 122 at (-4.235121967697267, 64.0, -92.20255630099594)
+[10Oct2026 22:30:50.722] [Render thread/INFO] [ChunkBuilder/]: Started 2 worker threads
+[10Oct2026 22:30:50.816] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[10Oct2026 22:30:50.817] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[10Oct2026 22:30:50.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly joined the game
+[10Oct2026 22:30:50.902] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@263c1809=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/materialization_crystal
+[10Oct2026 22:30:50.906] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@70e3cf30=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/classic_milky_way_variant_crystal
+[10Oct2026 22:30:50.906] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3609cd7b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_energy_crystal
+[10Oct2026 22:30:50.909] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4a41783f=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_transfer_crystal
+[10Oct2026 22:30:50.910] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@355e73bf=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_sg-1_variant_crystal
+[10Oct2026 22:30:50.912] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@128c23a=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/tollan_upgrade_crystal
+[10Oct2026 22:30:50.914] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@f0e4421=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_control_crystal
+[10Oct2026 22:30:50.916] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@167e2810=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/communication_crystal
+[10Oct2026 22:30:50.916] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1f5fa2ad=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_upgrade_crystal
+[10Oct2026 22:30:50.916] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@3b28a54e=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_promo_variant_crystal
+[10Oct2026 22:30:50.917] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2eb902e2=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/control_crystal
+[10Oct2026 22:30:50.920] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@4b70886b=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/milky_way_movie_variant_crystal
+[10Oct2026 22:30:50.921] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@e4ea590=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/transfer_crystal
+[10Oct2026 22:30:50.924] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@59c16ece=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/stargate_variant_crystal
+[10Oct2026 22:30:50.926] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@739e666c=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_materialization_crystal
+[10Oct2026 22:30:50.926] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@251282e8=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_communication_crystal
+[10Oct2026 22:30:50.927] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@5d4d98ed=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_atlantis_variant_crystal
+[10Oct2026 22:30:50.927] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@2d31d383=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/large_control_crystal
+[10Oct2026 22:30:50.929] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1b564df5=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/memory_crystal
+[10Oct2026 22:30:50.930] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@584fdcf0=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/universe_upgrade_crystal
+[10Oct2026 22:30:50.930] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@12fe8576=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/pegasus_upgrade_crystal
+[10Oct2026 22:30:50.931] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@1ff35261=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:crystallizing/energy_crystal
+[10Oct2026 22:30:50.932] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: [!!!com.mojang.logging.LogUtils$1ToString@483a9589=>java.lang.NullPointerException:Cannot invoke "Object.toString()" because the return value of "java.util.function.Supplier.get()" is null!!!]/sgjourney:advanced_crystallizing/advanced_memory_crystal
+[10Oct2026 22:30:50.942] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[10Oct2026 22:30:50.975] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[10Oct2026 22:30:50.975] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[10Oct2026 22:30:50.977] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI...
+[10Oct2026 22:30:50.998] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes...
+[10Oct2026 22:30:51.008] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes took 7.726 ms
+[10Oct2026 22:30:51.008] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes...
+[10Oct2026 22:30:51.011] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes took 2.477 ms
+[10Oct2026 22:30:51.013] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients...
+[10Oct2026 22:30:51.204] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering ingredients: jei:minecraft took 189.9 milliseconds
+[10Oct2026 22:30:51.210] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients took 196.4 ms
+[10Oct2026 22:30:51.235] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories...
+[10Oct2026 22:30:51.276] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering categories: jei:minecraft took 40.00 milliseconds
+[10Oct2026 22:30:51.293] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories took 57.90 ms
+[10Oct2026 22:30:51.295] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions...
+[10Oct2026 22:30:51.300] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions took 4.724 ms
+[10Oct2026 22:30:51.304] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts...
+[10Oct2026 22:30:51.308] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts took 4.077 ms
+[10Oct2026 22:30:51.311] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins...
+[10Oct2026 22:30:51.317] [Render thread/INFO] [mezz.jei.library.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class dan200.computercraft.shared.integration.jei.RecipeResolver
+[10Oct2026 22:30:51.318] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins took 5.195 ms
+[10Oct2026 22:30:51.318] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry...
+[10Oct2026 22:30:51.332] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building recipe registry took 14.65 ms
+[10Oct2026 22:30:51.335] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes...
+[10Oct2026 22:30:51.848] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: jei:minecraft took 512.4 milliseconds
+[10Oct2026 22:30:51.900] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: uteamcore:jei took 50.60 milliseconds
+[10Oct2026 22:30:52.073] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering recipes: minestuck:minestuck took 164.4 milliseconds
+[10Oct2026 22:30:52.073] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes took 738.1 ms
+[10Oct2026 22:30:52.080] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers...
+[10Oct2026 22:30:52.089] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers took 8.474 ms
+[10Oct2026 22:30:52.090] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime...
+[10Oct2026 22:30:52.092] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers...
+[10Oct2026 22:30:52.105] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers took 12.40 ms
+[10Oct2026 22:30:52.110] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime...
+[10Oct2026 22:30:52.113] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[10Oct2026 22:30:52.114] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list...
+[10Oct2026 22:30:52.122] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient list took 8.542 ms
+[10Oct2026 22:30:52.122] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter...
+[10Oct2026 22:30:52.159] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 3487 ingredients
+[10Oct2026 22:30:52.696] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 3487 ingredients
+[10Oct2026 22:30:52.699] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building ingredient filter took 575.4 ms
+[10Oct2026 22:30:52.835] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Registering Runtime: jei:forge_gui took 723.7 milliseconds
+[10Oct2026 22:30:52.835] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime took 724.7 ms
+[10Oct2026 22:30:52.836] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Building runtime took 746.0 ms
+[10Oct2026 22:30:52.836] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime...
+[10Oct2026 22:30:52.839] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being added at runtime: 24 net.minecraft.world.item.ItemStack
+[10Oct2026 22:30:52.845] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime took 9.168 ms
+[10Oct2026 22:30:52.846] [Render thread/INFO] [mezz.jei.core.util.LoggedTimer/]: Starting JEI took 1.869 s
+[10Oct2026 22:30:53.119] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
+[10Oct2026 22:30:53.782] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1101 advancements
+[10Oct2026 22:30:54.057] [Render thread/WARN] [ModernFix/]: Time from main menu to in-game was 23.31283 seconds
+[10Oct2026 22:30:54.058] [Render thread/WARN] [ModernFix/]: Total time to load game and open world was 81.18883 seconds
+[10Oct2026 22:30:55.229] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] JourneyMap: Press [J]
+[10Oct2026 22:31:19.598] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[10Oct2026 22:31:19.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[10Oct2026 22:31:19.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[10Oct2026 22:31:19.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[10Oct2026 22:31:19.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[10Oct2026 22:31:19.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[10Oct2026 22:31:19.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[10Oct2026 22:31:19.933] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[10Oct2026 22:31:19.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[10Oct2026 22:31:19.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[10Oct2026 22:31:19.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[10Oct2026 22:31:36.945] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[10Oct2026 22:31:36.946] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10Oct2026 22:31:36.946] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cobblemon:pokemon.evolving
+[10Oct2026 22:31:37.104] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphone (Realtek(R) Audio)
+[10Oct2026 22:31:37.104] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[10Oct2026 22:31:44.214] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[10Oct2026 22:31:44.218] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[10Oct2026 22:31:44.222] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cobblemon:pokemon.evolving
+[10Oct2026 22:31:44.306] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Headphone (Realtek(R) Audio)
+[10Oct2026 22:31:44.306] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[10Oct2026 22:33:58.648] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
+[10Oct2026 22:39:16.804] [Render thread/ERROR] [com.mojang.blaze3d.audio.OpenAlUtil/]: Deleting stream buffers: Invalid operation.
+[10Oct2026 22:45:47.212] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2026-10-10_22.45.46.png
+[10Oct2026 22:50:44.745] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2026-10-10_22.50.44.png
+[10Oct2026 23:02:57.896] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[10Oct2026 23:02:57.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[10Oct2026 23:02:57.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[10Oct2026 23:02:57.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[10Oct2026 23:02:57.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[10Oct2026 23:02:57.988] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[10Oct2026 23:02:57.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[10Oct2026 23:02:57.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[10Oct2026 23:02:58.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[10Oct2026 23:02:58.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[10Oct2026 23:02:58.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[10Oct2026 23:02:58.930] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[10Oct2026 23:02:58.930] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[10Oct2026 23:02:58.930] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[10Oct2026 23:02:58.930] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable...
+[10Oct2026 23:02:58.933] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[10Oct2026 23:02:58.958] [Render thread/INFO] [mezz.jei.library.load.PluginCallerTimerRunnable/]: Sending Runtime Unavailable: jei:forge_gui took 24.13 milliseconds
+[10Oct2026 23:02:58.958] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable took 26.98 ms
+[10Oct2026 23:02:59.010] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: shinyjiggly lost connection: Disconnected
+[10Oct2026 23:02:59.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: shinyjiggly left the game
+[10Oct2026 23:02:59.077] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[10Oct2026 23:02:59.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Oct2026 23:02:59.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Oct2026 23:02:59.696] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Oct2026 23:02:59.846] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:overworld
+[10Oct2026 23:02:59.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/overworldmirror:overworld
+[10Oct2026 23:02:59.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:abydos
+[10Oct2026 23:02:59.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:chulak
+[10Oct2026 23:02:59.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_end
+[10Oct2026 23:02:59.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:land_shinyjiggly
+[10Oct2026 23:02:59.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:cavum_tenebrae
+[10Oct2026 23:02:59.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minecraft:the_nether
+[10Oct2026 23:02:59.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/sgjourney:lantea
+[10Oct2026 23:02:59.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Desertia]'/minestuck:skaia
+[10Oct2026 23:03:00.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Desertiaaa): All chunks are saved
+[10Oct2026 23:03:00.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (overworld): All chunks are saved
+[10Oct2026 23:03:00.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abydos): All chunks are saved
+[10Oct2026 23:03:00.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (chulak): All chunks are saved
+[10Oct2026 23:03:00.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Oct2026 23:03:00.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (land_shinyjiggly): All chunks are saved
+[10Oct2026 23:03:00.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (cavum_tenebrae): All chunks are saved
+[10Oct2026 23:03:00.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Oct2026 23:03:00.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lantea): All chunks are saved
+[10Oct2026 23:03:00.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (skaia): All chunks are saved
+[10Oct2026 23:03:00.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10Oct2026 23:03:01.456] [Render thread/INFO] [ChunkBuilder/]: Stopping worker threads
+[10Oct2026 23:03:03.241] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
